@@ -1,0 +1,152 @@
+TEST FOR THE SMALLSQL
+
+
+Volume: LOC
+• Total lines: 38423
+• Comment lines: 8809
+• Blank lines: 5394
+• LOC: 24220
+SCORE: ++
+
+
+Unit Comlexity: UCC
+• Num of low: (54%)13124
+• Num of moderate: (12%)2917
+• Num of high: (13%)3054
+• Num of very high: (9%)2164
+SCORE: --
+
+
+Unit Size: ULOC
+• Num of low: (40%)9632
+• Num of moderate: (20%)4762
+• Num of high: (15%)3615
+• Num of very high: (13%)3250
+SCORE: --
+
+
+Duplication:
+• Total lines: 24220
+• Num of LOC: : (6%)1380.0
+SCORE: o
+
+
+Test Coverage: no of assert calls
+• LOC: 24220
+• Assert Statements: 707
+• Assert Ratio: 0.02919075145
+SCORE: -
+
+
+Stability
+    • UnitTesting: -
+OVERALL: -
+
+
+Changeability
+    • CCRating: --
+    • DuplicationRating: o
+OVERALL: -
+
+
+Testability
+    • CCRating: --
+    • UnitSizeRating: --
+    • UnitTesting: -
+OVERALL: --
+
+
+Analysability
+    • VolumeRating: ++
+    • DuplicationRating: o
+    • UnitSizeRating: --
+    • UnitTesting: -
+OVERALL: o
+
+
+----------------------
+MAINTAINABILITY SCORE:
+    • analysability: o
+    • changeability: -
+    • stability: -
+    • testability: --
+OVERALL: -
+
+
+
+
+
+
+TEST FOR THE HSQLDB
+
+
+Volume: LOC
+• Total lines: 299021
+• Comment lines: 72607
+• Blank lines: 56444
+• LOC: 169970
+SCORE: +
+
+
+Unit Comlexity: UCC
+• Num of low: (43%)73621
+• Num of moderate: (17%)28375
+• Num of high: (16%)27656
+• Num of very high: (13%)21873
+SCORE: --
+
+
+Unit Size: ULOC
+• Num of low: (27%)45045
+• Num of moderate: (17%)28688
+• Num of high: (16%)27877
+• Num of very high: (29%)49915
+SCORE: -
+
+
+Duplication:
+• Total lines: 169970
+• Num of LOC: : (9%)15510.0
+SCORE: o
+
+
+Test Coverage: no of assert calls
+• LOC: 169970
+• Assert Statements: 755
+• Assert Ratio: 0.004441960346
+SCORE: --
+
+
+Stability
+    • UnitTesting: --
+OVERALL: --
+
+
+Changeability
+    • CCRating: --
+    • DuplicationRating: o
+OVERALL: -
+
+
+Testability
+    • CCRating: --
+    • UnitSizeRating: -
+    • UnitTesting: --
+OVERALL: --
+
+
+Analysability
+    • VolumeRating: +
+    • DuplicationRating: o
+    • UnitSizeRating: -
+    • UnitTesting: --
+OVERALL: o
+
+
+----------------------
+MAINTAINABILITY SCORE:
+    • analysability: o
+    • changeability: -
+    • stability: --
+    • testability: --
+OVERALL: -

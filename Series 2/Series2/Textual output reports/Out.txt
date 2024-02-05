@@ -1,0 +1,38 @@
+Stats smallsql type 1
+
+Finished algorithm. Computing stats.
+• Total volume of the system: 24220 LOC
+• Volume of duplicated lines: (10%)2457 LOC
+• Number of clones: 515
+• Number of clone classes: 204
+• Biggest clone class (in members): Class 86 with 18 members
+• Biggest clone (in lines): Class 145 having 56 lines
+
+
+Stats smallsql type 2
+• Total volume of the system: 24220 LOC
+• Volume of duplicated lines: (18%)4600 LOC
+• Number of clones: 823
+• Number of clone classes: 297
+• Biggest clone class (in members): Class 118 with 106 members
+• Biggest clone (in lines): Class 118 having 530 lines
+
+
+Stats hdbsql type 1
+
+• Total volume of the system: 169970 LOC
+• Volume of duplicated lines: (9%)16429 LOC
+• Number of clones: 2983
+• Number of clone classes: 1155
+• Biggest clone class (in members): Class 57 with 42 members
+• Biggest clone (in lines): Class 57 having 168 lines
+
+
+Stats hdbsql type 2
+
+• Total volume of the system: 169970 LOC
+• Volume of duplicated lines: (17%) 28894 LOC 
+• Number of clones: 5635
+• Number of clone classes: 2181
+• Biggest clone class (in members): Class 57 with 50 members 
+• Biggest clone (in lines): Class 57 having 180 lines

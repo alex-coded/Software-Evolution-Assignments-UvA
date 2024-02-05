@@ -1,0 +1,1849 @@
+TEXTUAL REPRESENTATION
+
+Please take note that \n\t content was escaped for representation of clones for space efficiency
+
+---------------------------Clone group no  0 for hash 6ac96e705ea7f4d2a911be008afd241b--------------------
+
+
+
+offset += 2;break;case SQLTokenizer.INT:case SQLTokenizer.REAL:case SQLTokenizer.SMALLMONEY:case SQLTokenizer.TIME:case SQLTokenizer.DATE:case SQLTokenizer.SMALLDATETIME:offset += 4;break;case SQLTokenizer.BIGINT:case SQLTokenizer.FLOAT:case SQLTokenizer.DOUBLE:case SQLTokenizer.MONEY:case SQLTokenizer.JAVA_OBJECT:case SQLTokenizer.LONGVARBINARY:case SQLTokenizer.BLOB:case SQLTokenizer.CLOB:case SQLTokenizer.NCLOB:case SQLTokenizer.LONGNVARCHAR:case SQLTokenizer.LONGVARCHAR:case SQLTokenizer.TIMESTAMP:offset += 8;break;
+
+offset += 2;break;case SQLTokenizer.INT:case SQLTokenizer.REAL:case SQLTokenizer.SMALLMONEY:case SQLTokenizer.TIME:case SQLTokenizer.DATE:case SQLTokenizer.SMALLDATETIME:offset += 4;break;case SQLTokenizer.BIGINT:case SQLTokenizer.FLOAT:case SQLTokenizer.DOUBLE:case SQLTokenizer.MONEY:case SQLTokenizer.JAVA_OBJECT:case SQLTokenizer.LONGVARBINARY:case SQLTokenizer.BLOB:case SQLTokenizer.CLOB:case SQLTokenizer.NCLOB:case SQLTokenizer.LONGNVARCHAR:case SQLTokenizer.LONGVARCHAR:case SQLTokenizer.TIMESTAMP:offset += 8;break;
+
+---------------------------Clone group no  1 for hash b7af3bd81fd3b5a0f1844d3acafddb20--------------------
+
+
+
+String newValue = rs.getString(\"v\");if(newValue != null){<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;assertTrue( oldValue.compareTo( newValue ) > 0 );<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;count++;<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}oldValue = newValue;
+
+String newValue = rs.getString(\"v\");if(newValue != null){<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;assertTrue( oldValue.compareTo( newValue ) > 0 );<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;count++;<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}oldValue = newValue;
+
+---------------------------Clone group no  2 for hash 9baadf605fab83f8cafb8b6e267b8552--------------------
+
+
+
+formatNumber( details.year, 4, buf);buf.append('-');formatNumber( details.month+1, 2, buf);buf.append('-');formatNumber( details.day, 2, buf);buf.append(' ');formatNumber( details.hour, 2, buf);buf.append(':');formatNumber( details.minute, 2, buf);buf.append(':');formatNumber( details.second, 2, buf);
+
+formatNumber( details.year, 4, buf);buf.append('-');formatNumber( details.month+1, 2, buf);buf.append('-');formatNumber( details.day, 2, buf);buf.append(' ');formatNumber( details.hour, 2, buf);buf.append(':');formatNumber( details.minute, 2, buf);buf.append(':');formatNumber( details.second, 2, buf);
+
+---------------------------Clone group no  3 for hash 28bbfa7fb154ee291fefb8b96a3a7820--------------------
+
+
+
+if(init) return;Connection con = AllTests.getConnection();Statement st = con.createStatement();
+
+if(init) return;Connection con = AllTests.getConnection();Statement st = con.createStatement();
+
+if(init) return;Connection con = AllTests.getConnection();Statement st = con.createStatement();
+
+---------------------------Clone group no  4 for hash d09cc28fe2e1347a0b8f1185e42f206a--------------------
+
+
+
+assertTrue( rs.next() );assertNull(rs.getObject(\"i\"));assertTrue( rs.next() );oldValue = Math.abs( rs.getInt(\"i\") );
+
+assertTrue( rs.next() );assertNull(rs.getObject(\"i\"));assertTrue( rs.next() );oldValue = Math.abs( rs.getInt(\"i\") );
+
+---------------------------Clone group no  5 for hash 6a85aecbf1e021ba955f03cafe66d459--------------------
+
+
+
+String newValue = rs.getString(\"c2\");assertTrue( oldValue.compareTo( newValue ) < 0 );oldValue = newValue;count++;
+
+String newValue = rs.getString(\"c2\");assertTrue( oldValue.compareTo( newValue ) < 0 );oldValue = newValue;count++;
+
+---------------------------Clone group no  6 for hash ffe98d22f4063ade647ffee533b0b357--------------------
+
+
+
+st.execute(\"alter table \"+table+\" add b varchar(4) primary key\");ResultSet rs = st.executeQuery(\"Select * From \" + table);assertRSMetaData( rs, new String[]{\"a\", \"b\"},  new int[]{Types.VARCHAR, Types.VARCHAR} );rs = con.getMetaData().getIndexInfo( null, null, table, false, false );
+
+st.execute(\"alter table \"+table+\" add b varchar(4) primary key\");ResultSet rs = st.executeQuery(\"Select * From \" + table);assertRSMetaData( rs, new String[]{\"a\", \"b\"},  new int[]{Types.VARCHAR, Types.VARCHAR} );rs = con.getMetaData().getIndexInfo( null, null, table, false, false );
+
+---------------------------Clone group no  7 for hash 10777b3c534984ee63e15ae17ba40855--------------------
+
+
+
+Expression expr = getValue(columnIndex);wasNull = expr.isNull();if(wasNull) return null;
+
+Expression expr = getValue(columnIndex);wasNull = expr.isNull();if(wasNull) return null;
+
+Expression expr = getValue(columnIndex);wasNull = expr.isNull();if(wasNull) return null;
+
+Expression expr = getValue(columnIndex);wasNull = expr.isNull();if(wasNull) return null;
+
+Expression expr = getValue(columnIndex);wasNull = expr.isNull();if(wasNull) return null;
+
+Expression expr = getValue(columnIndex);wasNull = expr.isNull();if(wasNull) return null;
+
+Expression expr = getValue(columnIndex);wasNull = expr.isNull();if(wasNull) return null;
+
+---------------------------Clone group no  8 for hash 5409f49cadf571528bfcf16d2fb56c59--------------------
+
+
+
+Connection con = AllTests.getConnection();Statement st = con.createStatement();int firstValue = -10000;
+
+Connection con = AllTests.getConnection();Statement st = con.createStatement();int firstValue = -10000;
+
+---------------------------Clone group no  9 for hash 0303e4a48e5c6c29c92108f8c1aa954e--------------------
+
+
+
+con1.createStatement().execute(\"Create Table transactions (i int identity, v varchar(20))\");assertRowCount( 0, \"Select * from transactions\");con1.setAutoCommit(false);con1.createStatement().execute(\"Insert Into transactions(v) Values('qwert2')\");ResultSet rs2 = con2.createStatement().executeQuery(\"Select count(*) from transactions\");assertTrue( rs2.next() );
+
+con1.createStatement().execute(\"Create Table transactions (i int identity, v varchar(20))\");assertRowCount( 0, \"Select * from transactions\");con1.setAutoCommit(false);con1.createStatement().execute(\"Insert Into transactions(v) Values('qwert2')\");ResultSet rs2 = con2.createStatement().executeQuery(\"Select count(*) from transactions\");assertTrue( rs2.next() );
+
+---------------------------Clone group no  10 for hash 893e975d7532ba25ea550066eb4ff3f0--------------------
+
+
+
+buf.append(' ');formatNumber( details.hour, 2, buf );buf.append(':');formatNumber( details.minute, 2, buf);buf.append(':');formatNumber( details.second, 2, buf);buf.append(':');formatMillis( details.millis, buf);return buf.toString();
+
+buf.append(' ');formatNumber( details.hour, 2, buf);buf.append(':');formatNumber( details.minute, 2, buf);buf.append(':');formatNumber( details.second, 2, buf);buf.append(':');formatMillis( details.millis, buf );return buf.toString();
+
+---------------------------Clone group no  11 for hash 50461b41045bc2b9b432a7283ca4bd5b--------------------
+
+
+
+Statement st = con.createStatement( ResultSet.TYPE_SCROLL_SENSITIVE, ResultSet.CONCUR_UPDATABLE );ResultSet rs = st.executeQuery(\"SELECT * FROM \"+tableName);long time = -System.currentTimeMillis();
+
+Statement st = con.createStatement( ResultSet.TYPE_SCROLL_SENSITIVE, ResultSet.CONCUR_UPDATABLE );ResultSet rs = st.executeQuery(\"SELECT * FROM \" + tableName);long time = -System.currentTimeMillis();
+
+---------------------------Clone group no  12 for hash f273aaae8ec81934594da6926e14270a--------------------
+
+
+
+assertEquals(0, rs.getRow());assertFalse(rs.isLast());assertFalse(rs.isFirst());assertFalse(rs.isBeforeFirst());assertTrue(rs.isAfterLast());
+
+assertEquals(0, rs.getRow());assertFalse(rs.isLast());assertFalse(rs.isFirst());assertFalse(rs.isBeforeFirst());assertTrue(rs.isAfterLast());
+
+---------------------------Clone group no  13 for hash a27b3f2bce43d9e3673b7a2e47e2a3d4--------------------
+
+
+
+invalidParamCount = true;expr = null;//only for compilerbreak;
+
+invalidParamCount = true;expr = null;//Only for the compilerbreak;
+
+---------------------------Clone group no  14 for hash 4a5abd6336995a380990c47b979a140a--------------------
+
+
+
+assertTrue( \"To few rows\", rs.next() );assertEqualsObject( \"Values not equals\", rs.getObject(1), rs.getObject(2), false);assertTrue( \"To few rows\", rs.next() );assertEqualsObject( \"Values not equals\", rs.getObject(1), rs.getObject(2), false);assertFalse( \"To many rows\", rs.next() );
+
+assertTrue( \"To few rows\", rs.next() );assertEqualsObject( \"Values not equals\", rs.getObject(1), rs.getObject(2), false);assertTrue( \"To few rows\", rs.next() );assertEqualsObject( \"Values not equals\", rs.getObject(1), rs.getObject(2), false);assertFalse( \"To many rows\", rs.next() );
+
+---------------------------Clone group no  15 for hash fb69df164e2f1f90f8b44c18345b8429--------------------
+
+
+
+keyColumnNames.add(column.getName());keys.add(valueExpress.getObject());break;
+
+keyColumnNames.add(column.getName());keys.add(valueExpress.getObject());break;
+
+---------------------------Clone group no  16 for hash 49b7e05bcfd0a25bdd6bba6570cdd69f--------------------
+
+
+
+//jetzt irgendwo in die Mitte scrollen<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;rs.next();rs.next();rs.previous(); //dann soll der Zeiger nicht am Ende des bereits gefetchten stehenrs.last();count = 0;while(rs.previous()) count++;assertEquals( valueCount, count );rs.beforeFirst();count = -1;while(rs.next()) count++;assertEquals( valueCount, count );rs.beforeFirst();count = -1;while(rs.next()) count++;assertEquals( valueCount, count );
+
+//jetzt irgendwo in die Mitte scrollen<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;rs.next();rs.next();rs.previous(); //dann soll der Zeiger nicht am Ende des bereits gefetchten stehenrs.last();count = 0;while(rs.previous()) count++;assertEquals( valueCount, count );rs.beforeFirst();count = -1;while(rs.next()) count++;assertEquals( valueCount, count );rs.beforeFirst();count = -1;while(rs.next()) count++;assertEquals( valueCount, count );
+
+---------------------------Clone group no  17 for hash 7476e3e3ec38f991bd177223f04ec01a--------------------
+
+
+
+level++;nodeStack.push(<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;new IndexNodeScrollStatus( &nbsp;&nbsp;&nbsp;&nbsp;(IndexNode)status.nodeValue, <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(expressions.get(level).getAlias() != SQLTokenizer.DESC_STR), <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;scroll, level));continue;
+
+level++;nodeStack.push(<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;new IndexNodeScrollStatus( &nbsp;&nbsp;&nbsp;&nbsp;(IndexNode)status.nodeValue, <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(expressions.get(level).getAlias() != SQLTokenizer.DESC_STR), <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;scroll, level));continue;
+
+---------------------------Clone group no  18 for hash 56693954d203f36cd4b46bf3f99ab725--------------------
+
+
+
+case SQLTokenizer.NVARCHAR:case SQLTokenizer.BINARY:case SQLTokenizer.VARBINARY:
+
+case SQLTokenizer.NVARCHAR:case SQLTokenizer.BINARY:case SQLTokenizer.VARBINARY:
+
+---------------------------Clone group no  19 for hash 16e11a0b4f34341008409a27a2b0724e--------------------
+
+
+
+this.value  = value;this.offset = tokenStart;this.length = tokenEnd-tokenStart;
+
+this.value  = value;this.offset = tokenStart;this.length = tokenEnd-tokenStart;
+
+---------------------------Clone group no  20 for hash 2f62e6a7fdbddb9c977880328bc73e86--------------------
+
+
+
+token = nextToken(MISSING_INTERVALS);nextToken(MISSING_COMMA);expr = expression( cmd, 0);nextToken(MISSING_COMMA);
+
+token = nextToken(MISSING_INTERVALS);nextToken(MISSING_COMMA);expr = expression( cmd, 0);nextToken(MISSING_COMMA);
+
+---------------------------Clone group no  21 for hash a4b352d57d41e8760a8266e236cf09d2--------------------
+
+
+
+pr.execute();rs = pr.getGeneratedKeys();assertNotNull(\"RETURN_GENERATED_KEYS\", rs);assertEquals(\"ColumnCount\",2,rs.getMetaData().getColumnCount());assertRowCount(1,rs);
+
+pr.execute();rs = pr.getGeneratedKeys();assertNotNull(\"RETURN_GENERATED_KEYS\", rs);assertEquals(\"ColumnCount\",2,rs.getMetaData().getColumnCount());assertRowCount(1,rs);
+
+---------------------------Clone group no  22 for hash 6b60b3809c77b57d4fb11ccbb86cda80--------------------
+
+
+
+assertTrue( rs.isBeforeFirst() );assertFalse( rs.isFirst() );assertFalse( rs.isLast() );assertFalse( rs.isAfterLast() );
+
+assertTrue( rs.isBeforeFirst() );assertFalse( rs.isFirst() );assertFalse( rs.isLast() );assertFalse( rs.isAfterLast() );
+
+---------------------------Clone group no  23 for hash f73dd8b48f401af8892b293128c78a0f--------------------
+
+
+
+buffer.putInt(TABLE_VIEW_VERSION);buffer.position(0);raFile.write(buffer);
+
+buffer.putInt(TABLE_VIEW_VERSION);buffer.position(0);raFile.write(buffer);
+
+---------------------------Clone group no  24 for hash 1f3c8a0b15df45bb9031c28c22c98a5d--------------------
+
+
+
+buf.append('/');formatNumber( details.year, 4, buf);return buf.toString();
+
+buf.append('/');formatNumber( details.year, 4, buf);return buf.toString();
+
+---------------------------Clone group no  25 for hash a9de3de7601916383382b1eec28b27a6--------------------
+
+
+
+rs.beforeFirst();assertTrue( rs.next() );assertEquals(\"qwert2\", rs.getString(\"v\"));assertFalse( rs.next() );
+
+rs.beforeFirst();assertTrue( rs.next() );assertEquals(\"qwert2\", rs.getString(\"v\"));assertFalse( rs.next() );
+
+---------------------------Clone group no  26 for hash 4650626b3c782e4c767cae22f2cde588--------------------
+
+
+
+case SQLTokenizer.COMMA:continue;default:throw new Error();
+
+case SQLTokenizer.COMMA:continue;default:throw new Error();
+
+---------------------------Clone group no  27 for hash 79e54a293847b0adb82573ef50ad395a--------------------
+
+
+
+assertTrue( rs.next() );oldValue = (Integer)rs.getObject(\"i\");int count = 1;
+
+assertTrue( rs.next() );oldValue = (Integer)rs.getObject(\"i\");int count = 1;
+
+assertTrue( rs.next() );oldValue = (Integer)rs.getObject(\"i\");int count = 1;
+
+---------------------------Clone group no  28 for hash 96efe5a8d70da2a39149d99b249c52b4--------------------
+
+
+
+break;case SQLTokenizer.TIMESTAMP:case SQLTokenizer.SMALLDATETIME:case SQLTokenizer.DATE:case SQLTokenizer.TIME:
+
+break;case SQLTokenizer.TIMESTAMP:case SQLTokenizer.SMALLDATETIME:case SQLTokenizer.DATE:case SQLTokenizer.TIME:
+
+break;case SQLTokenizer.TIMESTAMP:case SQLTokenizer.SMALLDATETIME:case SQLTokenizer.DATE:case SQLTokenizer.TIME:
+
+---------------------------Clone group no  29 for hash af6ca0a6738e0cbaaeba8792ddce1ebe--------------------
+
+
+
+case SQLTokenizer.TABLE:case SQLTokenizer.VIEW:case SQLTokenizer.INDEX:case SQLTokenizer.PROCEDURE:
+
+case SQLTokenizer.TABLE:case SQLTokenizer.VIEW:case SQLTokenizer.INDEX:case SQLTokenizer.PROCEDURE:
+
+---------------------------Clone group no  30 for hash 6829bfb24ba8d6525672ca0bdac1baca--------------------
+
+
+
+rs.insertRow();rs.beforeFirst();assertTrue( rs.next() );
+
+rs.insertRow();rs.beforeFirst();assertTrue( rs.next() );
+
+---------------------------Clone group no  31 for hash 44121e65f5165e9900cce75aff1c8302--------------------
+
+
+
+pr.setBytes (  1, byteArray );pr.setString(  2 , \"Test\" );pr.setDate  (  3 , new Date( System.currentTimeMillis() ) );pr.setFloat (  4, (float)1234.56789 );pr.setFloat (  5 , (float)9876.54321 );pr.setBytes (  6, largeByteArray );pr.setInt   (  7 , i );pr.setDouble(  8 , 23.45 );pr.setDouble(  9 , 567.45 );pr.setFloat (  10 , (float)78.89 );pr.setTime  (  11, new Time( System.currentTimeMillis() ) );pr.setShort (  12, (short)23456 );pr.setFloat (  13, (float)34.56 );pr.setString(  14, \"sysname (30) NULL\" );pr.setString(  15 , \"text NULL\" );pr.setByte  (  16, (byte)28 );pr.setBytes (  17, byteArray );pr.setString(  18, \"varchar (255) NULL\" );
+
+pr.setBytes (  1, byteArray );pr.setString(  2 , \"Test\" );pr.setDate  (  3 , new Date( System.currentTimeMillis() ) );pr.setFloat (  4, (float)1234.56789 );pr.setFloat (  5 , (float)9876.54321 );pr.setBytes (  6, largeByteArray );pr.setInt   (  7 , i );pr.setDouble(  8 , 23.45 );pr.setDouble(  9 , 567.45 );pr.setFloat (  10 , (float)78.89 );pr.setTime  (  11, new Time( System.currentTimeMillis() ) );pr.setShort (  12, (short)23456 );pr.setFloat (  13, (float)34.56 );pr.setString(  14, \"sysname (30) NULL\" );pr.setString(  15 , \"text NULL\" );pr.setByte  (  16, (byte)28 );pr.setBytes (  17, byteArray );pr.setString(  18, \"varchar (255) NULL\" );
+
+---------------------------Clone group no  32 for hash 17bac75e95de2ec97d892cdbd1e14995--------------------
+
+
+
+assertEquals(\"qwert3\", rs.getString(\"v\"));assertEquals(3, rs.getRow());assertTrue(rs.isLast());assertFalse(rs.isFirst());
+
+assertEquals(\"qwert3\", rs.getString(\"v\"));assertEquals(3, rs.getRow());assertTrue(rs.isLast());assertFalse(rs.isFirst());
+
+---------------------------Clone group no  33 for hash 0d742c41fb5507ebd99a51b2e4874fdb--------------------
+
+
+
+break;case SQLTokenizer.BINARY:case SQLTokenizer.VARBINARY:
+
+break;case SQLTokenizer.BINARY:case SQLTokenizer.VARBINARY:
+
+---------------------------Clone group no  34 for hash 9ffdd99d61d587362672d046ebf3a722--------------------
+
+
+
+case ' ':case '\\t':case '\\n':case '\\r':
+
+case ' ':case '\\t':case '\\n':case '\\r':
+
+---------------------------Clone group no  35 for hash f877584830225d8667f7893c81818f66--------------------
+
+
+
+super(FUNCTION);this.left   = left;this.right  = right;
+
+super(FUNCTION);this.left   = left;this.right  = right;
+
+---------------------------Clone group no  36 for hash 4df0de54f05885ddb0152de6b2451e08--------------------
+
+
+
+assertTrue( rs.next() );oldValue = rs.getString(\"v\");assertNull(oldValue);assertTrue( rs.next() );oldValue = rs.getString(\"v\");
+
+assertTrue( rs.next() );oldValue = rs.getString(\"v\");assertNull(oldValue);assertTrue( rs.next() );oldValue = rs.getString(\"v\");
+
+assertTrue( rs.next() );oldValue = rs.getString(\"v\");assertNull(oldValue);assertTrue( rs.next() );oldValue = rs.getString(\"v\");
+
+assertTrue( rs.next() );oldValue = rs.getString(\"v\");assertNull(oldValue);assertTrue( rs.next() );oldValue = rs.getString(\"v\");
+
+---------------------------Clone group no  37 for hash 20a522620f94f232695581c93a5eecd2--------------------
+
+
+
+Connection con = AllTests.getConnection();Statement st = con.createStatement(ResultSet.TYPE_SCROLL_SENSITIVE, ResultSet.CONCUR_UPDATABLE);ResultSet rs;
+
+Connection con = AllTests.getConnection();Statement st = con.createStatement(ResultSet.TYPE_SCROLL_SENSITIVE, ResultSet.CONCUR_UPDATABLE);ResultSet rs;
+
+Connection con = AllTests.getConnection();Statement st = con.createStatement(ResultSet.TYPE_SCROLL_SENSITIVE, ResultSet.CONCUR_UPDATABLE);ResultSet rs;
+
+---------------------------Clone group no  38 for hash 7a2a6657d866a01dbd93beaa6b39b11f--------------------
+
+
+
+java.io.FileOutputStream fos = new java.io.FileOutputStream(tableName+\".bin\");byte bytes[] = new byte[1024];for(int i=0; i<rowCount; i++){<br/>                fos.write(bytes);<br/>            }fos.close();java.io.FileInputStream fis = new java.io.FileInputStream(tableName+\".bin\");long time = -System.currentTimeMillis();
+
+java.io.FileOutputStream fos = new java.io.FileOutputStream(tableName+\".bin\");byte bytes[] = new byte[1024];for(int i=0; i<rowCount; i++){<br/>                fos.write(bytes);<br/>            }fos.close();java.io.FileInputStream fis = new java.io.FileInputStream(tableName+\".bin\");long time = -System.currentTimeMillis();
+
+---------------------------Clone group no  39 for hash 30a1fd8914395a8b2ef2ba4bbdc4f909--------------------
+
+
+
+setValue( big.unscaledValue().toByteArray() );scale = big.scale();signum = big.signum();
+
+setValue( big.unscaledValue().toByteArray() );scale = big.scale();signum = big.signum();
+
+---------------------------Clone group no  40 for hash 3ed42195c07b0c940a9694c06d41ad43--------------------
+
+
+
+init();Connection con = AllTests.getConnection();Statement st = con.createStatement(ResultSet.TYPE_SCROLL_SENSITIVE, ResultSet.CONCUR_UPDATABLE);
+
+init();Connection con = AllTests.getConnection();Statement st = con.createStatement(ResultSet.TYPE_SCROLL_SENSITIVE, ResultSet.CONCUR_UPDATABLE);
+
+init();Connection con = AllTests.getConnection();Statement st = con.createStatement(ResultSet.TYPE_SCROLL_SENSITIVE, ResultSet.CONCUR_UPDATABLE);
+
+---------------------------Clone group no  41 for hash 2fe96db5aed175fdf3eb0c0f9e4552e8--------------------
+
+
+
+break;default:throw new Error();
+
+break;default:throw new Error();
+
+break;default:throw new Error();
+
+break;default:throw new Error();
+
+break;default:throw new Error();
+
+break;default:throw new Error();
+
+break;default:throw new Error();
+
+break;default:throw new Error();
+
+break;default:throw new Error();
+
+---------------------------Clone group no  42 for hash 3e2add3c39e73d1c3a620cf86f8cf8ec--------------------
+
+
+
+return 10;case SQLTokenizer.BIGINT:case SQLTokenizer.MONEY:return 19;case SQLTokenizer.REAL:
+
+return 10;case SQLTokenizer.BIGINT:case SQLTokenizer.MONEY:return 19;case SQLTokenizer.REAL:
+
+---------------------------Clone group no  43 for hash a7c1651541ff0274ef3a7e150c8333c7--------------------
+
+
+
+// reset for the next test<br/>                Statement st = con.createStatement();st.execute(\"DELETE FROM \" + tableName);st.close();
+
+Statement st = con.createStatement();st.execute(\"DELETE FROM \" + tableName);st.close();
+
+---------------------------Clone group no  44 for hash 8b240dbdeaf37a17e9d411884d135e49--------------------
+
+
+
+assertTrue( oldValue + \"<\" + newValue, oldValue.compareTo( newValue ) < 0 );oldValue = newValue;count++;
+
+assertTrue( oldValue + \"<\" + newValue, oldValue.compareTo( newValue ) < 0 );oldValue = newValue;count++;
+
+---------------------------Clone group no  45 for hash 278dd683fdb1a3fbb6e9fb41d54808b2--------------------
+
+
+
+break;case SQLTokenizer.VARBINARY:case SQLTokenizer.BINARY:case SQLTokenizer.LONGVARBINARY:case SQLTokenizer.BLOB:case SQLTokenizer.UNIQUEIDENTIFIER:
+
+break;case SQLTokenizer.VARBINARY:case SQLTokenizer.BINARY:case SQLTokenizer.LONGVARBINARY:case SQLTokenizer.BLOB:case SQLTokenizer.UNIQUEIDENTIFIER:
+
+---------------------------Clone group no  46 for hash bf8036636599abd976e25a140968d763--------------------
+
+
+
+Statement st1 = con.createStatement();ResultSet rs = st1.executeQuery( \"SELECT count(*) FROM \" + tableName);rs.next();int count = rs.getInt(1);
+
+Statement st1 = con.createStatement();ResultSet rs = st1.executeQuery( \"SELECT count(*) FROM \" + tableName);rs.next();int count = rs.getInt(1);
+
+---------------------------Clone group no  47 for hash 91c09e207752f71e294c7ead11f6aefa--------------------
+
+
+
+int k=tmp.length-1;for(; k>= 0; k--) if(tmp[k] != 0) break;k++;byte[] tmp2 = new byte[k];System.arraycopy( tmp, 0, tmp2, 0, k);
+
+int k=tmp.length-1;for(; k>= 0; k--) if(tmp[k] != 0) break;k++;byte[] tmp2 = new byte[k];System.arraycopy( tmp, 0, tmp2, 0, k);
+
+---------------------------Clone group no  48 for hash feef58f5f451ae186b2a442314df5631--------------------
+
+
+
+store.page = storePage.page;store.sharedPageData = true;store.readPageHeader();
+
+store.page = storePage.page;store.sharedPageData = true;store.readPageHeader();
+
+---------------------------Clone group no  49 for hash a735a9f55b2e47b1baed553d3cbff548--------------------
+
+
+
+init();Connection con = AllTests.getConnection();Statement st = con.createStatement();ResultSet rs = null;
+
+init();Connection con = AllTests.getConnection();Statement st = con.createStatement();ResultSet rs = null;
+
+---------------------------Clone group no  50 for hash 8511bc42481bb3dad248b1aafec2e828--------------------
+
+
+
+case SQLTokenizer.INT:case SQLTokenizer.BIGINT:case SQLTokenizer.DOUBLE:case SQLTokenizer.MONEY:
+
+case SQLTokenizer.INT:case SQLTokenizer.BIGINT:case SQLTokenizer.DOUBLE:case SQLTokenizer.MONEY:
+
+---------------------------Clone group no  51 for hash 6b062539f0d2cf58487dfbe2218c4a63--------------------
+
+
+
+if(longValue < 0)<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return -1;if(longValue > 0)<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return 1;return 0;
+
+if(longValue < 0)<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return -1;if(longValue > 0)<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return 1;return 0;
+
+---------------------------Clone group no  52 for hash f57323d8e04eb5de32d105b516add066--------------------
+
+
+
+case SQLTokenizer.REAL:case SQLTokenizer.FLOAT:case SQLTokenizer.DOUBLE:
+
+case SQLTokenizer.REAL:case SQLTokenizer.FLOAT:case SQLTokenizer.DOUBLE:
+
+case SQLTokenizer.REAL:case SQLTokenizer.FLOAT:case SQLTokenizer.DOUBLE:
+
+---------------------------Clone group no  53 for hash 0d17195f149d01d9ae3eb9129b78c617--------------------
+
+
+
+con.createStatement().execute(\"Insert Into transactions(v) Select v From transactions\");assertRowCount( 2, \"Select * from transactions\");con.createStatement().execute(\"Insert Into transactions(v) (Select v From transactions)\");assertRowCount( 4, \"Select * from transactions\");con.rollback();
+
+con.createStatement().execute(\"Insert Into transactions(v) Select v From transactions\");assertRowCount( 2, \"Select * from transactions\");con.createStatement().execute(\"Insert Into transactions(v) (Select v From transactions)\");assertRowCount( 4, \"Select * from transactions\");con.rollback();
+
+---------------------------Clone group no  54 for hash f83a79e56fde5fe94d39973e0506542b--------------------
+
+
+
+case SQLTokenizer.UNIQUEIDENTIFIER:return Utils.bytes2unique( page, this.offset);default:throw new Error();
+
+case SQLTokenizer.UNIQUEIDENTIFIER:return Utils.bytes2unique( page, this.offset);default:throw new Error();
+
+---------------------------Clone group no  55 for hash 51aeda73f08664821ad3d462592fdd8d--------------------
+
+
+
+case SQLTokenizer.TIMESTAMP:return readTimestamp();case SQLTokenizer.TIME:return readTime();case SQLTokenizer.DATE:return readDate();case SQLTokenizer.SMALLDATETIME:return readSmallDateTime();default:
+
+case SQLTokenizer.TIMESTAMP:return readTimestamp();case SQLTokenizer.TIME:return readTime();case SQLTokenizer.DATE:return readDate();case SQLTokenizer.SMALLDATETIME:return readSmallDateTime();default:
+
+case SQLTokenizer.TIMESTAMP:return readTimestamp();case SQLTokenizer.TIME:return readTime();case SQLTokenizer.DATE:return readDate();case SQLTokenizer.SMALLDATETIME:return readSmallDateTime();default:
+
+---------------------------Clone group no  56 for hash 518e0085d1589ee32a0186c17dede522--------------------
+
+
+
+buf.append('.');formatNumber( details.month+1, 2, buf);buf.append('.');formatNumber( details.day, 2, buf);return buf.toString();
+
+buf.append('.');formatNumber( details.month+1, 2, buf);buf.append('.');formatNumber( details.day, 2, buf);return buf.toString();
+
+---------------------------Clone group no  57 for hash ec274da32492dbac836b78216a1f2982--------------------
+
+
+
+// remove all resource for reloading the tables from file<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;con.close();con = AllTests.getConnection();st = con.createStatement();
+
+con.close();con = AllTests.getConnection();st = con.createStatement();
+
+---------------------------Clone group no  58 for hash 1c79507f402004f5157065a12bbacdce--------------------
+
+
+
+break;case SQLTokenizer.CHAR:case SQLTokenizer.NCHAR:
+
+break;case SQLTokenizer.CHAR:case SQLTokenizer.NCHAR:
+
+---------------------------Clone group no  59 for hash b03fb27c35f3ceddc4edf19c09830d42--------------------
+
+
+
+case IN:case EQUALS_NULL:case EQUALS:return comp == 0;case GREATER:return comp >  0;case GRE_EQU:return comp >= 0;case LESSER:return comp <  0;case LES_EQU:return comp <= 0;case UNEQUALS:return comp != 0;case BETWEEN:
+
+case IN:case EQUALS_NULL:case EQUALS:return comp == 0;case GREATER:return comp >  0;case GRE_EQU:return comp >= 0;case LESSER:return comp <  0;case LES_EQU:return comp <= 0;case UNEQUALS:return comp != 0;case BETWEEN:
+
+case IN:case EQUALS_NULL:case EQUALS:return comp == 0;case GREATER:return comp >  0;case GRE_EQU:return comp >= 0;case LESSER:return comp <  0;case LES_EQU:return comp <= 0;case UNEQUALS:return comp != 0;case BETWEEN:
+
+---------------------------Clone group no  60 for hash a4c9586c15776247d406962fa48b9c98--------------------
+
+
+
+assertNull( rs.getObject(\"c2\") );assertTrue( rs.next() );oldValue = rs.getString(\"c2\");
+
+assertNull( rs.getObject(\"c2\") );assertTrue( rs.next() );oldValue = rs.getString(\"c2\");
+
+---------------------------Clone group no  61 for hash fff50611ab8051b67bc95c45d977d9d5--------------------
+
+
+
+buf.append(' ');formatNumber( details.year, 4, buf);buf.append(' ');formatHour12( details.hour, buf );buf.append(':');formatNumber( details.minute, 2, buf);buf.append(':');formatNumber( details.second, 2, buf);buf.append(':');formatMillis( details.millis, buf);buf.append( details.hour < 12 ? \"AM\" : \"PM\" );return buf.toString();
+
+buf.append(' ');formatNumber( details.year, 4, buf);buf.append(' ');formatHour12( details.hour, buf );buf.append(':');formatNumber( details.minute, 2, buf);buf.append(':');formatNumber( details.second, 2, buf);buf.append(':');formatMillis( details.millis, buf);buf.append( details.hour < 12 ? \"AM\" : \"PM\" );return buf.toString();
+
+---------------------------Clone group no  62 for hash 31ac73a3a5b43f2cde26a3f1fbdd031a--------------------
+
+
+
+Expression expr = getValue(i);wasNull = expr.isNull();if(wasNull) return null;
+
+Expression expr = getValue(i);wasNull = expr.isNull();if(wasNull) return null;
+
+Expression expr = getValue(i);wasNull = expr.isNull();if(wasNull) return null;
+
+---------------------------Clone group no  63 for hash 4cc968eb6434c4f40d611f878456d9e7--------------------
+
+
+
+assertNotSame(\"getObject\", value, rs.getObject(\"c\"));//method next<br/>        assertTrue(\"start\", rs.first());rs.updateObject(\"c\", value, Types.VARCHAR );assertEquals(\"getObject\", value, rs.getObject(\"c\"));
+
+assertNotSame(\"getObject\", value, rs.getObject(\"c\"));//method last<br/>        assertTrue(\"start\", rs.first());rs.updateObject(\"c\", value, Types.VARCHAR );assertEquals(\"getObject\", value, rs.getObject(\"c\"));
+
+assertNotSame(\"getObject\", value, rs.getObject(\"c\"));//method refresh<br/>        assertTrue(\"start\", rs.first());rs.updateObject(\"c\", value, Types.VARCHAR );assertEquals(\"getObject\", value, rs.getObject(\"c\"));
+
+---------------------------Clone group no  64 for hash 979f899e00747a492508832ba1fb5459--------------------
+
+
+
+rs.beforeFirst();assertTrue(\"isBeforeFirst\", rs.isBeforeFirst() );assertFalse(\"isAfterLast\", rs.isAfterLast() );assertEquals(\"getRow\", 0, rs.getRow() );assertTrue(\"next\", rs.next() );assertTrue(\"isFirst\", rs.isFirst() );
+
+rs.beforeFirst();assertTrue(\"isBeforeFirst\", rs.isBeforeFirst() );assertFalse(\"isAfterLast\", rs.isAfterLast() );assertEquals(\"getRow\", 0, rs.getRow() );assertTrue(\"next\", rs.next() );assertTrue(\"isFirst\", rs.isFirst() );
+
+---------------------------Clone group no  65 for hash 48722ff2c7529d4d66eec0f1170f3937--------------------
+
+
+
+rs.next();int count = rs.getInt(1);if (count != rowCount)<br/>                System.out.println( \"  Failed: Only \" + count + \" rows were inserted.\");<br/>            else System.out.println( \"  Test time: \" + time + \" ms\");st.close();
+
+rs.next();int count = rs.getInt(1);if (count != rowCount)<br/>                 System.out.println( \"  Failed: Only \" + count + \" rows were inserted.\");<br/>            else System.out.println( \"  Test time: \" + time + \" ms\");st.close();
+
+---------------------------Clone group no  66 for hash 7029ff897323e8399d804104da6167d9--------------------
+
+
+
+init();Connection con = AllTests.getConnection();Statement st = con.createStatement(ResultSet.TYPE_SCROLL_SENSITIVE, ResultSet.CONCUR_UPDATABLE);ResultSet rs;int count;
+
+init();Connection con = AllTests.getConnection();Statement st = con.createStatement(ResultSet.TYPE_SCROLL_SENSITIVE, ResultSet.CONCUR_UPDATABLE);ResultSet rs;int count;
+
+---------------------------Clone group no  67 for hash 5d8fb62d37cfa85a79ea84c2873e4755--------------------
+
+
+
+String catalog;String tableName = catalog = nextIdentifier();tableName = nextIdentiferPart(tableName);if(tableName == catalog) catalog = null;
+
+String catalog;String tableName = catalog = nextIdentifier();tableName = nextIdentiferPart(tableName);if(tableName == catalog) catalog = null;
+
+---------------------------Clone group no  68 for hash 05096bdc69e75cd00300ba8940d4d458--------------------
+
+
+
+break;case SQLTokenizer.UNIQUEIDENTIFIER:offset += 16;break;
+
+break;case SQLTokenizer.UNIQUEIDENTIFIER:offset += 16;break;
+
+---------------------------Clone group no  69 for hash 499ce64d478bd3d27a53efa448861a35--------------------
+
+
+
+case OR:case AND:case NOT:case LIKE:case ISNULL:case ISNOTNULL:
+
+case OR:case AND:case NOT:case LIKE:case ISNULL:case ISNOTNULL:
+
+---------------------------Clone group no  70 for hash 8cc80edd5ea6d5598ea35525cea7aa56--------------------
+
+
+
+con.createStatement().execute(\"Create Table transactions (i int identity, v varchar(20))\");assertRowCount( 0, \"Select * from transactions\");con.createStatement().execute(\"Insert Into transactions(v) Values('qwert')\");assertRowCount( 1, \"Select * from transactions\");con.setAutoCommit(false);con.createStatement().execute(\"Insert Into transactions(v) Select v From transactions\");assertRowCount( 2, \"Select * from transactions\");
+
+con.createStatement().execute(\"Create Table transactions (i int identity, v varchar(20))\");assertRowCount( 0, \"Select * from transactions\");con.createStatement().execute(\"Insert Into transactions(v) Values('qwert')\");assertRowCount( 1, \"Select * from transactions\");con.setAutoCommit(false);con.createStatement().execute(\"Insert Into transactions(v) Select v From transactions\");assertRowCount( 2, \"Select * from transactions\");
+
+---------------------------Clone group no  71 for hash c897764ff0cf0ef4f6bce18e31306f23--------------------
+
+
+
+pr.close();time += System.currentTimeMillis();System.out.println( \"  Test time: \" + time + \" ms\");fis.close();java.io.File file = new java.io.File(tableName+\".bin\");file.delete();
+
+pr.close();time += System.currentTimeMillis();System.out.println( \"  Test time: \" + time + \" ms\");fis.close();java.io.File file = new java.io.File(tableName+\".bin\");file.delete();
+
+---------------------------Clone group no  72 for hash 25e5f9f0fbdce499cc4937c9fd49249e--------------------
+
+
+
+assertRSMetaData( rs, colNames, colTypes);assertTrue( \"No row\", rs.next() );assertEquals( \"a\", rs.getObject(\"COLUMN_NAME\") );assertEquals( \"INT\", rs.getObject(\"TYPE_NAME\") );assertEquals( \"5\", rs.getObject(\"COLUMN_Def\") );
+
+assertRSMetaData( rs, colNames, colTypes);assertTrue( \"No row\", rs.next() );assertEquals( \"a\", rs.getObject(\"COLUMN_NAME\") );assertEquals( \"INT\", rs.getObject(\"TYPE_NAME\") );assertEquals( \"5\", rs.getObject(\"COLUMN_Def\") );
+
+---------------------------Clone group no  73 for hash 4166da69a0a9574ea06664b45c0adca8--------------------
+
+
+
+case SQLTokenizer.LONGVARCHAR:case SQLTokenizer.LONGNVARCHAR:case SQLTokenizer.LONGVARBINARY:
+
+case SQLTokenizer.LONGVARCHAR:case SQLTokenizer.LONGNVARCHAR:case SQLTokenizer.LONGVARBINARY:
+
+---------------------------Clone group no  74 for hash 80d54429d5bdc9144449210d01956088--------------------
+
+
+
+if(isNull()) return null;byte[] bytes = param1.getBytes();int length = param2.getInt();if(bytes.length <= length) return bytes;byte[] b = new byte[length];
+
+if(isNull()) return null;byte[] bytes = param1.getBytes();int length = param2.getInt();if(bytes.length <= length) return bytes;byte[] b = new byte[length];
+
+---------------------------Clone group no  75 for hash 0b5ed22d393de45992e46eaf99211687--------------------
+
+
+
+init();Connection con = AllTests.getConnection();Statement st = con.createStatement();ResultSet rs;String oldValue;
+
+init();Connection con = AllTests.getConnection();Statement st = con.createStatement();ResultSet rs;String oldValue;
+
+init();Connection con = AllTests.getConnection();Statement st = con.createStatement();ResultSet rs;String oldValue;
+
+init();Connection con = AllTests.getConnection();Statement st = con.createStatement();ResultSet rs;String oldValue;
+
+init();Connection con = AllTests.getConnection();Statement st = con.createStatement();ResultSet rs;String oldValue;
+
+init();Connection con = AllTests.getConnection();Statement st = con.createStatement();ResultSet rs;String oldValue;
+
+init();Connection con = AllTests.getConnection();Statement st = con.createStatement();ResultSet rs;String oldValue;
+
+init();Connection con = AllTests.getConnection();Statement st = con.createStatement();ResultSet rs;String oldValue;
+
+init();Connection con = AllTests.getConnection();Statement st = con.createStatement();ResultSet rs;String oldValue;
+
+---------------------------Clone group no  76 for hash a2831faf5f30a9ba0ca41d830af1673b--------------------
+
+
+
+wasNull = expr.isNull();if(wasNull) return null;return DateTime.getTimestamp( expr.getLong() );
+
+wasNull = expr.isNull();if(wasNull) return null;return DateTime.getTimestamp( expr.getLong() );
+
+---------------------------Clone group no  77 for hash 67fdb7efb8b0269a19ef0a0506a7be9a--------------------
+
+
+
+case SQLTokenizer.LONGVARCHAR:case SQLTokenizer.LONGNVARCHAR:case SQLTokenizer.CLOB:
+
+case SQLTokenizer.LONGVARCHAR:case SQLTokenizer.LONGNVARCHAR:case SQLTokenizer.CLOB:
+
+---------------------------Clone group no  78 for hash 696798fc11c6c6f5b33f43d82f6a3147--------------------
+
+
+
+isOuterValid = false;right.nullRow();return true;
+
+isOuterValid = false;right.nullRow();return true;
+
+---------------------------Clone group no  79 for hash 21ebcd891458a33d1fbd0e19f8399640--------------------
+
+
+
+pr.setObject( 1, testValue.small);pr.setObject( 2, testValue.large);rs = pr.executeQuery();assertTrue( \"To few rows\", rs.next() );assertTrue( \"To few rows\", rs.next() );assertTrue( \"To few rows\", rs.next() );assertTrue( \"To few rows\", rs.next() );assertTrue( \"To few rows\", rs.next() );assertFalse( \"To many rows\", rs.next() );pr.close();
+
+pr.setObject( 1, testValue.small);pr.setObject( 2, testValue.large);rs = pr.executeQuery();assertTrue( \"To few rows\", rs.next() );assertTrue( \"To few rows\", rs.next() );assertTrue( \"To few rows\", rs.next() );assertTrue( \"To few rows\", rs.next() );assertTrue( \"To few rows\", rs.next() );assertFalse( \"To many rows\", rs.next() );pr.close();
+
+---------------------------Clone group no  80 for hash a5d3e3203bafddda1c7e3115b502b018--------------------
+
+
+
+case SQLTokenizer.TINYINT:return 3;case SQLTokenizer.SMALLINT:
+
+case SQLTokenizer.TINYINT:return 3;case SQLTokenizer.SMALLINT:
+
+---------------------------Clone group no  81 for hash 53084371fbbd8f7648ca3af23de3b6d7--------------------
+
+
+
+break;case SQLTokenizer.BIT:case SQLTokenizer.BOOLEAN:
+
+break;case SQLTokenizer.BIT:case SQLTokenizer.BOOLEAN:
+
+---------------------------Clone group no  82 for hash 876d6a3c152ba4a8caebd98e551689ad--------------------
+
+
+
+if(serializeConnections.size() > 0){<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Iterator values = locks.values().iterator();<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;while(values.hasNext()){<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TableStorePage lock = (TableStorePage)values.next();<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if(lock.con != con) return null;<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}tabLockConnection = con;tabLockCount++;TableStorePage lock = new TableStorePage(con, this, LOCK_TAB, page);
+
+if(serializeConnections.size() > 0){<br/>                        Iterator values = locks.values().iterator();<br/>                        while(values.hasNext()){<br/>                            TableStorePage lock = (TableStorePage)values.next();<br/>                            if(lock.con != con) return null;<br/>                        }<br/>                    }tabLockConnection = con;tabLockCount++;TableStorePage lock = new TableStorePage(con, this, LOCK_TAB, page);
+
+---------------------------Clone group no  83 for hash ca83eb547802b1c9016230cd504c97d0--------------------
+
+
+
+assertEquals( 1, con.createStatement().executeUpdate(\"Update transactions set v='qwert1'\") );assertEqualsRsValue(\"qwert1\", \"Select * from transactions\");assertEqualsRsValue(new Integer(1), \"Select count(*) from transactions\");assertEquals( 1, con.createStatement().executeUpdate(\"Update transactions set v='qwert2'\") );assertEqualsRsValue(\"qwert2\", \"Select * from transactions\");assertEqualsRsValue(new Integer(1), \"Select count(*) from transactions\");Savepoint savepoint = con.setSavepoint();assertEquals( 1, con.createStatement().executeUpdate(\"Update transactions set v='qwert 3'\") );assertEqualsRsValue(\"qwert 3\", \"Select * from transactions\");assertEqualsRsValue(new Integer(1), \"Select count(*) from transactions\");
+
+assertEquals(1, con.createStatement().executeUpdate(\"Update transactions set v='qwert1'\"));assertEqualsRsValue(\"qwert1\", \"Select * from transactions\");assertEqualsRsValue(new Integer(1), \"Select count(*) from transactions\");assertEquals(1, con.createStatement().executeUpdate(\"Update transactions set v='qwert2'\"));assertEqualsRsValue(\"qwert2\", \"Select * from transactions\");assertEqualsRsValue(new Integer(1), \"Select count(*) from transactions\");Savepoint savepoint = con.setSavepoint();assertEquals(1, con.createStatement().executeUpdate(\"Update transactions set v='qwert 3'\"));assertEqualsRsValue(\"qwert 3\", \"Select * from transactions\");assertEqualsRsValue(new Integer(1), \"Select count(*) from transactions\");
+
+---------------------------Clone group no  84 for hash a3f0b466acd8b1c9ff7c79f8aac7db2d--------------------
+
+
+
+buf.append(' ');formatNumber( details.year % 100, 2, buf);return buf.toString();
+
+buf.append(' ');formatNumber( details.year % 100, 2, buf);return buf.toString();
+
+---------------------------Clone group no  85 for hash dde80ddc62f46cc445e9db317d43b3d5--------------------
+
+
+
+wasNull = expr.isNull();if(wasNull) return null;return DateTime.getDate( expr.getLong() );
+
+wasNull = expr.isNull();if(wasNull) return null;return DateTime.getDate( expr.getLong() );
+
+---------------------------Clone group no  86 for hash 46479a369ed827072a7c58f15f3dde38--------------------
+
+
+
+case SQLTokenizer.TINYINT:case SQLTokenizer.SMALLINT:case SQLTokenizer.INT:
+
+case SQLTokenizer.TINYINT:case SQLTokenizer.SMALLINT:case SQLTokenizer.INT:
+
+case SQLTokenizer.TINYINT:case SQLTokenizer.SMALLINT:case SQLTokenizer.INT:
+
+case SQLTokenizer.TINYINT:case SQLTokenizer.SMALLINT:case SQLTokenizer.INT:
+
+case SQLTokenizer.TINYINT:case SQLTokenizer.SMALLINT:case SQLTokenizer.INT:
+
+case SQLTokenizer.TINYINT:case SQLTokenizer.SMALLINT:case SQLTokenizer.INT:
+
+case SQLTokenizer.TINYINT:case SQLTokenizer.SMALLINT:case SQLTokenizer.INT:
+
+case SQLTokenizer.TINYINT:case SQLTokenizer.SMALLINT:case SQLTokenizer.INT:
+
+case SQLTokenizer.TINYINT:case SQLTokenizer.SMALLINT:case SQLTokenizer.INT:
+
+case SQLTokenizer.TINYINT:case SQLTokenizer.SMALLINT:case SQLTokenizer.INT:
+
+case SQLTokenizer.TINYINT:case SQLTokenizer.SMALLINT:case SQLTokenizer.INT:
+
+case SQLTokenizer.TINYINT:case SQLTokenizer.SMALLINT:case SQLTokenizer.INT:
+
+case SQLTokenizer.TINYINT:case SQLTokenizer.SMALLINT:case SQLTokenizer.INT:
+
+case SQLTokenizer.TINYINT:case SQLTokenizer.SMALLINT:case SQLTokenizer.INT:
+
+case SQLTokenizer.TINYINT:case SQLTokenizer.SMALLINT:case SQLTokenizer.INT:
+
+case SQLTokenizer.TINYINT:case SQLTokenizer.SMALLINT:case SQLTokenizer.INT:
+
+//break; interpret it as BIT <br/>            case SQLTokenizer.TINYINT:case SQLTokenizer.SMALLINT:case SQLTokenizer.INT:
+
+case SQLTokenizer.TINYINT:case SQLTokenizer.SMALLINT:case SQLTokenizer.INT:
+
+---------------------------Clone group no  87 for hash be9c848302a6de2200129cff5593159a--------------------
+
+
+
+pr.setObject( 2, null);pr.execute();pr.setObject( 1, null);pr.setObject( 2, null);pr.execute();
+
+pr.setObject( 2, null);pr.execute();pr.setObject( 1, null);pr.setObject( 2, null);pr.execute();
+
+---------------------------Clone group no  88 for hash 0901c93c058fcf5e8fb843f9dfc248d0--------------------
+
+
+
+// wait until all threads are finish<br/>            for(int i = 0; i < threadList.size(); i++){<br/>                Thread thread = (Thread)threadList.get(i);<br/>                thread.join(5000);<br/>            }// throw the exception if one occur<br/>            if(throwable != null){<br/>                throw throwable;<br/>            }assertEqualsRsValue(new Integer(200), \"SELECT value FROM ConcurrentWrite\");
+
+// wait until all threads are finish<br/>            for(int i = 0; i < threadList.size(); i++){<br/>                Thread thread = (Thread)threadList.get(i);<br/>                thread.join(5000);<br/>            }// throw the exception if one occur<br/>            if(throwable != null){<br/>                throw throwable;<br/>            }assertEqualsRsValue(new Integer(200), \"SELECT value FROM ConcurrentWrite\");
+
+---------------------------Clone group no  89 for hash a07e53b688659aa99f492724fcc150cd--------------------
+
+
+
+buf.append( SHORT_MONTHS[ details.month ]);buf.append(' ');formatNumber( details.day, 2, buf);buf.append(' ');formatNumber( details.year, 4, buf);buf.append(' ');formatHour12( details.hour, buf );buf.append(':');formatNumber( details.minute, 2, buf);
+
+buf.append( SHORT_MONTHS[ details.month ]);buf.append(' ');formatNumber( details.day, 2, buf);buf.append(' ');formatNumber( details.year, 4, buf);buf.append(' ');formatHour12( details.hour, buf );buf.append(':');formatNumber( details.minute, 2, buf);
+
+---------------------------Clone group no  90 for hash cc387333b741098fba1c9117322f12de--------------------
+
+
+
+Connection con = AllTests.getConnection();Statement st = con.createStatement();ResultSet rs;rs = st.executeQuery(\"Select * from \" + table + \" where 1 = 0\");assertFalse( \"To many rows\", rs.next() );
+
+Connection con = AllTests.getConnection();Statement st = con.createStatement();ResultSet rs;rs = st.executeQuery(\"Select * from \" + table + \" where 1 = 0\");assertFalse( \"To many rows\", rs.next() );
+
+---------------------------Clone group no  91 for hash 523be534c812f04ada5ccaae30815ac8--------------------
+
+
+
+case SQLTokenizer.SMALLMONEY:return readInt() / 10000;case SQLTokenizer.NUMERIC:case SQLTokenizer.DECIMAL:
+
+case SQLTokenizer.SMALLMONEY:return readInt() / 10000;case SQLTokenizer.NUMERIC:case SQLTokenizer.DECIMAL:
+
+---------------------------Clone group no  92 for hash 78fb57c2c9c72ce8742c50f80802cc4a--------------------
+
+
+
+//no more entries in this node<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;shift += 16;listEnum.stack--;if(listEnum.stack<0) return -1; // no more entriesresult = listEnum.resultStack[listEnum.stack];
+
+//no more entries in this node<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;shift += 16;listEnum.stack--;if(listEnum.stack<0) return -1; // no more entriesresult = listEnum.resultStack[listEnum.stack];
+
+---------------------------Clone group no  93 for hash 56eae103bbf1c5a9eb5d2d31cbbdc597--------------------
+
+
+
+formatNumber( details.hour, 2, buf);buf.append(':');formatNumber( details.minute, 2, buf);buf.append(':');formatNumber( details.second, 2, buf);buf.append('.');formatMillis( details.millis, buf );return buf.toString();
+
+formatNumber( details.hour, 2, buf);buf.append(':');formatNumber( details.minute, 2, buf);buf.append(':');formatNumber( details.second, 2, buf);buf.append('.');formatMillis( details.millis, buf );return buf.toString();
+
+---------------------------Clone group no  94 for hash 3f769291ca7b48439fbccbf019f5bac5--------------------
+
+
+
+wasNull = obj == null;if(wasNull) return null;return obj.toBigDecimal();
+
+wasNull = obj == null;if(wasNull) return null;return obj.toBigDecimal();
+
+---------------------------Clone group no  95 for hash 55de7e887e13ba29f4640e7bc001772a--------------------
+
+
+
+assertEquals(1,pr.executeUpdate());rs = pr.getGeneratedKeys();assertNotNull(\"RETURN_GENERATED_KEYS\", rs);assertEquals(\"ColumnCount\",1,rs.getMetaData().getColumnCount());assertEquals(\"ColumnCount\",\"i\",rs.getMetaData().getColumnName(1));assertRowCount(1,rs);
+
+assertEquals(1,pr.executeUpdate());rs = pr.getGeneratedKeys();assertNotNull(\"RETURN_GENERATED_KEYS\", rs);assertEquals(\"ColumnCount\",1,rs.getMetaData().getColumnCount());assertEquals(\"ColumnCount\",\"i\",rs.getMetaData().getColumnName(1));assertRowCount(1,rs);
+
+assertEquals(1,pr.executeUpdate());rs = pr.getGeneratedKeys();assertNotNull(\"RETURN_GENERATED_KEYS\", rs);assertEquals(\"ColumnCount\",1,rs.getMetaData().getColumnCount());assertEquals(\"ColumnCount\",\"i\",rs.getMetaData().getColumnName(1));assertRowCount(1,rs);
+
+---------------------------Clone group no  96 for hash b4493c140c2bcaf198ea18a8c8952f83--------------------
+
+
+
+case SQLTokenizer.SMALLINT:case SQLTokenizer.INT:case SQLTokenizer.BIGINT:
+
+case SQLTokenizer.SMALLINT:case SQLTokenizer.INT:case SQLTokenizer.BIGINT:
+
+case SQLTokenizer.SMALLINT:case SQLTokenizer.INT:case SQLTokenizer.BIGINT:
+
+case SQLTokenizer.SMALLINT:case SQLTokenizer.INT:case SQLTokenizer.BIGINT:
+
+case SQLTokenizer.SMALLINT:case SQLTokenizer.INT:case SQLTokenizer.BIGINT:
+
+---------------------------Clone group no  97 for hash 7ec6e64fca63faa525461a3a036b56e3--------------------
+
+
+
+buf.append('-');formatNumber( details.year, 4, buf);return buf.toString();
+
+buf.append('-');formatNumber( details.year, 4, buf);return buf.toString();
+
+---------------------------Clone group no  98 for hash efdbb2d1bb9a89adb229b9a54363e0fd--------------------
+
+
+
+assertEquals(\"getRow\", 1, rs.getRow() );assertTrue(\"isLast\", rs.isLast() );assertFalse(\"next\", rs.next() );assertFalse(\"isBeforeFirst\", rs.isBeforeFirst() );assertTrue(\"isAfterLast\", rs.isAfterLast() );assertEquals(\"getRow\", 0, rs.getRow() );assertTrue(\"first\", rs.first() );assertEquals(\"getRow\", 1, rs.getRow() );assertFalse(\"previous\", rs.previous() );assertEquals(\"getRow\", 0, rs.getRow() );assertTrue(\"isBeforeFirst\", rs.isBeforeFirst() );assertFalse(\"isAfterLast\", rs.isAfterLast() );assertTrue(\"last\", rs.last() );assertEquals(\"getRow\", 1, rs.getRow() );assertTrue(\"isLast\", rs.isLast() );rs.afterLast();assertFalse(\"isBeforeFirst\", rs.isBeforeFirst() );assertTrue(\"isAfterLast\", rs.isAfterLast() );assertEquals(\"getRow\", 0, rs.getRow() );
+
+assertEquals(\"getRow\", 1, rs.getRow() );assertTrue(\"isLast\", rs.isLast() );assertFalse(\"next\", rs.next() );assertFalse(\"isBeforeFirst\", rs.isBeforeFirst() );assertTrue(\"isAfterLast\", rs.isAfterLast() );assertEquals(\"getRow\", 0, rs.getRow() );assertTrue(\"first\", rs.first() );assertEquals(\"getRow\", 1, rs.getRow() );assertFalse(\"previous\", rs.previous() );assertEquals(\"getRow\", 0, rs.getRow() );assertTrue(\"isBeforeFirst\", rs.isBeforeFirst() );assertFalse(\"isAfterLast\", rs.isAfterLast() );assertTrue(\"last\", rs.last() );assertEquals(\"getRow\", 1, rs.getRow() );assertTrue(\"isLast\", rs.isLast() );rs.afterLast();assertFalse(\"isBeforeFirst\", rs.isBeforeFirst() );assertTrue(\"isAfterLast\", rs.isAfterLast() );assertEquals(\"getRow\", 0, rs.getRow() );
+
+---------------------------Clone group no  99 for hash 175bd5c7a21b9a09d72b592bc6629ff7--------------------
+
+
+
+Object obj = getObject();if(obj == null) return null;return obj.toString();
+
+Object obj = getObject();if(obj == null) return null;return obj.toString();
+
+---------------------------Clone group no  100 for hash f4120dd104cf73f1410218b62da486a5--------------------
+
+
+
+init();Connection con = AllTests.getConnection();Statement st = con.createStatement();ResultSet rs;Long oldValue;
+
+init();Connection con = AllTests.getConnection();Statement st = con.createStatement();ResultSet rs;Long oldValue;
+
+---------------------------Clone group no  101 for hash 77d29b4cdf3e0efc2179b659c85c5408--------------------
+
+
+
+assertTrue( oldValue.compareTo( (Integer)rs.getObject(\"i\") ) < 0 );oldValue = (Integer)rs.getObject(\"i\");count++;
+
+assertTrue( oldValue.compareTo( (Integer)rs.getObject(\"i\") ) < 0 );oldValue = (Integer)rs.getObject(\"i\");count++;
+
+---------------------------Clone group no  102 for hash 9ecc56a7887d3744860778ffd4bb5307--------------------
+
+
+
+oldValue = rs.getBoolean(\"b\");assertFalse(rs.wasNull());count++;
+
+oldValue = rs.getBoolean(\"b\");assertFalse(rs.wasNull());count++;
+
+---------------------------Clone group no  103 for hash 0eb85d1c23d780ff84c85e3e14113478--------------------
+
+
+
+int offset = token.offset + token.length;token = nextToken();if(token != null) offset = token.offset;previousToken();
+
+int offset = token.offset + token.length;token = nextToken();if(token != null) offset = token.offset;previousToken();
+
+---------------------------Clone group no  104 for hash f0e09be95d09c03beb1910debe9f8393--------------------
+
+
+
+cal.close();checkValues( st, values, needTrim);st.execute(\"Delete From \"+ table);
+
+cal.close();checkValues( st, values, needTrim);st.execute(\"Delete From \"+ table);
+
+---------------------------Clone group no  105 for hash 7270cd0c97bd461a5c2d092ca92cc4bd--------------------
+
+
+
+case SQLTokenizer.BIT:case SQLTokenizer.BOOLEAN:return readBoolean() ? 1 : 0;case SQLTokenizer.BINARY:case SQLTokenizer.VARBINARY:
+
+case SQLTokenizer.BIT:case SQLTokenizer.BOOLEAN:return readBoolean() ? 1 : 0;case SQLTokenizer.BINARY:case SQLTokenizer.VARBINARY:
+
+case SQLTokenizer.BIT:case SQLTokenizer.BOOLEAN:return readBoolean() ? 1 : 0;case SQLTokenizer.BINARY:case SQLTokenizer.VARBINARY:
+
+case SQLTokenizer.BIT:case SQLTokenizer.BOOLEAN:return readBoolean() ? 1 : 0;case SQLTokenizer.BINARY:case SQLTokenizer.VARBINARY:
+
+---------------------------Clone group no  106 for hash b6d024093b4dd55586d0bad9ea715710--------------------
+
+
+
+rs.moveToInsertRow();rs.updateString(\"v\", \"qwert2\");rs.insertRow();
+
+rs.moveToInsertRow();rs.updateString(\"v\", \"qwert2\");rs.insertRow();
+
+---------------------------Clone group no  107 for hash eb59c0b6dbbde97b9456f7d21069f668--------------------
+
+
+
+break;case SQLTokenizer.VARCHAR:case SQLTokenizer.NVARCHAR:case SQLTokenizer.LONGVARCHAR:case SQLTokenizer.LONGNVARCHAR:
+
+break;case SQLTokenizer.VARCHAR:case SQLTokenizer.NVARCHAR:case SQLTokenizer.LONGVARCHAR:case SQLTokenizer.LONGNVARCHAR:
+
+---------------------------Clone group no  108 for hash 0464d25b85bf68ea7c8137c9a8caf21e--------------------
+
+
+
+formatNumber( details.month+1, 2, buf);buf.append('/');formatNumber( details.day, 2, buf);buf.append('/');
+
+formatNumber( details.month+1, 2, buf);buf.append('/');formatNumber( details.day, 2, buf);buf.append('/');
+
+---------------------------Clone group no  109 for hash 9688316a467400f2a294e57a1c12c91a--------------------
+
+
+
+Connection con = AllTests.getConnection();dropTable(con,\"testUpdate\");Statement st = con.createStatement();
+
+Connection con = AllTests.getConnection();dropTable(con,\"testUpdate\");Statement st = con.createStatement();
+
+---------------------------Clone group no  110 for hash 9a929edcc2a0ee65e80109988bc0079f--------------------
+
+
+
+buf.append(' ');formatNumber( details.year, 4, buf);return buf.toString();
+
+buf.append(' ');formatNumber( details.year, 4, buf);return buf.toString();
+
+---------------------------Clone group no  111 for hash 95fdd95e0c9840ee573446faabcf7b0d--------------------
+
+
+
+formatNumber( details.day, 2, buf);buf.append(' ');buf.append( SHORT_MONTHS[ details.month ]);buf.append(' ');formatNumber( details.year, 4, buf);buf.append(' ');
+
+formatNumber( details.day, 2, buf);buf.append(' ');buf.append( SHORT_MONTHS[ details.month ]);buf.append(' ');formatNumber( details.year, 4, buf);buf.append(' ');
+
+---------------------------Clone group no  112 for hash 854187e4fe5f7a5e066b2d36816e378d--------------------
+
+
+
+rs = st.getGeneratedKeys();assertNotNull(\"RETURN_GENERATED_KEYS\", rs);assertEquals(\"ColumnCount\",1,rs.getMetaData().getColumnCount());assertEquals(\"ColumnCount\",\"i\",rs.getMetaData().getColumnName(1));assertRowCount(1,rs);
+
+rs = st.getGeneratedKeys();assertNotNull(\"RETURN_GENERATED_KEYS\", rs);assertEquals(\"ColumnCount\",1,rs.getMetaData().getColumnCount());assertEquals(\"ColumnCount\",\"i\",rs.getMetaData().getColumnName(1));assertRowCount(1,rs);
+
+rs = st.getGeneratedKeys();assertNotNull(\"RETURN_GENERATED_KEYS\", rs);assertEquals(\"ColumnCount\",1,rs.getMetaData().getColumnCount());assertEquals(\"ColumnCount\",\"i\",rs.getMetaData().getColumnName(1));assertRowCount(1,rs);
+
+---------------------------Clone group no  113 for hash 8e7048b3f51347fb55dd42b9923df580--------------------
+
+
+
+case SQLTokenizer.MONEY:case SQLTokenizer.DECIMAL:case SQLTokenizer.NUMERIC:
+
+case SQLTokenizer.MONEY:case SQLTokenizer.DECIMAL:case SQLTokenizer.NUMERIC:
+
+---------------------------Clone group no  114 for hash 02ae687618f8f9a6dc447b05d668a54f--------------------
+
+
+
+case SQLTokenizer.TINYINT:case SQLTokenizer.SMALLINT:case SQLTokenizer.INT:case SQLTokenizer.BIGINT:
+
+case SQLTokenizer.TINYINT:case SQLTokenizer.SMALLINT:case SQLTokenizer.INT:case SQLTokenizer.BIGINT:
+
+case SQLTokenizer.TINYINT:case SQLTokenizer.SMALLINT:case SQLTokenizer.INT:case SQLTokenizer.BIGINT:
+
+case SQLTokenizer.TINYINT:case SQLTokenizer.SMALLINT:case SQLTokenizer.INT:case SQLTokenizer.BIGINT:
+
+---------------------------Clone group no  115 for hash 85cc360b6cac2a60f7a1fde7e9eb4108--------------------
+
+
+
+init();Connection con = AllTests.getConnection();Statement st = con.createStatement();ResultSet rs;Integer oldValue;
+
+init();Connection con = AllTests.getConnection();Statement st = con.createStatement();ResultSet rs;Integer oldValue;
+
+init();Connection con = AllTests.getConnection();Statement st = con.createStatement();ResultSet rs;Integer oldValue;
+
+---------------------------Clone group no  116 for hash 1e640fa787d73a28cb75cc892f057a9e--------------------
+
+
+
+con.createStatement().execute(\"Create Table transactions (i int identity, v varchar(20))\");assertRowCount( 0, \"Select * from transactions\");con.createStatement().execute(\"Insert Into transactions(v) Values('qwert')\");ResultSet rs = con.createStatement(ResultSet.TYPE_SCROLL_SENSITIVE, ResultSet.CONCUR_UPDATABLE)<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.executeQuery(\"Select * from transactions Where 1=0\");
+
+con.createStatement().execute(\"Create Table transactions (i int identity, v varchar(20))\");assertRowCount( 0, \"Select * from transactions\");con.createStatement().execute(\"Insert Into transactions(v) Values('qwert')\");ResultSet rs = con.createStatement(ResultSet.TYPE_SCROLL_SENSITIVE, ResultSet.CONCUR_UPDATABLE)<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.executeQuery(\"Select * from transactions Where 1=0\");
+
+---------------------------Clone group no  117 for hash 573ba1450bb20e7925c040d9e8356ee6--------------------
+
+
+
+break;default:previousToken();
+
+// ignoring, this tokens form MS SQL Server are ignored<br/>    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;break;default:previousToken();
+
+break;default:previousToken();
+
+---------------------------Clone group no  118 for hash 6ea703e1170fc5bc834fd45f086aba6d--------------------
+
+
+
+time += System.currentTimeMillis();System.out.println( \"  Test time: \" + time + \" ms\");pr.close();
+
+time += System.currentTimeMillis();System.out.println( \"  Test time: \" + time + \" ms\");pr.close();
+
+---------------------------Clone group no  119 for hash 71147b2f81cfcbab185e4fd322224852--------------------
+
+
+
+pr.setObject( 1, testValue.small);pr.setObject( 2, testValue.large);rs = pr.executeQuery();assertTrue( \"To few rows\", rs.next() );assertTrue( \"To few rows\", rs.next() );assertFalse( \"To many rows\", rs.next() );pr.close();
+
+pr.setObject( 1, testValue.small);pr.setObject( 2, testValue.large);rs = pr.executeQuery();assertTrue( \"To few rows\", rs.next());assertTrue( \"To few rows\", rs.next());assertFalse( \"To many rows\", rs.next() );pr.close();
+
+---------------------------Clone group no  120 for hash 712aabd8152e83eb6eb015924386fc1a--------------------
+
+
+
+case SQLTokenizer.BIT:case SQLTokenizer.BOOLEAN:case SQLTokenizer.TINYINT:offset++;break;case SQLTokenizer.SMALLINT:
+
+case SQLTokenizer.BIT:case SQLTokenizer.BOOLEAN:case SQLTokenizer.TINYINT:offset++;break;case SQLTokenizer.SMALLINT:
+
+---------------------------Clone group no  121 for hash 11c0b88ffd92c47707b77fc34adc4eff--------------------
+
+
+
+case SQLTokenizer.NUMERIC:case SQLTokenizer.DECIMAL:return readNumeric();case SQLTokenizer.CHAR:case SQLTokenizer.NCHAR:case SQLTokenizer.VARCHAR:case SQLTokenizer.NVARCHAR:
+
+case SQLTokenizer.NUMERIC:case SQLTokenizer.DECIMAL:return readNumeric();case SQLTokenizer.CHAR:case SQLTokenizer.NCHAR:case SQLTokenizer.VARCHAR:case SQLTokenizer.NVARCHAR:
+
+---------------------------Clone group no  122 for hash de16c928c03555f9d9edf1d7bf817fa0--------------------
+
+
+
+wasNull = obj == null;if(wasNull) return null;return obj.toBigDecimal(scale);
+
+wasNull = obj == null;if(wasNull) return null;return obj.toBigDecimal(scale);
+
+---------------------------Clone group no  123 for hash 6e3c6344488f9e4a861a2095430fe168--------------------
+
+
+
+buf.append('/');formatNumber( details.year % 100, 2, buf);return buf.toString();
+
+buf.append('/');formatNumber( details.year % 100, 2, buf);return buf.toString();
+
+---------------------------Clone group no  124 for hash 690bb7800c3ac61d36f5c4d80e72ae97--------------------
+
+
+
+break;case SQLTokenizer.CHAR:case SQLTokenizer.VARCHAR:case SQLTokenizer.LONGVARCHAR:String str = expr.getString();
+
+break;case SQLTokenizer.CHAR:case SQLTokenizer.VARCHAR:case SQLTokenizer.LONGVARCHAR:String str = expr.getString();
+
+---------------------------Clone group no  125 for hash 423f0adac871a5759f9337e3c439d0c9--------------------
+
+
+
+case SQLTokenizer.TINYINT:return readUnsignedByte();case SQLTokenizer.SMALLINT:return readShort();case SQLTokenizer.INT:return readInt();case SQLTokenizer.BIGINT:return readLong();case SQLTokenizer.REAL:return readFloat();case SQLTokenizer.FLOAT:case SQLTokenizer.DOUBLE:
+
+case SQLTokenizer.TINYINT:return readUnsignedByte();case SQLTokenizer.SMALLINT:return readShort();case SQLTokenizer.INT:return readInt();case SQLTokenizer.BIGINT:return readLong();case SQLTokenizer.REAL:return readFloat();case SQLTokenizer.FLOAT:case SQLTokenizer.DOUBLE:
+
+---------------------------Clone group no  126 for hash c827a95fe2c264c686bb2a548af55b0a--------------------
+
+
+
+init();Connection con = AllTests.getConnection();Statement st = con.createStatement();ResultSet rs;int oldValue;
+
+init();Connection con = AllTests.getConnection();Statement st = con.createStatement();ResultSet rs;int oldValue;
+
+---------------------------Clone group no  127 for hash 7ac4ab67776d1321c6409353a79c6940--------------------
+
+
+
+super(FUNCTION);this.left  = left;this.operation = operation;
+
+super(FUNCTION);this.left   = left;this.operation = operation;
+
+---------------------------Clone group no  128 for hash 0465140bda65cc075fc8d84def0b8c6e--------------------
+
+
+
+if(isNull()) return null;String str = param1.getString();int length  = param2.getInt();
+
+if(isNull()) return null;String str = param1.getString();int length = param2.getInt();
+
+---------------------------Clone group no  129 for hash 50715e9951968bb1fbfc7a7170e419e4--------------------
+
+
+
+Connection con = AllTests.getConnection();Statement st = con.createStatement();int isolation = con.getTransactionIsolation();con.setAutoCommit(false);
+
+Connection con = AllTests.getConnection();Statement st = con.createStatement();int isolation = con.getTransactionIsolation();con.setAutoCommit(false);
+
+---------------------------Clone group no  130 for hash 4b957d1853fdf6b78d265fbe3430a0cf--------------------
+
+
+
+case SQLTokenizer.PARENTHESIS_R:return cmdCreate;case SQLTokenizer.COMMA:continue nextCol;
+
+case SQLTokenizer.PARENTHESIS_R:return cmdCreate;case SQLTokenizer.COMMA:continue nextCol;
+
+---------------------------Clone group no  131 for hash 41504f6f13ba1e2500b78bb0df8bb9f7--------------------
+
+
+
+pr.setDouble(  8 , 23.45 );pr.setDouble(  9 , 567.45 );pr.setFloat (  10 , (float)78.89 );pr.setTime  (  11, new Time( System.currentTimeMillis() ) );pr.setShort (  12, (short)23456 );pr.setFloat (  13, (float)34.56 );pr.setString(  14, \"sysname (30) NULL\" );pr.setString(  15 , \"text NULL\" );pr.setByte  (  16, (byte)28 );pr.setBytes (  17, byteArray );pr.setString(  18, \"varchar (255) NULL\" );pr.setInt   (  19 , i );
+
+pr.setDouble(  8 , 23.45 );pr.setDouble(  9 , 567.45 );pr.setFloat (  10 , (float)78.89 );pr.setTime  (  11, new Time( System.currentTimeMillis() ) );pr.setShort (  12, (short)23456 );pr.setFloat (  13, (float)34.56 );pr.setString(  14, \"sysname (30) NULL\" );pr.setString(  15 , \"text NULL\" );pr.setByte  (  16, (byte)28 );pr.setBytes (  17, byteArray );pr.setString(  18, \"varchar (255) NULL\" );pr.setInt   (  19 , i );
+
+---------------------------Clone group no  132 for hash f31f90725e93f98edc873b59dc6c9d9f--------------------
+
+
+
+Connection con = AllTests.getConnection();Statement st = con.createStatement();ResultSet rs = st.executeQuery(sql);
+
+Connection con = AllTests.getConnection();Statement st = con.createStatement();ResultSet rs = st.executeQuery(sql);
+
+Connection con = AllTests.getConnection();Statement st = con.createStatement();ResultSet rs = st.executeQuery(sql);
+
+---------------------------Clone group no  133 for hash 779f7c7f970a7e7862eb141cfb48e5a0--------------------
+
+
+
+//there are more entries in this node<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;result |= (((long)nextEntry) << shift);if(listEnum.stack>=3){<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;listEnum.offsetStack[listEnum.stack] = offset;<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return result;<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}listEnum.offsetStack[listEnum.stack] = offset+pointerSize;offset = getPointer();shift -= 16;listEnum.stack++;listEnum.resultStack[listEnum.stack] = result;
+
+// there are more entries in this node<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;result |= (((long)nextEntry) << shift);if(listEnum.stack>=3){<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;listEnum.offsetStack[listEnum.stack] = offset;<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return result;<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}listEnum.offsetStack[listEnum.stack] = offset+pointerSize;offset = getPointer();shift -= 16;listEnum.stack++;listEnum.resultStack[listEnum.stack] = result;
+
+---------------------------Clone group no  134 for hash f6bc7fc1b6628e31c569b306f5ec78f6--------------------
+
+
+
+time += System.currentTimeMillis();System.out.println( \"  Test time: \" + time + \" ms\");st.close();
+
+time += System.currentTimeMillis();System.out.println( \"  Test time: \" + time + \" ms\");st.close();
+
+time += System.currentTimeMillis();System.out.println( \"  Test time: \" + time + \" ms\");st.close();
+
+---------------------------Clone group no  135 for hash cb47233277b05a051bff5613002d8b57--------------------
+
+
+
+node.fileOffset = offset;node.load( store );return node;
+
+node.fileOffset = offset;node.load( store );return node;
+
+---------------------------Clone group no  136 for hash f2ccf24070069db55c49d349369e4b97--------------------
+
+
+
+case SQLTokenizer.CHAR:case SQLTokenizer.NCHAR:case SQLTokenizer.BINARY:
+
+case SQLTokenizer.CHAR:case SQLTokenizer.NCHAR:case SQLTokenizer.BINARY:
+
+---------------------------Clone group no  137 for hash 26ae0a2e70383644eedb4bd0a4e3cce3--------------------
+
+
+
+assertTrue( rs.next() );oldValue = rs.getString(\"v\");assertNull(oldValue);assertTrue( rs.next() );oldValue = rs.getString(\"v\");int count = 1;
+
+assertTrue( rs.next() );oldValue = rs.getString(\"v\");assertNull(oldValue);assertTrue( rs.next() );oldValue = rs.getString(\"v\");int count = 1;
+
+---------------------------Clone group no  138 for hash 96187524cc642740bc008718ac924feb--------------------
+
+
+
+case SQLTokenizer.BIT:return (obj.equals(Boolean.TRUE)) ? 1 : 0;case SQLTokenizer.INT:case SQLTokenizer.BIGINT:case SQLTokenizer.DOUBLE:
+
+case SQLTokenizer.BIT:return (obj.equals(Boolean.TRUE)) ? 1 : 0;case SQLTokenizer.INT:case SQLTokenizer.BIGINT:case SQLTokenizer.DOUBLE:
+
+---------------------------Clone group no  139 for hash 5b651762f82b3b3dc0e4b268759dc782--------------------
+
+
+
+con.createStatement().execute(\"Create Table Scrollable (i counter, v varchar(20))\");assertRowCount( 0, \"Select * from Scrollable\");con.createStatement().execute(\"Insert Into Scrollable(v) Values('qwert')\");assertRowCount( 1, \"Select * from Scrollable\");assertRowCount( 0, \"Select * from Scrollable Where 1=0\");Statement st = con.createStatement(ResultSet.TYPE_SCROLL_SENSITIVE, ResultSet.CONCUR_UPDATABLE);
+
+con.createStatement().execute(\"Create Table Scrollable (i counter, v varchar(20))\");assertRowCount( 0, \"Select * from Scrollable\");con.createStatement().execute(\"Insert Into Scrollable(v) Values('qwert')\");assertRowCount( 1, \"Select * from Scrollable\");assertRowCount( 0, \"Select * from Scrollable Where 1=0\");Statement st = con.createStatement(ResultSet.TYPE_SCROLL_SENSITIVE, ResultSet.CONCUR_UPDATABLE);
+
+con.createStatement().execute(\"Create Table Scrollable (i counter, v varchar(20))\");assertRowCount( 0, \"Select * from Scrollable\");con.createStatement().execute(\"Insert Into Scrollable(v) Values('qwert')\");assertRowCount( 1, \"Select * from Scrollable\");assertRowCount( 0, \"Select * from Scrollable Where 1=0\");Statement st = con.createStatement(ResultSet.TYPE_SCROLL_SENSITIVE, ResultSet.CONCUR_UPDATABLE);
+
+con.createStatement().execute(\"Create Table Scrollable (i counter, v varchar(20))\");assertRowCount( 0, \"Select * from Scrollable\");con.createStatement().execute(\"Insert Into Scrollable(v) Values('qwert')\");assertRowCount( 1, \"Select * from Scrollable\");assertRowCount( 0, \"Select * from Scrollable Where 1=0\");Statement st = con.createStatement(ResultSet.TYPE_SCROLL_SENSITIVE, ResultSet.CONCUR_UPDATABLE);
+
+---------------------------Clone group no  140 for hash 702dcdb87c59113720c8c9283953dbd2--------------------
+
+
+
+dropTable(con1, \"transactions\");con1.setAutoCommit(true);con2.close();
+
+dropTable(con1, \"transactions\");con1.setAutoCommit(true);con2.close();
+
+---------------------------Clone group no  141 for hash 71fc9dddc00581b51c639bbff1a21e8a--------------------
+
+
+
+con.createStatement().execute(\"Create Table transactions ( v varchar(20))\");assertRowCount( 0, \"Select * from transactions\");assertEquals( 1, con.createStatement().executeUpdate(\"Insert Into transactions(v) Values('qwert')\") );assertEqualsRsValue(\"qwert\", \"Select * from transactions\");assertEqualsRsValue(new Integer(1), \"Select count(*) from transactions\");
+
+con.createStatement().execute(\"Create Table transactions ( v varchar(20))\");assertRowCount(0, \"Select * from transactions\");assertEquals(1, con.createStatement().executeUpdate(\"Insert Into transactions(v) Values('qwert')\"));assertEqualsRsValue(\"qwert\", \"Select * from transactions\");assertEqualsRsValue(new Integer(1), \"Select count(*) from transactions\");
+
+---------------------------Clone group no  142 for hash b3b3e6f14cdb7fd4be24d2fd52e7b481--------------------
+
+
+
+wasNull = expr.isNull();if(wasNull) return null;return DateTime.getTime( expr.getLong() );
+
+wasNull = expr.isNull();if(wasNull) return null;return DateTime.getTime( expr.getLong() );
+
+---------------------------Clone group no  143 for hash 2d3be15df802d65e717d983f34a1c27a--------------------
+
+
+
+pr.setBytes (  1, byteArray );pr.setString(  2 , \"Test\" );pr.setDate  (  3 , new Date( System.currentTimeMillis() ) );pr.setFloat (  4, (float)1234.56789 );pr.setFloat (  5 , (float)9876.54321 );pr.setBytes (  6, largeByteArray );
+
+pr.setBytes (  1, byteArray );pr.setString(  2 , \"Test\" );pr.setDate  (  3 , new Date( System.currentTimeMillis() ) );pr.setFloat (  4, (float)1234.56789 );pr.setFloat (  5 , (float)9876.54321 );pr.setBytes (  6, largeByteArray );
+
+pr.setBytes (  1, byteArray );pr.setString(  2 , \"Test\" );pr.setDate  (  3 , new Date( System.currentTimeMillis() ) );pr.setFloat (  4, (float)1234.56789 );pr.setFloat (  5 , (float)9876.54321 );pr.setBytes (  6, largeByteArray );
+
+---------------------------Clone group no  144 for hash 25c454c661f7b881be1b71dc2c0bcfbd--------------------
+
+
+
+break;case SQLTokenizer.BIGINT:case SQLTokenizer.DATE:case SQLTokenizer.TIME:case SQLTokenizer.TIMESTAMP:case SQLTokenizer.SMALLDATETIME:case SQLTokenizer.MONEY:case SQLTokenizer.SMALLMONEY:
+
+break;case SQLTokenizer.BIGINT:case SQLTokenizer.DATE:case SQLTokenizer.TIME:case SQLTokenizer.TIMESTAMP:case SQLTokenizer.SMALLDATETIME:case SQLTokenizer.MONEY:case SQLTokenizer.SMALLMONEY:
+
+---------------------------Clone group no  145 for hash e3a55573d982ec905e10c1760dd72d76--------------------
+
+
+
+case SQLTokenizer.CLOB:case SQLTokenizer.NCLOB:case SQLTokenizer.LONGNVARCHAR:case SQLTokenizer.LONGVARCHAR:
+
+case SQLTokenizer.CLOB:case SQLTokenizer.NCLOB:case SQLTokenizer.LONGNVARCHAR:case SQLTokenizer.LONGVARCHAR:
+
+case SQLTokenizer.CLOB:case SQLTokenizer.NCLOB:case SQLTokenizer.LONGNVARCHAR:case SQLTokenizer.LONGVARCHAR:
+
+case SQLTokenizer.CLOB:case SQLTokenizer.NCLOB:case SQLTokenizer.LONGNVARCHAR:case SQLTokenizer.LONGVARCHAR:
+
+case SQLTokenizer.CLOB:case SQLTokenizer.NCLOB:case SQLTokenizer.LONGNVARCHAR:case SQLTokenizer.LONGVARCHAR:
+
+case SQLTokenizer.CLOB:case SQLTokenizer.NCLOB:case SQLTokenizer.LONGNVARCHAR:case SQLTokenizer.LONGVARCHAR:
+
+case SQLTokenizer.CLOB:case SQLTokenizer.NCLOB:case SQLTokenizer.LONGNVARCHAR:case SQLTokenizer.LONGVARCHAR:
+
+case SQLTokenizer.CLOB:case SQLTokenizer.NCLOB:case SQLTokenizer.LONGNVARCHAR:case SQLTokenizer.LONGVARCHAR:
+
+case SQLTokenizer.CLOB:case SQLTokenizer.NCLOB:case SQLTokenizer.LONGNVARCHAR:case SQLTokenizer.LONGVARCHAR:
+
+case SQLTokenizer.CLOB:case SQLTokenizer.NCLOB:case SQLTokenizer.LONGNVARCHAR:case SQLTokenizer.LONGVARCHAR:
+
+case SQLTokenizer.CLOB:case SQLTokenizer.NCLOB:case SQLTokenizer.LONGNVARCHAR:case SQLTokenizer.LONGVARCHAR:
+
+case SQLTokenizer.CLOB:case SQLTokenizer.NCLOB:case SQLTokenizer.LONGNVARCHAR:case SQLTokenizer.LONGVARCHAR:
+
+case SQLTokenizer.CLOB:case SQLTokenizer.NCLOB:case SQLTokenizer.LONGNVARCHAR:case SQLTokenizer.LONGVARCHAR:
+
+case SQLTokenizer.CLOB:case SQLTokenizer.NCLOB:case SQLTokenizer.LONGNVARCHAR:case SQLTokenizer.LONGVARCHAR:
+
+---------------------------Clone group no  146 for hash 1d6cb15fd833ce14025075a3156f3e8b--------------------
+
+
+
+StringBuffer buf = new StringBuffer(bytes.length << 1);for(int i=0; i<bytes.length; i++){<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;buf.append( digits[ (bytes[i] >> 4) & 0x0F ] );<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;buf.append( digits[ (bytes[i]     ) & 0x0F ] );<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}return buf.toString();
+
+StringBuffer buf = new StringBuffer(bytes.length << 1);for(int i=0; i<bytes.length; i++){<br/>            buf.append( digits[ (bytes[i] >> 4) & 0x0F ] );<br/>            buf.append( digits[ (bytes[i]     ) & 0x0F ] );<br/>        }return buf.toString();
+
+---------------------------Clone group no  147 for hash d6cd4fa804f8ac59624ea8ac1a8d5122--------------------
+
+
+
+assertTrue( rs.next() );oldValue = rs.getBoolean(\"b\");assertFalse(oldValue);
+
+assertTrue( rs.next() );oldValue = rs.getBoolean(\"b\");assertFalse(oldValue);
+
+---------------------------Clone group no  148 for hash e6f656038f379d9f423bd0a48b800b9a--------------------
+
+
+
+String newValue = rs.getString(\"v\");assertTrue( oldValue.compareTo( newValue ) < 0 );oldValue = newValue;count++;
+
+String newValue = rs.getString(\"v\");assertTrue( oldValue.compareTo( newValue ) < 0 );oldValue = newValue;count++;
+
+---------------------------Clone group no  149 for hash 13d599ed7e5d198b1242464b6bc98aea--------------------
+
+
+
+if(isNull()) return 0;final int places = param2.getInt();double value = param1.getDouble();long factor = 1;if(places > 0){<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for(int i=0; i<places; i++){<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;factor *= 10;<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;value *= factor;<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}else{<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for(int i=0; i>places; i--){<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;factor *= 10;<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;value /= factor;<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+
+if(isNull()) return 0;final int places = param2.getInt();double value = param1.getDouble();long factor = 1;if(places > 0){<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for(int i=0; i<places; i++){<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;factor *= 10;<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;value *= factor;<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}else{<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for(int i=0; i>places; i--){<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;factor *= 10;<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;value /= factor;<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+
+---------------------------Clone group no  150 for hash 2d841df71e54cf602737d70308ef10d2--------------------
+
+
+
+node = node.getChildNode(digit);if(node == null) return null;if(nodeList != null) nodeList.add(node);
+
+node = node.getChildNode(digit);if(node == null) return null;if(nodeList != null) nodeList.add(node);
+
+---------------------------Clone group no  151 for hash e157aae03c3d8ae6d9a37b2eb9c4b779--------------------
+
+
+
+case SQLTokenizer.BINARY:case SQLTokenizer.VARBINARY:return readBinary();case SQLTokenizer.TINYINT:
+
+case SQLTokenizer.BINARY:case SQLTokenizer.VARBINARY:return readBinary();case SQLTokenizer.TINYINT:
+
+---------------------------Clone group no  152 for hash dd6827f4ccff0f52d8349c4e0a270fd8--------------------
+
+
+
+break;case SQLTokenizer.NUMERIC:case SQLTokenizer.DECIMAL:MutableNumeric newValue = expr.getNumeric();
+
+break;case SQLTokenizer.NUMERIC:case SQLTokenizer.DECIMAL:MutableNumeric newValue = expr.getNumeric();
+
+break;case SQLTokenizer.NUMERIC:case SQLTokenizer.DECIMAL:MutableNumeric newValue = expr.getNumeric();
+
+---------------------------Clone group no  153 for hash c94ee1fbf6ebe9e4ef05dd583c6e2f63--------------------
+
+
+
+Connection con = AllTests.getConnection();Statement st = con.createStatement();st.execute(\"drop table \" + table);st.close();
+
+Connection con = AllTests.getConnection();Statement st = con.createStatement();st.execute(\"drop table \" + table);st.close();
+
+Connection con = AllTests.getConnection();Statement st = con.createStatement();st.execute(\"drop table \" + table);st.close();
+
+Connection con = AllTests.getConnection();Statement st = con.createStatement();st.execute(\"drop table \" + table);st.close();
+
+---------------------------Clone group no  154 for hash 35a78080b6a7edc441e82efc02a62221--------------------
+
+
+
+MutableNumeric obj = getValue(i).getNumeric();wasNull = obj == null;if(wasNull) return null;
+
+MutableNumeric obj = getValue(i).getNumeric();wasNull = obj == null;if(wasNull) return null;
+
+---------------------------Clone group no  155 for hash 7458cec20cca083b493445829db0c62d--------------------
+
+
+
+formatNumber( details.month+1, 2, buf);formatNumber( details.day, 2, buf);return buf.toString();
+
+formatNumber( details.month+1, 2, buf);formatNumber( details.day, 2, buf);return buf.toString();
+
+---------------------------Clone group no  156 for hash c629a34210592abd0dcd54060494b0d7--------------------
+
+
+
+Expression expr = getValue(i);wasNull = expr.isNull();return expr.getLong();
+
+Expression expr = getValue(i);wasNull = expr.isNull();return expr.getLong();
+
+---------------------------Clone group no  157 for hash 1148c8d2ac7d23662fb06047307a280e--------------------
+
+
+
+assertTrue( rs.next() );oldValue = rs.getString(\"v\");int count = 1;while(oldValue != null && rs.next()){<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;String newValue = rs.getString(\"v\");<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if(newValue != null){<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;assertTrue( oldValue.compareTo( newValue ) > 0 );<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;count++;<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;oldValue = newValue;<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}assertNull(oldValue);assertFalse( rs.next() );assertEquals( valueCount, count );
+
+assertTrue( rs.next() );oldValue = rs.getString(\"v\");int count = 1;while(oldValue != null && rs.next()){<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;String newValue = rs.getString(\"v\");<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if(newValue != null){<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;assertTrue( oldValue.compareTo( newValue ) > 0 );<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;count++;<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;oldValue = newValue;<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}assertNull(oldValue);assertFalse( rs.next() );assertEquals( valueCount, count );
+
+---------------------------Clone group no  158 for hash f7723caaeecabd57f1dbc4a57d7bd801--------------------
+
+
+
+formatNumber( details.day, 2, buf);buf.append('-');formatNumber( details.month+1, 2, buf);buf.append('-');
+
+formatNumber( details.day, 2, buf);buf.append('-');formatNumber( details.month+1, 2, buf);buf.append('-');
+
+---------------------------Clone group no  159 for hash 1b9d47370ded207dbd7a4b0c3135ead3--------------------
+
+
+
+formatNumber( details.month+1, 2, buf);buf.append('-');formatNumber( details.day, 2, buf);buf.append('-');
+
+formatNumber( details.month+1, 2, buf);buf.append('-');formatNumber( details.day, 2, buf);buf.append('-');
+
+---------------------------Clone group no  160 for hash 4849179ed0b85754538f4537cc447cec--------------------
+
+
+
+case SQLTokenizer.CHAR:case SQLTokenizer.NCHAR:case SQLTokenizer.VARCHAR:case SQLTokenizer.NVARCHAR:case SQLTokenizer.LONGNVARCHAR:case SQLTokenizer.LONGVARCHAR:
+
+case SQLTokenizer.CHAR:case SQLTokenizer.NCHAR:case SQLTokenizer.VARCHAR:case SQLTokenizer.NVARCHAR:case SQLTokenizer.LONGNVARCHAR:case SQLTokenizer.LONGVARCHAR:
+
+---------------------------Clone group no  161 for hash aa7f196276d67b4e34713ff028e5ba9e--------------------
+
+
+
+formatNumber( details.hour, 2, buf);buf.append(':');formatNumber( details.minute, 2, buf);buf.append(':');formatNumber( details.second, 2, buf);return buf.toString();
+
+formatNumber( details.hour, 2, buf);buf.append(':');formatNumber( details.minute, 2, buf);buf.append(':');formatNumber( details.second, 2, buf);return buf.toString();
+
+---------------------------Clone group no  162 for hash e3bbad9f6ef845f571037c637e3e0a2e--------------------
+
+
+
+createTestDataWithClassicInsert( con );rs = st1.executeQuery( \"SELECT count(*) FROM \" + tableName);rs.next();count = rs.getInt(1);
+
+createTestDataWithClassicInsert( con );rs = st1.executeQuery( \"SELECT count(*) FROM \" + tableName);rs.next();count = rs.getInt(1);
+
+---------------------------Clone group no  163 for hash c1870de05b44693430e4de0f9b1ec0f6--------------------
+
+
+
+recreateTestTab(stat);stat.execute(\"CREATE TABLE \" + TABLE_NAME + \" (id_test INT)\");fail();
+
+recreateTestTab(stat);stat.execute(\"CREATE TABLE \" + TABLE_NAME + \" (id_test INT)\");fail();
+
+---------------------------Clone group no  164 for hash f2e9bcc602d3fe2db00901fdf17be18d--------------------
+
+
+
+raFile = Utils.openRaFile( file, database.isReadOnly() );ByteBuffer buffer = ByteBuffer.allocate(8);raFile.read(buffer);buffer.position(0);int magic   = buffer.getInt();int version = buffer.getInt();
+
+raFile = Utils.openRaFile( file, database.isReadOnly() );ByteBuffer buffer = ByteBuffer.allocate(8);raFile.read(buffer);buffer.position(0);int magic   = buffer.getInt();int version = buffer.getInt();
+
+---------------------------Clone group no  165 for hash 262f1a1197bab756d9b85fdc45e7a772--------------------
+
+
+
+case SQLTokenizer.LONGVARBINARY:case SQLTokenizer.BLOB:return readLongBinary();
+
+case SQLTokenizer.LONGVARBINARY:case SQLTokenizer.BLOB:return readLongBinary();
+
+---------------------------Clone group no  166 for hash ea65d13359650fc910d3c472c66ed8f9--------------------
+
+
+
+break;default://TODO more data types<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;throw new Error(String.valueOf(expr.getDataType()));
+
+break;default://TODO more data types<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;throw new Error(String.valueOf(expr.getDataType()));
+
+---------------------------Clone group no  167 for hash 5ca41d8c260025f3a2327b340da32cc7--------------------
+
+
+
+break;case SQLTokenizer.NUMERIC:case SQLTokenizer.DECIMAL:
+
+break;case SQLTokenizer.NUMERIC:case SQLTokenizer.DECIMAL:
+
+break;case SQLTokenizer.NUMERIC:case SQLTokenizer.DECIMAL:
+
+break;case SQLTokenizer.NUMERIC:case SQLTokenizer.DECIMAL:
+
+break;case SQLTokenizer.NUMERIC:case SQLTokenizer.DECIMAL:
+
+break;case SQLTokenizer.NUMERIC:case SQLTokenizer.DECIMAL:
+
+break;case SQLTokenizer.NUMERIC:case SQLTokenizer.DECIMAL:
+
+break;case SQLTokenizer.NUMERIC:case SQLTokenizer.DECIMAL:
+
+break;case SQLTokenizer.NUMERIC:case SQLTokenizer.DECIMAL:
+
+break;case SQLTokenizer.NUMERIC:case SQLTokenizer.DECIMAL:
+
+---------------------------Clone group no  168 for hash b3c0e5342c45babbdfc239856cc2018a--------------------
+
+
+
+batches.clear();if(failed != null)<br/>            throw failed;return result;
+
+batches.clear();if(failed != null)<br/>    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;throw failed;return result;
+
+---------------------------Clone group no  169 for hash 246a2cb8d4f65ae26c2d44c29f506e9a--------------------
+
+
+
+break;case SQLTokenizer.FLOAT:case SQLTokenizer.DOUBLE:
+
+break;case SQLTokenizer.FLOAT:case SQLTokenizer.DOUBLE:
+
+break;case SQLTokenizer.FLOAT:case SQLTokenizer.DOUBLE:
+
+break;case SQLTokenizer.FLOAT:case SQLTokenizer.DOUBLE:
+
+break;case SQLTokenizer.FLOAT:case SQLTokenizer.DOUBLE:
+
+---------------------------Clone group no  170 for hash 0c602de93ab6941a306040d03a269d87--------------------
+
+
+
+case Join.LEFT_JOIN:case Join.FULL_JOIN:isOuterValid = false;
+
+case Join.LEFT_JOIN:case Join.FULL_JOIN:isOuterValid = false;
+
+---------------------------Clone group no  171 for hash 50a7c198289bd16b28a1842afb79b8ff--------------------
+
+
+
+byte[] b = new byte[length];System.arraycopy(bytes, start, b, 0, length);return b;
+
+byte[] b = new byte[length];System.arraycopy(bytes, start, b, 0, length);return b;
+
+---------------------------Clone group no  172 for hash beae52c82b15177c3db770d135e79995--------------------
+
+
+
+int idx = internalExpressions.indexOf(expr);if(idx >= 0) return idx;internalExpressions.add(expr);return internalExpressions.size()-1;
+
+int idx = internalExpressions.indexOf(expr);if(idx >= 0) return idx;internalExpressions.add(expr);return internalExpressions.size()-1;
+
+---------------------------Clone group no  173 for hash ccddaaa0e3ce047bc9bc5fee4fbaab1d--------------------
+
+
+
+assertTrue( rs.next() );oldValue = (Integer)rs.getObject(\"i\");assertNull(oldValue);assertTrue( rs.next() );oldValue = (Integer)rs.getObject(\"i\");int count = 1;while(rs.next()){<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;assertTrue( oldValue.compareTo( (Integer)rs.getObject(\"i\") ) < 0 );<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;oldValue = (Integer)rs.getObject(\"i\");<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;count++;<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}assertEquals( valueCount, count );
+
+assertTrue( rs.next() );oldValue = (Integer)rs.getObject(\"i\");assertNull(oldValue);assertTrue( rs.next() );oldValue = (Integer)rs.getObject(\"i\");int count = 1;while(rs.next()){<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;assertTrue( oldValue.compareTo( (Integer)rs.getObject(\"i\") ) < 0 );<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;oldValue = (Integer)rs.getObject(\"i\");<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;count++;<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}assertEquals( valueCount, count );
+
+---------------------------Clone group no  174 for hash e8c5d1a20e3a6f98b6970148d2c2131a--------------------
+
+
+
+time += System.currentTimeMillis();rs = st.executeQuery( \"SELECT count(*) FROM \" + tableName);rs.next();int count = rs.getInt(1);
+
+time += System.currentTimeMillis();rs = st.executeQuery( \"SELECT count(*) FROM \" + tableName);rs.next();int count = rs.getInt(1);
+
+---------------------------Clone group no  175 for hash 24b76d061b501dced4d6a96d45bbfe18--------------------
+
+
+
+byte[] buffer = new byte[length];System.arraycopy(bytes, 0, buffer, 0, Math.min(bytes.length,length) );return buffer;
+
+byte[] buffer = new byte[length];System.arraycopy(bytes, 0, buffer, 0, Math.min(bytes.length,length) );return buffer;
+
+---------------------------Clone group no  176 for hash f1f309a57ddcbedc3f48bac3ab235e66--------------------
+
+
+
+assertEqualsRsValue(new Integer(1), \"Select count(*) from transactions\");con.rollback( savepoint );con.commit();assertEqualsRsValue(\"qwert2\", \"Select * from transactions\");assertEqualsRsValue(new Integer(1), \"Select count(*) from transactions\");
+
+assertEqualsRsValue(new Integer(1), \"Select count(*) from transactions\");con.rollback(savepoint);con.commit();assertEqualsRsValue(\"qwert2\", \"Select * from transactions\");assertEqualsRsValue(new Integer(1), \"Select count(*) from transactions\");
+
+---------------------------Clone group no  177 for hash 5a18d73b8962c97a4b704afd0b7e27f8--------------------
+
+
+
+case SQLTokenizer.BIT:case SQLTokenizer.BOOLEAN:return getBoolean() ? 1 : 0;case SQLTokenizer.TINYINT:case SQLTokenizer.SMALLINT:case SQLTokenizer.INT:return getIntImpl();case SQLTokenizer.BIGINT:return getLongImpl();case SQLTokenizer.REAL:return getFloatImpl();case SQLTokenizer.FLOAT:case SQLTokenizer.DOUBLE:case SQLTokenizer.MONEY:case SQLTokenizer.SMALLMONEY:case SQLTokenizer.NUMERIC:case SQLTokenizer.DECIMAL:
+
+case SQLTokenizer.BIT:case SQLTokenizer.BOOLEAN:return getBoolean() ? 1 : 0;case SQLTokenizer.TINYINT:case SQLTokenizer.SMALLINT:case SQLTokenizer.INT:return getIntImpl();case SQLTokenizer.BIGINT:return getLongImpl();case SQLTokenizer.REAL:return getFloatImpl();case SQLTokenizer.FLOAT:case SQLTokenizer.DOUBLE:case SQLTokenizer.MONEY:case SQLTokenizer.SMALLMONEY:case SQLTokenizer.NUMERIC:case SQLTokenizer.DECIMAL:
+
+---------------------------Clone group no  178 for hash 4a029bcb962e6db0bac424e915e3c7f2--------------------
+
+
+
+Object[][] result = new Object[rows.size()][];rows.toArray(result);return result;
+
+Object[][] result = new Object[rows.size()][];rows.toArray(result);return result;
+
+Object[][] result = new Object[rows.size()][];rows.toArray(result);return result;
+
+Object[][] result = new Object[rows.size()][];rows.toArray(result);return result;
+
+Object[][] result = new Object[rows.size()][];rows.toArray(result);return result;
+
+---------------------------Clone group no  179 for hash e244cf5f88ecc27ebfc0603dadae7961--------------------
+
+
+
+buf.append('/');formatNumber( details.month+1, 2, buf);buf.append('/');formatNumber( details.day, 2, buf);return buf.toString();
+
+buf.append('/');formatNumber( details.month+1, 2, buf);buf.append('/');formatNumber( details.day, 2, buf);return buf.toString();
+
+---------------------------Clone group no  180 for hash f394f04c0042c379cc36df2010ac18aa--------------------
+
+
+
+break;case SQLTokenizer.NCHAR:case SQLTokenizer.CHAR:
+
+break;case SQLTokenizer.NCHAR:case SQLTokenizer.CHAR:
+
+---------------------------Clone group no  181 for hash 54392023ee03c3971677ebb3b157a77d--------------------
+
+
+
+break;case SQLTokenizer.DOUBLE:case SQLTokenizer.FLOAT:
+
+break;case SQLTokenizer.DOUBLE:case SQLTokenizer.FLOAT:
+
+---------------------------Clone group no  182 for hash c495c8fff3fa2cc9567a5ce61b82a953--------------------
+
+
+
+byte[] b = new byte[length];System.arraycopy(bytes, 0, b, 0, length);return b;
+
+byte[] b = new byte[length];System.arraycopy(bytes, 0, b, 0, length);return b;
+
+---------------------------Clone group no  183 for hash f92a815b59ce9491cce2109c7924d1a5--------------------
+
+
+
+case SQLTokenizer.BINARY:case SQLTokenizer.VARBINARY:case SQLTokenizer.LONGVARBINARY:case SQLTokenizer.BLOB:
+
+case SQLTokenizer.BINARY:case SQLTokenizer.VARBINARY:case SQLTokenizer.LONGVARBINARY:case SQLTokenizer.BLOB:
+
+case SQLTokenizer.BINARY:case SQLTokenizer.VARBINARY:case SQLTokenizer.LONGVARBINARY:case SQLTokenizer.BLOB:
+
+---------------------------Clone group no  184 for hash 527780aa5ecf9fa06cccf33a24484bea--------------------
+
+
+
+case SQLTokenizer.TIMESTAMP:case SQLTokenizer.TIME:case SQLTokenizer.DATE:case SQLTokenizer.SMALLDATETIME:return ((DateTime)obj).getTimeMillis();default:
+
+case SQLTokenizer.TIMESTAMP:case SQLTokenizer.TIME:case SQLTokenizer.DATE:case SQLTokenizer.SMALLDATETIME:return ((DateTime)obj).getTimeMillis();default:
+
+case SQLTokenizer.TIMESTAMP:case SQLTokenizer.TIME:case SQLTokenizer.DATE:case SQLTokenizer.SMALLDATETIME:return ((DateTime)obj).getTimeMillis();default:
+
+---------------------------Clone group no  185 for hash b6c83ca80c980f75b76bf5361714bc9b--------------------
+
+
+
+assertRowCount( 4, \"Select * from transactions\");con.commit();assertRowCount( 4, \"Select * from transactions\");
+
+assertRowCount( 4, \"Select * from transactions\");con.commit();assertRowCount( 4, \"Select * from transactions\");
+
+---------------------------Clone group no  186 for hash ed3185b585b39246f07cb55446984ba0--------------------
+
+
+
+case SQLTokenizer.TIMESTAMP:case SQLTokenizer.TIME:case SQLTokenizer.DATE:case SQLTokenizer.SMALLDATETIME:
+
+case SQLTokenizer.TIMESTAMP:case SQLTokenizer.TIME:case SQLTokenizer.DATE:case SQLTokenizer.SMALLDATETIME:
+
+case SQLTokenizer.TIMESTAMP:case SQLTokenizer.TIME:case SQLTokenizer.DATE:case SQLTokenizer.SMALLDATETIME:
+
+case SQLTokenizer.TIMESTAMP:case SQLTokenizer.TIME:case SQLTokenizer.DATE:case SQLTokenizer.SMALLDATETIME:
+
+case SQLTokenizer.TIMESTAMP:case SQLTokenizer.TIME:case SQLTokenizer.DATE:case SQLTokenizer.SMALLDATETIME:
+
+case SQLTokenizer.TIMESTAMP:case SQLTokenizer.TIME:case SQLTokenizer.DATE:case SQLTokenizer.SMALLDATETIME:
+
+case SQLTokenizer.TIMESTAMP:case SQLTokenizer.TIME:case SQLTokenizer.DATE:case SQLTokenizer.SMALLDATETIME:
+
+---------------------------Clone group no  187 for hash 49666d3e641f77a4131befe000dd0aac--------------------
+
+
+
+buf.append('-');formatNumber( details.year % 100, 2, buf);return buf.toString();
+
+buf.append('-');formatNumber( details.year % 100, 2, buf);return buf.toString();
+
+---------------------------Clone group no  188 for hash 2412ec7e65d5011d35e842a97527da65--------------------
+
+
+
+assertRowCount( 0, \"Select * from transactions\");con.createStatement().execute(\"Insert Into transactions(v) Values('qwert')\");assertRowCount( 1, \"Select * from transactions\");con.createStatement().execute(\"Insert Into transactions(v) Select v From transactions\");assertRowCount( 2, \"Select * from transactions\");
+
+assertRowCount( 0, \"Select * from transactions\");con.createStatement().execute(\"Insert Into transactions(v) Values('qwert')\");assertRowCount( 1, \"Select * from transactions\");con.createStatement().execute(\"Insert Into transactions(v) Select v From transactions\");assertRowCount( 2, \"Select * from transactions\");
+
+---------------------------Clone group no  189 for hash 202ced9777f4567cf724c0e8b401c4cb--------------------
+
+
+
+con.setAutoCommit(false);con.createStatement().execute(\"Create Table transactions (i int identity, v varchar(20))\");assertRowCount( 0, \"Select * from transactions\");con.createStatement().execute(\"Insert Into transactions(v) Values('qwert')\");
+
+con.setAutoCommit(false);con.createStatement().execute(\"Create Table transactions (i int identity, v varchar(20))\");assertRowCount( 0, \"Select * from transactions\");con.createStatement().execute(\"Insert Into transactions(v) Values('qwert')\");
+
+---------------------------Clone group no  190 for hash 9fc7dbff7500ea2eb7b72336e29f748d--------------------
+
+
+
+assertTrue(rs.next());assertEquals(\"Columnname:\", \"id1\", rs.getString(\"COLUMN_NAME\"));assertFalse(rs.next());
+
+assertTrue(rs.next());assertEquals(\"Columnname:\", \"id1\", rs.getString(\"COLUMN_NAME\"));assertFalse(rs.next());
+
+assertTrue(rs.next());assertEquals(\"Columnname:\", \"id1\", rs.getString(\"COLUMN_NAME\"));assertFalse(rs.next());
+
+---------------------------Clone group no  191 for hash b253dceab4fbc85be06bdf20524a4227--------------------
+
+
+
+String tableName = tables.get(t);TableView tab = getTableView( con, tableName);if(!(tab instanceof Table)) continue;IndexDescriptions indexes = ((Table)tab).indexes;
+
+String tableName = tables.get(t);TableView tab = getTableView( con, tableName);if(!(tab instanceof Table)) continue;IndexDescriptions indexes = ((Table)tab).indexes;
+
+String tableName = tables.get(t);TableView tab = getTableView( con, tableName);if(!(tab instanceof Table)) continue;IndexDescriptions indexes = ((Table)tab).indexes;
+
+---------------------------Clone group no  192 for hash 66e783c171750d7e7eb5510d100702d4--------------------
+
+
+
+case SQLTokenizer.CHAR:case SQLTokenizer.NCHAR:case SQLTokenizer.VARCHAR:case SQLTokenizer.NVARCHAR:return readString();case SQLTokenizer.CLOB:case SQLTokenizer.NCLOB:case SQLTokenizer.LONGNVARCHAR:case SQLTokenizer.LONGVARCHAR:return readLongString();case SQLTokenizer.JAVA_OBJECT:ByteArrayInputStream bais = new ByteArrayInputStream(readLongBinary());ObjectInputStream ois = new ObjectInputStream(bais);
+
+case SQLTokenizer.CHAR:case SQLTokenizer.NCHAR:case SQLTokenizer.VARCHAR:case SQLTokenizer.NVARCHAR:return readString();case SQLTokenizer.CLOB:case SQLTokenizer.NCLOB:case SQLTokenizer.LONGNVARCHAR:case SQLTokenizer.LONGVARCHAR:return readLongString();case SQLTokenizer.JAVA_OBJECT:ByteArrayInputStream bais = new ByteArrayInputStream(readLongBinary());ObjectInputStream ois = new ObjectInputStream(bais);
+
+---------------------------Clone group no  193 for hash ce4c9da61641d85059f259f4bd648992--------------------
+
+
+
+assertRSMetaData(rs, colNames, colTypes);assertTrue(rs.next());assertFalse(rs.next());
+
+assertRSMetaData(rs, colNames, colTypes);assertTrue(rs.next());assertFalse(rs.next());
+
+assertRSMetaData(rs, colNames, colTypes);assertTrue(rs.next());assertFalse(rs.next());
+
+---------------------------Clone group no  194 for hash 7020a73ab4d2665fc4249cd142e22230--------------------
+
+
+
+rs = st.getGeneratedKeys();assertNotNull(\"RETURN_GENERATED_KEYS\", rs);assertEquals(\"ColumnCount\",2,rs.getMetaData().getColumnCount());assertRowCount(1,rs);
+
+rs = st.getGeneratedKeys();assertNotNull(\"RETURN_GENERATED_KEYS\", rs);assertEquals(\"ColumnCount\",2,rs.getMetaData().getColumnCount());assertRowCount(1,rs);
+
+---------------------------Clone group no  195 for hash b2113c163ab1de7cfabdf1e927bec9d9--------------------
+
+
+
+formatNumber( details.day, 2, buf);buf.append('/');formatNumber( details.month+1, 2, buf);buf.append('/');formatNumber( details.year % 100, 2, buf);
+
+formatNumber( details.day, 2, buf);buf.append('/');formatNumber( details.month+1, 2, buf);buf.append('/');formatNumber( details.year % 100, 2, buf);
+
+---------------------------Clone group no  196 for hash 90e57c39e3fb248395cc47b81fd75732--------------------
+
+
+
+int mid = start + (end - start)/2;char nodeDigit = nodes[mid].digit;if(nodeDigit == digit) return mid;
+
+int mid = start + (end - start)/2;char nodeDigit = nodes[mid].digit;if(nodeDigit == digit) return mid;
+
+---------------------------Clone group no  197 for hash 3d0208342cda3f8b339043d7c674fb46--------------------
+
+
+
+formatNumber( details.day, 2, buf);buf.append('.');formatNumber( details.month+1, 2, buf);buf.append('.');
+
+formatNumber( details.day, 2, buf);buf.append('.');formatNumber( details.month+1, 2, buf);buf.append('.');
+
+---------------------------Clone group no  198 for hash 4c88d4e067eda16dfe2d1ba19999b2c8--------------------
+
+
+
+assertFalse( rs.isBeforeFirst() );assertTrue( rs.isFirst() );assertTrue( rs.isLast() );assertFalse( rs.isAfterLast() );
+
+assertFalse( rs.isBeforeFirst() );assertTrue( rs.isFirst() );assertTrue( rs.isLast() );assertFalse( rs.isAfterLast() );
+
+assertFalse( rs.isBeforeFirst() );assertTrue( rs.isFirst() );assertTrue( rs.isLast() );assertFalse( rs.isAfterLast() );
+
+assertFalse( rs.isBeforeFirst() );assertTrue( rs.isFirst() );assertTrue( rs.isLast() );assertFalse( rs.isAfterLast() );
+
+---------------------------Clone group no  199 for hash c37c24d336c1c8f8e2c182ffa82a9f1c--------------------
+
+
+
+buf.append( SHORT_MONTHS[ details.month ]);buf.append(' ');formatNumber( details.day, 2, buf);buf.append(',');buf.append(' ');
+
+buf.append( SHORT_MONTHS[ details.month ]);buf.append(' ');formatNumber( details.day, 2, buf);buf.append(',');buf.append(' ');
+
+---------------------------Clone group no  200 for hash 4f74ce9e9a21144ec96e2ebab0acb01c--------------------
+
+
+
+assertEquals(0, rs.getRow());assertFalse(rs.isLast());assertFalse(rs.isFirst());assertTrue(rs.isBeforeFirst());assertFalse(rs.isAfterLast());
+
+assertEquals(0, rs.getRow());assertFalse(rs.isLast());assertFalse(rs.isFirst());assertTrue(rs.isBeforeFirst());assertFalse(rs.isAfterLast());
+
+---------------------------Clone group no  201 for hash a015e4f61ff2276ce3530c0637db7c29--------------------
+
+
+
+case SQLTokenizer.BIT:case SQLTokenizer.BOOLEAN:return (obj == Boolean.TRUE) ? 1 : 0;case SQLTokenizer.TINYINT:case SQLTokenizer.SMALLINT:case SQLTokenizer.INT:case SQLTokenizer.BIGINT:
+
+case SQLTokenizer.BIT:case SQLTokenizer.BOOLEAN:return (obj == Boolean.TRUE) ? 1 : 0;case SQLTokenizer.TINYINT:case SQLTokenizer.SMALLINT:case SQLTokenizer.INT:case SQLTokenizer.BIGINT:
+
+---------------------------Clone group no  202 for hash 4e2915ec66789c621fdbf3ef8c479e36--------------------
+
+
+
+assertTrue( rs.next() );oldValue = rs.getString(\"v\");int count = 1;
+
+assertTrue( rs.next() );oldValue = rs.getString(\"v\");int count = 1;
+
+assertTrue( rs.next() );oldValue = rs.getString(\"v\");int count = 1;
+
+assertTrue( rs.next() );oldValue = rs.getString(\"v\");int count = 1;
+
+assertTrue( rs.next() );oldValue = rs.getString(\"v\");int count = 1;
+
+---------------------------Clone group no  203 for hash 061bd9794367c882e891b1defd292ba3--------------------
+
+
+
+MutableNumeric obj = getValue(columnIndex).getNumeric();wasNull = obj == null;if(wasNull) return null;
+
+MutableNumeric obj = getValue(columnIndex).getNumeric();wasNull = obj == null;if(wasNull) return null;

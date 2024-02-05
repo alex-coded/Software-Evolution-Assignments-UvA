@@ -1,0 +1,260 @@
+{
+  "name": "smallsql",
+  "children": [
+    {
+      "name": "smallsql",
+      "children": [
+        {
+          "name": "database",
+          "children": [
+            {
+              "name": "CommandTable.java",
+              "size": 3
+            },
+            {
+              "name": "SSStatement.java",
+              "size": 4
+            },
+            {
+              "name": "ExpressionFunctionRight.java",
+              "size": 8
+            },
+            {
+              "name": "LongTreeList.java",
+              "size": 28
+            },
+            {
+              "name": "ExpressionFunctionTruncate.java",
+              "size": 15
+            },
+            {
+              "name": "ExpressionFunctionConvert.java",
+              "size": 6
+            },
+            {
+              "name": "ExpressionFunctionAbs.java",
+              "size": 6
+            },
+            {
+              "name": "SQLToken.java",
+              "size": 6
+            },
+            {
+              "name": "MutableNumeric.java",
+              "size": 6
+            },
+            {
+              "name": "ExpressionValue.java",
+              "size": 194
+            },
+            {
+              "name": "SSCallableStatement.java",
+              "size": 36
+            },
+            {
+              "name": "View.java",
+              "size": 3
+            },
+            {
+              "name": "SSResultSetMetaData.java",
+              "size": 38
+            },
+            {
+              "name": "IndexNode.java",
+              "size": 6
+            },
+            {
+              "name": "ExpressionArithmetic.java",
+              "size": 154
+            },
+            {
+              "name": "ExpressionFunctionReturnP1.java",
+              "size": 9
+            },
+            {
+              "name": "TableView.java",
+              "size": 6
+            },
+            {
+              "name": "Index.java",
+              "size": 77
+            },
+            {
+              "name": "SSPreparedStatement.java",
+              "size": 4
+            },
+            {
+              "name": "Utils.java",
+              "size": 6
+            },
+            {
+              "name": "IndexScrollStatus.java",
+              "size": 12
+            },
+            {
+              "name": "Table.java",
+              "size": 26
+            },
+            {
+              "name": "Database.java",
+              "size": 27
+            },
+            {
+              "name": "SQLParser.java",
+              "size": 75
+            },
+            {
+              "name": "DateTime.java",
+              "size": 236
+            },
+            {
+              "name": "ExpressionFunctionLeft.java",
+              "size": 11
+            },
+            {
+              "name": "CommandSet.java",
+              "size": 3
+            },
+            {
+              "name": "JoinScroll.java",
+              "size": 12
+            },
+            {
+              "name": "SSResultSet.java",
+              "size": 42
+            },
+            {
+              "name": "ExpressionFunctionRTrim.java",
+              "size": 3
+            },
+            {
+              "name": "CommandInsert.java",
+              "size": 6
+            },
+            {
+              "name": "StoreImpl.java",
+              "size": 309
+            },
+            {
+              "name": "ExpressionFunctionSubstring.java",
+              "size": 3
+            },
+            {
+              "name": "ExpressionFunctionSign.java",
+              "size": 10
+            },
+            {
+              "name": "ExpressionFunctionLTrim.java",
+              "size": 3
+            },
+            {
+              "name": "ExpressionFunctionRound.java",
+              "size": 15
+            },
+            {
+              "name": "IndexDescription.java",
+              "size": 6
+            },
+            {
+              "name": "GroupResult.java",
+              "size": 8
+            },
+            {
+              "name": "ExpressionFunctionReturnFloat.java",
+              "size": 3
+            },
+            {
+              "name": "SQLTokenizer.java",
+              "size": 8
+            }
+          ]
+        },
+        {
+          "name": "junit",
+          "children": [
+            {
+              "name": "TestExceptions.java",
+              "size": 7
+            },
+            {
+              "name": "TestFunctions.java",
+              "size": 4
+            },
+            {
+              "name": "TestOperatoren.java",
+              "size": 58
+            },
+            {
+              "name": "TestJoins.java",
+              "size": 10
+            },
+            {
+              "name": "TestThreads.java",
+              "size": 16
+            },
+            {
+              "name": "TestDBMetaData.java",
+              "size": 28
+            },
+            {
+              "name": "TestResultSet.java",
+              "size": 68
+            },
+            {
+              "name": "TestOrderBy.java",
+              "size": 313
+            },
+            {
+              "name": "TestScrollable.java",
+              "size": 52
+            },
+            {
+              "name": "BasicTestCase.java",
+              "size": 25
+            },
+            {
+              "name": "TestAlterTable2.java",
+              "size": 8
+            },
+            {
+              "name": "BenchTest.java",
+              "size": 169
+            },
+            {
+              "name": "TestLanguage.java",
+              "size": 6
+            },
+            {
+              "name": "TestMoneyRounding.java",
+              "size": 10
+            },
+            {
+              "name": "TestAlterTable.java",
+              "size": 8
+            },
+            {
+              "name": "TestTransactions.java",
+              "size": 136
+            },
+            {
+              "name": "TestDeleteUpdate.java",
+              "size": 6
+            },
+            {
+              "name": "TestOther.java",
+              "size": 27
+            },
+            {
+              "name": "TestStatement.java",
+              "size": 54
+            },
+            {
+              "name": "TestDataTypes.java",
+              "size": 13
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

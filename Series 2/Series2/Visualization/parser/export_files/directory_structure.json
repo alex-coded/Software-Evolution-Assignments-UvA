@@ -1,0 +1,2458 @@
+{
+    "name": "flare",
+    "children": [
+        {
+            "name": "hsqldb",
+            "children": [
+                {
+                    "name": "integration",
+                    "children": [
+                        {
+                            "name": "hibernate",
+                            "children": [
+                                {
+                                    "name": "src",
+                                    "children": [
+                                        {
+                                            "name": "org",
+                                            "children": [
+                                                {
+                                                    "name": "hibernate",
+                                                    "children": [
+                                                        {
+                                                            "name": "dialect",
+                                                            "children": [
+                                                                {
+                                                                    "name": "HSQLDialect.java",
+                                                                    "size": 31824
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "hibernate_3_3_1",
+                            "children": [
+                                {
+                                    "name": "src",
+                                    "children": [
+                                        {
+                                            "name": "org",
+                                            "children": [
+                                                {
+                                                    "name": "hibernate",
+                                                    "children": [
+                                                        {
+                                                            "name": "dialect",
+                                                            "children": [
+                                                                {
+                                                                    "name": "HSQLDialect.java",
+                                                                    "size": 25705
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "extAuthWithSpring",
+                            "children": [
+                                {
+                                    "name": "src",
+                                    "children": [
+                                        {
+                                            "name": "org",
+                                            "children": [
+                                                {
+                                                    "name": "hsqldb",
+                                                    "children": [
+                                                        {
+                                                            "name": "sample",
+                                                            "children": [
+                                                                {
+                                                                    "name": "SpringExtAuth.java",
+                                                                    "size": 7590
+                                                                },
+                                                                {
+                                                                    "name": "JdbcAppClass.java",
+                                                                    "size": 4140
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "doc",
+                    "children": [
+                        {
+                            "name": "verbatim",
+                            "children": [
+                                {
+                                    "name": "src",
+                                    "children": [
+                                        {
+                                            "name": "org",
+                                            "children": [
+                                                {
+                                                    "name": "hsqldb",
+                                                    "children": [
+                                                        {
+                                                            "name": "Tokens.java",
+                                                            "size": 148590
+                                                        },
+                                                        {
+                                                            "name": "test",
+                                                            "children": [
+                                                                {
+                                                                    "name": "TestBase.java",
+                                                                    "size": 6503
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "name": "server",
+                                                            "children": [
+                                                                {
+                                                                    "name": "WebServer.java",
+                                                                    "size": 10672
+                                                                },
+                                                                {
+                                                                    "name": "Servlet.java",
+                                                                    "size": 13951
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "name": "Trigger.java",
+                                                            "size": 4661
+                                                        },
+                                                        {
+                                                            "name": "sample",
+                                                            "children": [
+                                                                {
+                                                                    "name": "SqlFileEmbedder.java",
+                                                                    "size": 5579
+                                                                },
+                                                                {
+                                                                    "name": "Testdb.java",
+                                                                    "size": 7681
+                                                                },
+                                                                {
+                                                                    "name": "TriggerSample.java",
+                                                                    "size": 18247
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "src",
+                    "children": [
+                        {
+                            "name": "org",
+                            "children": [
+                                {
+                                    "name": "hsqldb",
+                                    "children": [
+                                        {
+                                            "name": "DatabaseManager.java",
+                                            "size": 16561
+                                        },
+                                        {
+                                            "name": "TransactionManager.java",
+                                            "size": 4211
+                                        },
+                                        {
+                                            "name": "RowDiskDataChange.java",
+                                            "size": 5534
+                                        },
+                                        {
+                                            "name": "ColumnSchema.java",
+                                            "size": 11549
+                                        },
+                                        {
+                                            "name": "RowAVLDiskLarge.java",
+                                            "size": 3347
+                                        },
+                                        {
+                                            "name": "StatementSession.java",
+                                            "size": 26227
+                                        },
+                                        {
+                                            "name": "TableWorks.java",
+                                            "size": 46195
+                                        },
+                                        {
+                                            "name": "TransactionManagerCommon.java",
+                                            "size": 24605
+                                        },
+                                        {
+                                            "name": "RoutineSchema.java",
+                                            "size": 10095
+                                        },
+                                        {
+                                            "name": "types",
+                                            "children": [
+                                                {
+                                                    "name": "BitType.java",
+                                                    "size": 17135
+                                                },
+                                                {
+                                                    "name": "NumberType.java",
+                                                    "size": 59140
+                                                },
+                                                {
+                                                    "name": "LobData.java",
+                                                    "size": 2038
+                                                },
+                                                {
+                                                    "name": "IntervalMonthData.java",
+                                                    "size": 3546
+                                                },
+                                                {
+                                                    "name": "BlobData.java",
+                                                    "size": 3218
+                                                },
+                                                {
+                                                    "name": "Type.java",
+                                                    "size": 39797
+                                                },
+                                                {
+                                                    "name": "NullType.java",
+                                                    "size": 3541
+                                                },
+                                                {
+                                                    "name": "OtherType.java",
+                                                    "size": 5118
+                                                },
+                                                {
+                                                    "name": "BinaryData.java",
+                                                    "size": 9113
+                                                },
+                                                {
+                                                    "name": "Charset.java",
+                                                    "size": 8007
+                                                },
+                                                {
+                                                    "name": "BlobInputStream.java",
+                                                    "size": 4773
+                                                },
+                                                {
+                                                    "name": "BinaryType.java",
+                                                    "size": 24328
+                                                },
+                                                {
+                                                    "name": "BlobDataID.java",
+                                                    "size": 7759
+                                                },
+                                                {
+                                                    "name": "RowType.java",
+                                                    "size": 12112
+                                                },
+                                                {
+                                                    "name": "DateTimeType.java",
+                                                    "size": 61479
+                                                },
+                                                {
+                                                    "name": "BlobType.java",
+                                                    "size": 8629
+                                                },
+                                                {
+                                                    "name": "ClobInputStream.java",
+                                                    "size": 5139
+                                                },
+                                                {
+                                                    "name": "ClobDataID.java",
+                                                    "size": 8020
+                                                },
+                                                {
+                                                    "name": "IntervalSecondData.java",
+                                                    "size": 5653
+                                                },
+                                                {
+                                                    "name": "ClobData.java",
+                                                    "size": 3132
+                                                },
+                                                {
+                                                    "name": "Collation.java",
+                                                    "size": 17941
+                                                },
+                                                {
+                                                    "name": "DTIType.java",
+                                                    "size": 16129
+                                                },
+                                                {
+                                                    "name": "IntervalType.java",
+                                                    "size": 53980
+                                                },
+                                                {
+                                                    "name": "JavaObjectData.java",
+                                                    "size": 4698
+                                                },
+                                                {
+                                                    "name": "Types.java",
+                                                    "size": 29163
+                                                },
+                                                {
+                                                    "name": "ClobType.java",
+                                                    "size": 6551
+                                                },
+                                                {
+                                                    "name": "BooleanType.java",
+                                                    "size": 8487
+                                                },
+                                                {
+                                                    "name": "UserTypeModifier.java",
+                                                    "size": 6802
+                                                },
+                                                {
+                                                    "name": "CharacterType.java",
+                                                    "size": 33764
+                                                },
+                                                {
+                                                    "name": "TimeData.java",
+                                                    "size": 3106
+                                                },
+                                                {
+                                                    "name": "ArrayType.java",
+                                                    "size": 13677
+                                                },
+                                                {
+                                                    "name": "TimestampData.java",
+                                                    "size": 3242
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "Tokens.java",
+                                            "size": 148590
+                                        },
+                                        {
+                                            "name": "result",
+                                            "children": [
+                                                {
+                                                    "name": "ResultLob.java",
+                                                    "size": 22196
+                                                },
+                                                {
+                                                    "name": "ResultMetaData.java",
+                                                    "size": 16421
+                                                },
+                                                {
+                                                    "name": "ResultProperties.java",
+                                                    "size": 5818
+                                                },
+                                                {
+                                                    "name": "Result.java",
+                                                    "size": 48879
+                                                },
+                                                {
+                                                    "name": "ResultConstants.java",
+                                                    "size": 23621
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "StatementQuery.java",
+                                            "size": 4026
+                                        },
+                                        {
+                                            "name": "StatementResultUpdate.java",
+                                            "size": 8087
+                                        },
+                                        {
+                                            "name": "SchemaManager.java",
+                                            "size": 86257
+                                        },
+                                        {
+                                            "name": "StatementSchemaDefinition.java",
+                                            "size": 8713
+                                        },
+                                        {
+                                            "name": "ClientConnection.java",
+                                            "size": 19332
+                                        },
+                                        {
+                                            "name": "ClientConnectionHTTP.java",
+                                            "size": 6134
+                                        },
+                                        {
+                                            "name": "StatementDML.java",
+                                            "size": 57323
+                                        },
+                                        {
+                                            "name": "Statement.java",
+                                            "size": 7088
+                                        },
+                                        {
+                                            "name": "ParserCommand.java",
+                                            "size": 66535
+                                        },
+                                        {
+                                            "name": "StatementProcedure.java",
+                                            "size": 12274
+                                        },
+                                        {
+                                            "name": "test",
+                                            "children": [
+                                                {
+                                                    "name": "Waiter.java",
+                                                    "size": 4631
+                                                },
+                                                {
+                                                    "name": "AllTests.java",
+                                                    "size": 4231
+                                                },
+                                                {
+                                                    "name": "TestTypeConversion.java",
+                                                    "size": 6389
+                                                },
+                                                {
+                                                    "name": "TestCollation.java",
+                                                    "size": 8835
+                                                },
+                                                {
+                                                    "name": "TestSchemaParse.java",
+                                                    "size": 48768
+                                                },
+                                                {
+                                                    "name": "TestHSQLDB.java",
+                                                    "size": 3978
+                                                },
+                                                {
+                                                    "name": "TestMultipleConnections.java",
+                                                    "size": 3378
+                                                },
+                                                {
+                                                    "name": "TestScripts.java",
+                                                    "size": 7207
+                                                },
+                                                {
+                                                    "name": "AbstractTestOdbc.java",
+                                                    "size": 8661
+                                                },
+                                                {
+                                                    "name": "TestKarl.java",
+                                                    "size": 9049
+                                                },
+                                                {
+                                                    "name": "TestDataStructures.java",
+                                                    "size": 16728
+                                                },
+                                                {
+                                                    "name": "TestSubselect.java",
+                                                    "size": 17263
+                                                },
+                                                {
+                                                    "name": "TestTextTables.java",
+                                                    "size": 8067
+                                                },
+                                                {
+                                                    "name": "TestDateTime.java",
+                                                    "size": 12299
+                                                },
+                                                {
+                                                    "name": "TestMultiInsert.java",
+                                                    "size": 5693
+                                                },
+                                                {
+                                                    "name": "TestLobs.java",
+                                                    "size": 32196
+                                                },
+                                                {
+                                                    "name": "TestJDBCSavepoints.java",
+                                                    "size": 18216
+                                                },
+                                                {
+                                                    "name": "TestBatchBug.java",
+                                                    "size": 7410
+                                                },
+                                                {
+                                                    "name": "TestUpdatableResultSets.java",
+                                                    "size": 9098
+                                                },
+                                                {
+                                                    "name": "TestTextTable.java",
+                                                    "size": 19678
+                                                },
+                                                {
+                                                    "name": "TestTriggers.java",
+                                                    "size": 5237
+                                                },
+                                                {
+                                                    "name": "TestMerge.java",
+                                                    "size": 14275
+                                                },
+                                                {
+                                                    "name": "TestAcl.java",
+                                                    "size": 13844
+                                                },
+                                                {
+                                                    "name": "TestScriptRunner.java",
+                                                    "size": 15060
+                                                },
+                                                {
+                                                    "name": "TestViewAsterisks.java",
+                                                    "size": 24043
+                                                },
+                                                {
+                                                    "name": "TestAllTypes.java",
+                                                    "size": 16906
+                                                },
+                                                {
+                                                    "name": "TestBug1191815.java",
+                                                    "size": 4111
+                                                },
+                                                {
+                                                    "name": "TestSqlPersistent.java",
+                                                    "size": 21242
+                                                },
+                                                {
+                                                    "name": "TestStoredProcedure.java",
+                                                    "size": 17709
+                                                },
+                                                {
+                                                    "name": "TestCascade.java",
+                                                    "size": 7114
+                                                },
+                                                {
+                                                    "name": "TestInstantiation.java",
+                                                    "size": 2936
+                                                },
+                                                {
+                                                    "name": "TestPreparedSubQueries.java",
+                                                    "size": 9525
+                                                },
+                                                {
+                                                    "name": "ClearTests.java",
+                                                    "size": 2265
+                                                },
+                                                {
+                                                    "name": "TestQuotes.java",
+                                                    "size": 5332
+                                                },
+                                                {
+                                                    "name": "TestSql.java",
+                                                    "size": 32040
+                                                },
+                                                {
+                                                    "name": "AllSimpleTests.java",
+                                                    "size": 2819
+                                                },
+                                                {
+                                                    "name": "TestBug785429.java",
+                                                    "size": 5571
+                                                },
+                                                {
+                                                    "name": "TestBatchExecution.java",
+                                                    "size": 14758
+                                                },
+                                                {
+                                                    "name": "HsqldbTestCase.java",
+                                                    "size": 5811
+                                                },
+                                                {
+                                                    "name": "JDBCBench.java",
+                                                    "size": 34570
+                                                },
+                                                {
+                                                    "name": "TestOdbcService.java",
+                                                    "size": 14956
+                                                },
+                                                {
+                                                    "name": "TestSubQueriesInPreparedStatements.java",
+                                                    "size": 4950
+                                                },
+                                                {
+                                                    "name": "TestDatetimeSimple.java",
+                                                    "size": 11358
+                                                },
+                                                {
+                                                    "name": "TriggerClass.java",
+                                                    "size": 2363
+                                                },
+                                                {
+                                                    "name": "TestHTTPKeepAlive.java",
+                                                    "size": 6382
+                                                },
+                                                {
+                                                    "name": "TestBug808460.java",
+                                                    "size": 3090
+                                                },
+                                                {
+                                                    "name": "TestNitin.java",
+                                                    "size": 3223
+                                                },
+                                                {
+                                                    "name": "TestObjectSize.java",
+                                                    "size": 2866
+                                                },
+                                                {
+                                                    "name": "TestUtil.java",
+                                                    "size": 42478
+                                                },
+                                                {
+                                                    "name": "TestOdbcTypes.java",
+                                                    "size": 64366
+                                                },
+                                                {
+                                                    "name": "TestPreparedStatements.java",
+                                                    "size": 8213
+                                                },
+                                                {
+                                                    "name": "TestDatabaseMetaData.java",
+                                                    "size": 11297
+                                                },
+                                                {
+                                                    "name": "TestJavaFunctions.java",
+                                                    "size": 6880
+                                                },
+                                                {
+                                                    "name": "TestLikePredicateOptimizations.java",
+                                                    "size": 9018
+                                                },
+                                                {
+                                                    "name": "TestDbBackup.java",
+                                                    "size": 22987
+                                                },
+                                                {
+                                                    "name": "BlaineTrig.java",
+                                                    "size": 1946
+                                                },
+                                                {
+                                                    "name": "TestLibSpeed.java",
+                                                    "size": 7909
+                                                },
+                                                {
+                                                    "name": "TestCacheSize.java",
+                                                    "size": 34484
+                                                },
+                                                {
+                                                    "name": "TestBase.java",
+                                                    "size": 6503
+                                                },
+                                                {
+                                                    "name": "TestJDBCGeneratedColumns.java",
+                                                    "size": 7858
+                                                },
+                                                {
+                                                    "name": "TestHashStructures.java",
+                                                    "size": 18361
+                                                },
+                                                {
+                                                    "name": "TestScript.java",
+                                                    "size": 4446
+                                                },
+                                                {
+                                                    "name": "TestNullInUnion.java",
+                                                    "size": 3677
+                                                },
+                                                {
+                                                    "name": "TestHarness.java",
+                                                    "size": 8340
+                                                },
+                                                {
+                                                    "name": "TestBug778213.java",
+                                                    "size": 5895
+                                                },
+                                                {
+                                                    "name": "TestUpdatableResults.java",
+                                                    "size": 3480
+                                                },
+                                                {
+                                                    "name": "TestDima.java",
+                                                    "size": 9739
+                                                },
+                                                {
+                                                    "name": "TestStressInsert.java",
+                                                    "size": 6724
+                                                },
+                                                {
+                                                    "name": "TestBench.java",
+                                                    "size": 34593
+                                                },
+                                                {
+                                                    "name": "TestINPredicateParameterizationAndCorrelation.java",
+                                                    "size": 6489
+                                                },
+                                                {
+                                                    "name": "HSQLBug.java",
+                                                    "size": 4440
+                                                },
+                                                {
+                                                    "name": "TestGroupByHaving.java",
+                                                    "size": 12644
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "RangeVariable.java",
+                                            "size": 61102
+                                        },
+                                        {
+                                            "name": "ParserDQL.java",
+                                            "size": 183447
+                                        },
+                                        {
+                                            "name": "StatementTypes.java",
+                                            "size": 13043
+                                        },
+                                        {
+                                            "name": "util",
+                                            "children": [
+                                                {
+                                                    "name": "DatabaseManager.java",
+                                                    "size": 41225
+                                                },
+                                                {
+                                                    "name": "Tree.java",
+                                                    "size": 13608
+                                                },
+                                                {
+                                                    "name": "ConnectionDialogSwing.java",
+                                                    "size": 13609
+                                                },
+                                                {
+                                                    "name": "ConnectionDialogCommon.java",
+                                                    "size": 11247
+                                                },
+                                                {
+                                                    "name": "ConnectionDialog.java",
+                                                    "size": 10905
+                                                },
+                                                {
+                                                    "name": "DatabaseManagerSwing.java",
+                                                    "size": 104811
+                                                },
+                                                {
+                                                    "name": "DatabaseManagerCommon.java",
+                                                    "size": 14933
+                                                },
+                                                {
+                                                    "name": "DataAccessPoint.java",
+                                                    "size": 4202
+                                                },
+                                                {
+                                                    "name": "TableSorter.java",
+                                                    "size": 20323
+                                                },
+                                                {
+                                                    "name": "DataAccessPointException.java",
+                                                    "size": 1879
+                                                },
+                                                {
+                                                    "name": "TransferDb.java",
+                                                    "size": 31757
+                                                },
+                                                {
+                                                    "name": "CommonSwing.java",
+                                                    "size": 10451
+                                                },
+                                                {
+                                                    "name": "Traceable.java",
+                                                    "size": 1823
+                                                },
+                                                {
+                                                    "name": "TransferHelper.java",
+                                                    "size": 5913
+                                                },
+                                                {
+                                                    "name": "InformixTransferHelper.java",
+                                                    "size": 3257
+                                                },
+                                                {
+                                                    "name": "Grid.java",
+                                                    "size": 14907
+                                                },
+                                                {
+                                                    "name": "CSVWriter.java",
+                                                    "size": 4480
+                                                },
+                                                {
+                                                    "name": "ConnectionSetting.java",
+                                                    "size": 2990
+                                                },
+                                                {
+                                                    "name": "TransferTable.java",
+                                                    "size": 16966
+                                                },
+                                                {
+                                                    "name": "SqlServerTransferHelper.java",
+                                                    "size": 4166
+                                                },
+                                                {
+                                                    "name": "JDBCTypes.java",
+                                                    "size": 7064
+                                                },
+                                                {
+                                                    "name": "CodeSwitcher.java",
+                                                    "size": 16920
+                                                },
+                                                {
+                                                    "name": "GridSwing.java",
+                                                    "size": 7100
+                                                },
+                                                {
+                                                    "name": "McKoiTransferHelper.java",
+                                                    "size": 3037
+                                                },
+                                                {
+                                                    "name": "HsqldbTransferHelper.java",
+                                                    "size": 3974
+                                                },
+                                                {
+                                                    "name": "PostgresTransferHelper.java",
+                                                    "size": 5626
+                                                },
+                                                {
+                                                    "name": "TransferSQLText.java",
+                                                    "size": 29247
+                                                },
+                                                {
+                                                    "name": "Transfer.java",
+                                                    "size": 38423
+                                                },
+                                                {
+                                                    "name": "MainInvoker.java",
+                                                    "size": 5675
+                                                },
+                                                {
+                                                    "name": "TransferCommon.java",
+                                                    "size": 6268
+                                                },
+                                                {
+                                                    "name": "OracleTransferHelper.java",
+                                                    "size": 6313
+                                                },
+                                                {
+                                                    "name": "TransferResultSet.java",
+                                                    "size": 5123
+                                                },
+                                                {
+                                                    "name": "FontDialogSwing.java",
+                                                    "size": 12600
+                                                },
+                                                {
+                                                    "name": "preprocessor",
+                                                    "children": [
+                                                        {
+                                                            "name": "Parser.java",
+                                                            "size": 9009
+                                                        },
+                                                        {
+                                                            "name": "BasicResolver.java",
+                                                            "size": 2849
+                                                        },
+                                                        {
+                                                            "name": "AntResolver.java",
+                                                            "size": 2310
+                                                        },
+                                                        {
+                                                            "name": "IResolver.java",
+                                                            "size": 2251
+                                                        },
+                                                        {
+                                                            "name": "Option.java",
+                                                            "size": 3749
+                                                        },
+                                                        {
+                                                            "name": "Defines.java",
+                                                            "size": 6316
+                                                        },
+                                                        {
+                                                            "name": "Document.java",
+                                                            "size": 8903
+                                                        },
+                                                        {
+                                                            "name": "LineType.java",
+                                                            "size": 4241
+                                                        },
+                                                        {
+                                                            "name": "PreprocessorAntTask.java",
+                                                            "size": 7762
+                                                        },
+                                                        {
+                                                            "name": "Tokenizer.java",
+                                                            "size": 7013
+                                                        },
+                                                        {
+                                                            "name": "PreprocessorException.java",
+                                                            "size": 1957
+                                                        },
+                                                        {
+                                                            "name": "Token.java",
+                                                            "size": 3466
+                                                        },
+                                                        {
+                                                            "name": "Preprocessor.java",
+                                                            "size": 24679
+                                                        },
+                                                        {
+                                                            "name": "Line.java",
+                                                            "size": 5330
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "name": "SQLStatements.java",
+                                                    "size": 4235
+                                                },
+                                                {
+                                                    "name": "HelperFactory.java",
+                                                    "size": 2810
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "TypeInvariants.java",
+                                            "size": 3959
+                                        },
+                                        {
+                                            "name": "Scanner.java",
+                                            "size": 70477
+                                        },
+                                        {
+                                            "name": "ExpressionOp.java",
+                                            "size": 30828
+                                        },
+                                        {
+                                            "name": "HsqlDateTime.java",
+                                            "size": 27549
+                                        },
+                                        {
+                                            "name": "auth",
+                                            "children": [
+                                                {
+                                                    "name": "AuthFunctionBean.java",
+                                                    "size": 3094
+                                                },
+                                                {
+                                                    "name": "DenyException.java",
+                                                    "size": 1788
+                                                },
+                                                {
+                                                    "name": "JaasAuthBean.java",
+                                                    "size": 12870
+                                                },
+                                                {
+                                                    "name": "AuthBeanMultiplexer.java",
+                                                    "size": 11555
+                                                },
+                                                {
+                                                    "name": "HsqldbSlaveAuthBean.java",
+                                                    "size": 6919
+                                                },
+                                                {
+                                                    "name": "LdapAuthBean.java",
+                                                    "size": 31632
+                                                },
+                                                {
+                                                    "name": "AuthUtils.java",
+                                                    "size": 3761
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "StatementCompound.java",
+                                            "size": 29437
+                                        },
+                                        {
+                                            "name": "StatementDMQL.java",
+                                            "size": 24931
+                                        },
+                                        {
+                                            "name": "DatabaseURL.java",
+                                            "size": 14046
+                                        },
+                                        {
+                                            "name": "TriggerDefSQL.java",
+                                            "size": 3941
+                                        },
+                                        {
+                                            "name": "ParserDML.java",
+                                            "size": 43546
+                                        },
+                                        {
+                                            "name": "scriptio",
+                                            "children": [
+                                                {
+                                                    "name": "ScriptReaderBase.java",
+                                                    "size": 3854
+                                                },
+                                                {
+                                                    "name": "ScriptWriterText.java",
+                                                    "size": 10544
+                                                },
+                                                {
+                                                    "name": "ScriptReaderText.java",
+                                                    "size": 10902
+                                                },
+                                                {
+                                                    "name": "ScriptWriterBase.java",
+                                                    "size": 13649
+                                                },
+                                                {
+                                                    "name": "ScriptReaderDecode.java",
+                                                    "size": 4570
+                                                },
+                                                {
+                                                    "name": "ScriptWriterEncode.java",
+                                                    "size": 5442
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "Schema.java",
+                                            "size": 11414
+                                        },
+                                        {
+                                            "name": "SchemaObject.java",
+                                            "size": 4709
+                                        },
+                                        {
+                                            "name": "RowAVLDiskData.java",
+                                            "size": 6413
+                                        },
+                                        {
+                                            "name": "ExpressionLike.java",
+                                            "size": 12414
+                                        },
+                                        {
+                                            "name": "dbinfo",
+                                            "children": [
+                                                {
+                                                    "name": "DITableInfo.java",
+                                                    "size": 8138
+                                                },
+                                                {
+                                                    "name": "DatabaseInformation.java",
+                                                    "size": 20121
+                                                },
+                                                {
+                                                    "name": "DatabaseInformationFull.java",
+                                                    "size": 327487
+                                                },
+                                                {
+                                                    "name": "DatabaseInformationMain.java",
+                                                    "size": 147237
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "ExpressionTable.java",
+                                            "size": 7972
+                                        },
+                                        {
+                                            "name": "TransactionManager2PL.java",
+                                            "size": 10051
+                                        },
+                                        {
+                                            "name": "resources",
+                                            "children": [
+                                                {
+                                                    "name": "ResourceBundleHandler.java",
+                                                    "size": 8732
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "Row.java",
+                                            "size": 5115
+                                        },
+                                        {
+                                            "name": "StatementCursor.java",
+                                            "size": 3421
+                                        },
+                                        {
+                                            "name": "Table.java",
+                                            "size": 86771
+                                        },
+                                        {
+                                            "name": "Database.java",
+                                            "size": 27222
+                                        },
+                                        {
+                                            "name": "StatementSimple.java",
+                                            "size": 6521
+                                        },
+                                        {
+                                            "name": "SqlInvariants.java",
+                                            "size": 6477
+                                        },
+                                        {
+                                            "name": "TransactionManagerMVCC.java",
+                                            "size": 29534
+                                        },
+                                        {
+                                            "name": "cmdline",
+                                            "children": [
+                                                {
+                                                    "name": "SqltoolRB.java",
+                                                    "size": 9860
+                                                },
+                                                {
+                                                    "name": "SqlToolSprayer.java",
+                                                    "size": 6564
+                                                },
+                                                {
+                                                    "name": "SqlToolError.java",
+                                                    "size": 2474
+                                                },
+                                                {
+                                                    "name": "SqlFile.java",
+                                                    "size": 264241
+                                                },
+                                                {
+                                                    "name": "SqlTool.java",
+                                                    "size": 30860
+                                                },
+                                                {
+                                                    "name": "sqltool",
+                                                    "children": [
+                                                        {
+                                                            "name": "TokenSource.java",
+                                                            "size": 1810
+                                                        },
+                                                        {
+                                                            "name": "TokenList.java",
+                                                            "size": 2236
+                                                        },
+                                                        {
+                                                            "name": "SqlFileScanner.java",
+                                                            "size": 33754
+                                                        },
+                                                        {
+                                                            "name": "FileRecordReader.java",
+                                                            "size": 6494
+                                                        },
+                                                        {
+                                                            "name": "Calculator.java",
+                                                            "size": 15202
+                                                        },
+                                                        {
+                                                            "name": "Token.java",
+                                                            "size": 5629
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "ExpressionOrderBy.java",
+                                            "size": 4224
+                                        },
+                                        {
+                                            "name": "server",
+                                            "children": [
+                                                {
+                                                    "name": "ServerConstants.java",
+                                                    "size": 3117
+                                                },
+                                                {
+                                                    "name": "OdbcPacketOutputStream.java",
+                                                    "size": 4995
+                                                },
+                                                {
+                                                    "name": "OdbcPacketInputStream.java",
+                                                    "size": 8017
+                                                },
+                                                {
+                                                    "name": "ServerConfiguration.java",
+                                                    "size": 10372
+                                                },
+                                                {
+                                                    "name": "HsqlServerFactory.java",
+                                                    "size": 3425
+                                                },
+                                                {
+                                                    "name": "HsqlSocketRequestHandler.java",
+                                                    "size": 1954
+                                                },
+                                                {
+                                                    "name": "PgType.java",
+                                                    "size": 22348
+                                                },
+                                                {
+                                                    "name": "WebServerConnection.java",
+                                                    "size": 21666
+                                                },
+                                                {
+                                                    "name": "HsqlSocketFactorySecure.java",
+                                                    "size": 14280
+                                                },
+                                                {
+                                                    "name": "OdbcPreparedStatement.java",
+                                                    "size": 4075
+                                                },
+                                                {
+                                                    "name": "StatementPortal.java",
+                                                    "size": 5232
+                                                },
+                                                {
+                                                    "name": "Server.java",
+                                                    "size": 80705
+                                                },
+                                                {
+                                                    "name": "RecoverableOdbcFailure.java",
+                                                    "size": 3215
+                                                },
+                                                {
+                                                    "name": "ServerConnection.java",
+                                                    "size": 79727
+                                                },
+                                                {
+                                                    "name": "WebServer.java",
+                                                    "size": 10672
+                                                },
+                                                {
+                                                    "name": "OdbcUtil.java",
+                                                    "size": 11359
+                                                },
+                                                {
+                                                    "name": "Servlet.java",
+                                                    "size": 13951
+                                                },
+                                                {
+                                                    "name": "HsqlSocketFactory.java",
+                                                    "size": 7821
+                                                },
+                                                {
+                                                    "name": "ServerAcl.java",
+                                                    "size": 17526
+                                                },
+                                                {
+                                                    "name": "ServerProperties.java",
+                                                    "size": 11832
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "StatementSet.java",
+                                            "size": 13367
+                                        },
+                                        {
+                                            "name": "RowAVL.java",
+                                            "size": 6639
+                                        },
+                                        {
+                                            "name": "RowAVLDisk.java",
+                                            "size": 10894
+                                        },
+                                        {
+                                            "name": "OpTypes.java",
+                                            "size": 5022
+                                        },
+                                        {
+                                            "name": "Expression.java",
+                                            "size": 61543
+                                        },
+                                        {
+                                            "name": "TriggerDef.java",
+                                            "size": 21505
+                                        },
+                                        {
+                                            "name": "jdbc",
+                                            "children": [
+                                                {
+                                                    "name": "JDBCCommonDataSource.java",
+                                                    "size": 11026
+                                                },
+                                                {
+                                                    "name": "JDBCResultSetMetaData.java",
+                                                    "size": 39415
+                                                },
+                                                {
+                                                    "name": "JDBCArrayBasic.java",
+                                                    "size": 22953
+                                                },
+                                                {
+                                                    "name": "JDBCColumnMetaData.java",
+                                                    "size": 5096
+                                                },
+                                                {
+                                                    "name": "JDBCParameterMetaData.java",
+                                                    "size": 17144
+                                                },
+                                                {
+                                                    "name": "JDBCStatementBase.java",
+                                                    "size": 11253
+                                                },
+                                                {
+                                                    "name": "JDBCClobClient.java",
+                                                    "size": 25302
+                                                },
+                                                {
+                                                    "name": "JDBCResultSet.java",
+                                                    "size": 320906
+                                                },
+                                                {
+                                                    "name": "JDBCBlobFile.java",
+                                                    "size": 33240
+                                                },
+                                                {
+                                                    "name": "JDBCClob.java",
+                                                    "size": 38897
+                                                },
+                                                {
+                                                    "name": "JDBCConnectionEventListener.java",
+                                                    "size": 1785
+                                                },
+                                                {
+                                                    "name": "JDBCRowId.java",
+                                                    "size": 8972
+                                                },
+                                                {
+                                                    "name": "JDBCDatabaseMetaData.java",
+                                                    "size": 271539
+                                                },
+                                                {
+                                                    "name": "JDBCBlob.java",
+                                                    "size": 32963
+                                                },
+                                                {
+                                                    "name": "JDBCClobFile.java",
+                                                    "size": 41406
+                                                },
+                                                {
+                                                    "name": "JDBCConnection.java",
+                                                    "size": 155881
+                                                },
+                                                {
+                                                    "name": "JDBCArray.java",
+                                                    "size": 24385
+                                                },
+                                                {
+                                                    "name": "JDBCCallableStatement.java",
+                                                    "size": 197067
+                                                },
+                                                {
+                                                    "name": "JDBCDataSourceFactory.java",
+                                                    "size": 8328
+                                                },
+                                                {
+                                                    "name": "JDBCPool.java",
+                                                    "size": 19370
+                                                },
+                                                {
+                                                    "name": "JDBCDriver.java",
+                                                    "size": 22321
+                                                },
+                                                {
+                                                    "name": "JDBCDataSource.java",
+                                                    "size": 10840
+                                                },
+                                                {
+                                                    "name": "JDBCPreparedStatement.java",
+                                                    "size": 190734
+                                                },
+                                                {
+                                                    "name": "JDBCBlobClient.java",
+                                                    "size": 13944
+                                                },
+                                                {
+                                                    "name": "pool",
+                                                    "children": [
+                                                        {
+                                                            "name": "JDBCXADataSource.java",
+                                                            "size": 7087
+                                                        },
+                                                        {
+                                                            "name": "JDBCXAResource.java",
+                                                            "size": 15980
+                                                        },
+                                                        {
+                                                            "name": "JDBCXAConnection.java",
+                                                            "size": 3485
+                                                        },
+                                                        {
+                                                            "name": "JDBCXAConnectionWrapper.java",
+                                                            "size": 7213
+                                                        },
+                                                        {
+                                                            "name": "JDBCXID.java",
+                                                            "size": 7328
+                                                        },
+                                                        {
+                                                            "name": "JDBCPooledDataSource.java",
+                                                            "size": 4058
+                                                        },
+                                                        {
+                                                            "name": "JDBCPooledConnection.java",
+                                                            "size": 6365
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "name": "JDBCSQLXML.java",
+                                                    "size": 120175
+                                                },
+                                                {
+                                                    "name": "JDBCNClob.java",
+                                                    "size": 3627
+                                                },
+                                                {
+                                                    "name": "JDBCUtil.java",
+                                                    "size": 36458
+                                                },
+                                                {
+                                                    "name": "JDBCSavepoint.java",
+                                                    "size": 4504
+                                                },
+                                                {
+                                                    "name": "JDBCStatement.java",
+                                                    "size": 75966
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "SessionInterface.java",
+                                            "size": 4371
+                                        },
+                                        {
+                                            "name": "RowActionBase.java",
+                                            "size": 3736
+                                        },
+                                        {
+                                            "name": "RowAction.java",
+                                            "size": 27683
+                                        },
+                                        {
+                                            "name": "RangeGroup.java",
+                                            "size": 3379
+                                        },
+                                        {
+                                            "name": "map",
+                                            "children": [
+                                                {
+                                                    "name": "BaseHashMap.java",
+                                                    "size": 49080
+                                                },
+                                                {
+                                                    "name": "ReusableObjectCache.java",
+                                                    "size": 2233
+                                                },
+                                                {
+                                                    "name": "HashIndex.java",
+                                                    "size": 7875
+                                                },
+                                                {
+                                                    "name": "BitMap.java",
+                                                    "size": 17098
+                                                },
+                                                {
+                                                    "name": "ValuePoolHashMap.java",
+                                                    "size": 12697
+                                                },
+                                                {
+                                                    "name": "ValuePool.java",
+                                                    "size": 6868
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "Like.java",
+                                            "size": 13518
+                                        },
+                                        {
+                                            "name": "ParserBase.java",
+                                            "size": 23016
+                                        },
+                                        {
+                                            "name": "rights",
+                                            "children": [
+                                                {
+                                                    "name": "Grantee.java",
+                                                    "size": 35810
+                                                },
+                                                {
+                                                    "name": "GranteeManager.java",
+                                                    "size": 23977
+                                                },
+                                                {
+                                                    "name": "GrantConstants.java",
+                                                    "size": 2547
+                                                },
+                                                {
+                                                    "name": "Right.java",
+                                                    "size": 27721
+                                                },
+                                                {
+                                                    "name": "User.java",
+                                                    "size": 7415
+                                                },
+                                                {
+                                                    "name": "UserManager.java",
+                                                    "size": 15071
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "ExpressionLogical.java",
+                                            "size": 75628
+                                        },
+                                        {
+                                            "name": "ParserRoutine.java",
+                                            "size": 67902
+                                        },
+                                        {
+                                            "name": "NumberSequence.java",
+                                            "size": 19678
+                                        },
+                                        {
+                                            "name": "rowio",
+                                            "children": [
+                                                {
+                                                    "name": "RowOutputTextLog.java",
+                                                    "size": 8043
+                                                },
+                                                {
+                                                    "name": "RowInputText.java",
+                                                    "size": 13263
+                                                },
+                                                {
+                                                    "name": "RowInputBase.java",
+                                                    "size": 9745
+                                                },
+                                                {
+                                                    "name": "RowOutputBase.java",
+                                                    "size": 9766
+                                                },
+                                                {
+                                                    "name": "RowInputBinary180.java",
+                                                    "size": 3499
+                                                },
+                                                {
+                                                    "name": "RowInputBinaryDecode.java",
+                                                    "size": 2335
+                                                },
+                                                {
+                                                    "name": "RowInputInterface.java",
+                                                    "size": 2451
+                                                },
+                                                {
+                                                    "name": "RowOutputBinary.java",
+                                                    "size": 12508
+                                                },
+                                                {
+                                                    "name": "RowInputTextLog.java",
+                                                    "size": 14196
+                                                },
+                                                {
+                                                    "name": "RowOutputText.java",
+                                                    "size": 10086
+                                                },
+                                                {
+                                                    "name": "RowOutputTextQuoted.java",
+                                                    "size": 2803
+                                                },
+                                                {
+                                                    "name": "RowInputBinary.java",
+                                                    "size": 8560
+                                                },
+                                                {
+                                                    "name": "RowInputTextQuoted.java",
+                                                    "size": 5145
+                                                },
+                                                {
+                                                    "name": "RowOutputBinary180.java",
+                                                    "size": 3309
+                                                },
+                                                {
+                                                    "name": "RowOutputInterface.java",
+                                                    "size": 3046
+                                                },
+                                                {
+                                                    "name": "RowOutputBinaryEncode.java",
+                                                    "size": 3308
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "RangeVariableJoined.java",
+                                            "size": 11446
+                                        },
+                                        {
+                                            "name": "ExpressionColumn.java",
+                                            "size": 36795
+                                        },
+                                        {
+                                            "name": "ConstraintCore.java",
+                                            "size": 3494
+                                        },
+                                        {
+                                            "name": "jdbcDriver.java",
+                                            "size": 1702
+                                        },
+                                        {
+                                            "name": "View.java",
+                                            "size": 8063
+                                        },
+                                        {
+                                            "name": "Trigger.java",
+                                            "size": 4661
+                                        },
+                                        {
+                                            "name": "SetFunction.java",
+                                            "size": 22269
+                                        },
+                                        {
+                                            "name": "ExpressionAccessor.java",
+                                            "size": 5862
+                                        },
+                                        {
+                                            "name": "sample",
+                                            "children": [
+                                                {
+                                                    "name": "SqlFileEmbedder.java",
+                                                    "size": 5579
+                                                },
+                                                {
+                                                    "name": "ConnectionTypesSample.java",
+                                                    "size": 2187
+                                                },
+                                                {
+                                                    "name": "Testdb.java",
+                                                    "size": 7681
+                                                },
+                                                {
+                                                    "name": "TriggerSample.java",
+                                                    "size": 18247
+                                                },
+                                                {
+                                                    "name": "FindFile.java",
+                                                    "size": 9343
+                                                },
+                                                {
+                                                    "name": "DatabaseManagerSample.java",
+                                                    "size": 2064
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "SortAndSlice.java",
+                                            "size": 14559
+                                        },
+                                        {
+                                            "name": "navigator",
+                                            "children": [
+                                                {
+                                                    "name": "RowSetNavigatorData.java",
+                                                    "size": 16962
+                                                },
+                                                {
+                                                    "name": "RangeIterator.java",
+                                                    "size": 2059
+                                                },
+                                                {
+                                                    "name": "RowSetNavigatorDataChangeMemory.java",
+                                                    "size": 6382
+                                                },
+                                                {
+                                                    "name": "RowIterator.java",
+                                                    "size": 1978
+                                                },
+                                                {
+                                                    "name": "RowSetNavigatorDataChange.java",
+                                                    "size": 2755
+                                                },
+                                                {
+                                                    "name": "RowSetNavigatorClient.java",
+                                                    "size": 7374
+                                                },
+                                                {
+                                                    "name": "RowSetNavigator.java",
+                                                    "size": 7645
+                                                },
+                                                {
+                                                    "name": "RowSetNavigatorDataTable.java",
+                                                    "size": 16415
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "lib",
+                                            "children": [
+                                                {
+                                                    "name": "MD5.java",
+                                                    "size": 7437
+                                                },
+                                                {
+                                                    "name": "BasicTextJdkLogFormatter.java",
+                                                    "size": 3273
+                                                },
+                                                {
+                                                    "name": "HsqlTaskQueue.java",
+                                                    "size": 4833
+                                                },
+                                                {
+                                                    "name": "Storage.java",
+                                                    "size": 2470
+                                                },
+                                                {
+                                                    "name": "ClosableCharArrayWriter.java",
+                                                    "size": 14532
+                                                },
+                                                {
+                                                    "name": "RefCapableRBInterface.java",
+                                                    "size": 2417
+                                                },
+                                                {
+                                                    "name": "LongKeyHashMap.java",
+                                                    "size": 6618
+                                                },
+                                                {
+                                                    "name": "ValidatingResourceBundle.java",
+                                                    "size": 12368
+                                                },
+                                                {
+                                                    "name": "HsqlList.java",
+                                                    "size": 2156
+                                                },
+                                                {
+                                                    "name": "WrapperIterator.java",
+                                                    "size": 5826
+                                                },
+                                                {
+                                                    "name": "HashMap.java",
+                                                    "size": 5556
+                                                },
+                                                {
+                                                    "name": "HashMappedList.java",
+                                                    "size": 6106
+                                                },
+                                                {
+                                                    "name": "LineGroupReader.java",
+                                                    "size": 6550
+                                                },
+                                                {
+                                                    "name": "DataOutputStream.java",
+                                                    "size": 5794
+                                                },
+                                                {
+                                                    "name": "RefCapablePropertyResourceBundle.java",
+                                                    "size": 20809
+                                                },
+                                                {
+                                                    "name": "Collection.java",
+                                                    "size": 2211
+                                                },
+                                                {
+                                                    "name": "StopWatch.java",
+                                                    "size": 5974
+                                                },
+                                                {
+                                                    "name": "FileAccess.java",
+                                                    "size": 2624
+                                                },
+                                                {
+                                                    "name": "StringConverter.java",
+                                                    "size": 23982
+                                                },
+                                                {
+                                                    "name": "ReaderInputStream.java",
+                                                    "size": 2492
+                                                },
+                                                {
+                                                    "name": "HsqlThreadFactory.java",
+                                                    "size": 3938
+                                                },
+                                                {
+                                                    "name": "LongKeyLongValueHashMap.java",
+                                                    "size": 5336
+                                                },
+                                                {
+                                                    "name": "InputStreamWrapper.java",
+                                                    "size": 3667
+                                                },
+                                                {
+                                                    "name": "HsqlDeque.java",
+                                                    "size": 8712
+                                                },
+                                                {
+                                                    "name": "StringUtil.java",
+                                                    "size": 12187
+                                                },
+                                                {
+                                                    "name": "OrderedIntKeyHashMap.java",
+                                                    "size": 5127
+                                                },
+                                                {
+                                                    "name": "IntValueHashMap.java",
+                                                    "size": 6625
+                                                },
+                                                {
+                                                    "name": "FileUtil.java",
+                                                    "size": 18738
+                                                },
+                                                {
+                                                    "name": "DoubleIntIndex.java",
+                                                    "size": 20183
+                                                },
+                                                {
+                                                    "name": "ClosableByteArrayOutputStream.java",
+                                                    "size": 14502
+                                                },
+                                                {
+                                                    "name": "HsqlTimer.java",
+                                                    "size": 33046
+                                                },
+                                                {
+                                                    "name": "StringInputStream.java",
+                                                    "size": 2609
+                                                },
+                                                {
+                                                    "name": "java",
+                                                    "children": [
+                                                        {
+                                                            "name": "JavaSystem.java",
+                                                            "size": 3991
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "name": "LongValueHashMap.java",
+                                                    "size": 5569
+                                                },
+                                                {
+                                                    "name": "IntKeyHashMap.java",
+                                                    "size": 4858
+                                                },
+                                                {
+                                                    "name": "HsqlArrayList.java",
+                                                    "size": 11452
+                                                },
+                                                {
+                                                    "name": "HsqlByteArrayOutputStream.java",
+                                                    "size": 9497
+                                                },
+                                                {
+                                                    "name": "LongDeque.java",
+                                                    "size": 7888
+                                                },
+                                                {
+                                                    "name": "SimpleLog.java",
+                                                    "size": 6748
+                                                },
+                                                {
+                                                    "name": "IntKeyIntValueHashMap.java",
+                                                    "size": 5186
+                                                },
+                                                {
+                                                    "name": "MultiValueHashMap.java",
+                                                    "size": 5387
+                                                },
+                                                {
+                                                    "name": "Iterator.java",
+                                                    "size": 2058
+                                                },
+                                                {
+                                                    "name": "CharArrayWriter.java",
+                                                    "size": 4629
+                                                },
+                                                {
+                                                    "name": "StringComparator.java",
+                                                    "size": 2128
+                                                },
+                                                {
+                                                    "name": "ReadWriteLockDummy.java",
+                                                    "size": 2495
+                                                },
+                                                {
+                                                    "name": "RCData.java",
+                                                    "size": 17598
+                                                },
+                                                {
+                                                    "name": "OrderedLongKeyHashMap.java",
+                                                    "size": 6418
+                                                },
+                                                {
+                                                    "name": "CountUpDownLatch.java",
+                                                    "size": 2764
+                                                },
+                                                {
+                                                    "name": "CountdownInputStream.java",
+                                                    "size": 4170
+                                                },
+                                                {
+                                                    "name": "ArrayListIdentity.java",
+                                                    "size": 1902
+                                                },
+                                                {
+                                                    "name": "IntKeyLongValueHashMap.java",
+                                                    "size": 3139
+                                                },
+                                                {
+                                                    "name": "LongKeyIntValueHashMap.java",
+                                                    "size": 5398
+                                                },
+                                                {
+                                                    "name": "FileArchiver.java",
+                                                    "size": 8074
+                                                },
+                                                {
+                                                    "name": "ThreadFactory.java",
+                                                    "size": 1765
+                                                },
+                                                {
+                                                    "name": "HsqlArrayHeap.java",
+                                                    "size": 8908
+                                                },
+                                                {
+                                                    "name": "ObjectComparator.java",
+                                                    "size": 1769
+                                                },
+                                                {
+                                                    "name": "IntKeyHashMapConcurrent.java",
+                                                    "size": 6060
+                                                },
+                                                {
+                                                    "name": "InputStreamInterface.java",
+                                                    "size": 2347
+                                                },
+                                                {
+                                                    "name": "FrameworkLogger.java",
+                                                    "size": 22646
+                                                },
+                                                {
+                                                    "name": "HashSet.java",
+                                                    "size": 5363
+                                                },
+                                                {
+                                                    "name": "ArraySort.java",
+                                                    "size": 5966
+                                                },
+                                                {
+                                                    "name": "KMPSearchAlgorithm.java",
+                                                    "size": 17342
+                                                },
+                                                {
+                                                    "name": "InOutUtil.java",
+                                                    "size": 8576
+                                                },
+                                                {
+                                                    "name": "LineReader.java",
+                                                    "size": 3999
+                                                },
+                                                {
+                                                    "name": "BaseList.java",
+                                                    "size": 5051
+                                                },
+                                                {
+                                                    "name": "ArrayCounter.java",
+                                                    "size": 5746
+                                                },
+                                                {
+                                                    "name": "OrderedHashSet.java",
+                                                    "size": 5351
+                                                },
+                                                {
+                                                    "name": "tar",
+                                                    "children": [
+                                                        {
+                                                            "name": "DbBackup.java",
+                                                            "size": 19612
+                                                        },
+                                                        {
+                                                            "name": "TarGenerator.java",
+                                                            "size": 27060
+                                                        },
+                                                        {
+                                                            "name": "PIFGenerator.java",
+                                                            "size": 6212
+                                                        },
+                                                        {
+                                                            "name": "TarFileOutputStream.java",
+                                                            "size": 12622
+                                                        },
+                                                        {
+                                                            "name": "TarFileInputStream.java",
+                                                            "size": 11527
+                                                        },
+                                                        {
+                                                            "name": "RB.java",
+                                                            "size": 5952
+                                                        },
+                                                        {
+                                                            "name": "PIFData.java",
+                                                            "size": 3974
+                                                        },
+                                                        {
+                                                            "name": "TarMalformatException.java",
+                                                            "size": 1783
+                                                        },
+                                                        {
+                                                            "name": "TarReader.java",
+                                                            "size": 27777
+                                                        },
+                                                        {
+                                                            "name": "TarHeaderField.java",
+                                                            "size": 4978
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "name": "HsqlHeap.java",
+                                                    "size": 3721
+                                                },
+                                                {
+                                                    "name": "Set.java",
+                                                    "size": 2361
+                                                },
+                                                {
+                                                    "name": "ArrayUtil.java",
+                                                    "size": 46010
+                                                },
+                                                {
+                                                    "name": "IntLookup.java",
+                                                    "size": 1989
+                                                },
+                                                {
+                                                    "name": "HsqlByteArrayInputStream.java",
+                                                    "size": 6780
+                                                },
+                                                {
+                                                    "name": "LongLookup.java",
+                                                    "size": 1999
+                                                },
+                                                {
+                                                    "name": "AppendableException.java",
+                                                    "size": 3170
+                                                },
+                                                {
+                                                    "name": "OrderedIntHashSet.java",
+                                                    "size": 4084
+                                                },
+                                                {
+                                                    "name": "OrderedLongHashSet.java",
+                                                    "size": 4102
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "StatementInsert.java",
+                                            "size": 7749
+                                        },
+                                        {
+                                            "name": "StatementCommand.java",
+                                            "size": 53035
+                                        },
+                                        {
+                                            "name": "SessionManager.java",
+                                            "size": 9573
+                                        },
+                                        {
+                                            "name": "Constraint.java",
+                                            "size": 32079
+                                        },
+                                        {
+                                            "name": "index",
+                                            "children": [
+                                                {
+                                                    "name": "NodeAVLDiskLarge.java",
+                                                    "size": 14080
+                                                },
+                                                {
+                                                    "name": "Index.java",
+                                                    "size": 8257
+                                                },
+                                                {
+                                                    "name": "NodeAVL.java",
+                                                    "size": 8397
+                                                },
+                                                {
+                                                    "name": "IndexAVLMemory.java",
+                                                    "size": 17075
+                                                },
+                                                {
+                                                    "name": "NodeAVLDisk.java",
+                                                    "size": 15428
+                                                },
+                                                {
+                                                    "name": "IndexAVL.java",
+                                                    "size": 58455
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "QuerySpecification.java",
+                                            "size": 80258
+                                        },
+                                        {
+                                            "name": "TransactionManagerMV2PL.java",
+                                            "size": 16862
+                                        },
+                                        {
+                                            "name": "HsqlException.java",
+                                            "size": 4635
+                                        },
+                                        {
+                                            "name": "FunctionSQL.java",
+                                            "size": 77499
+                                        },
+                                        {
+                                            "name": "ExpressionAggregate.java",
+                                            "size": 9797
+                                        },
+                                        {
+                                            "name": "TableUtil.java",
+                                            "size": 4089
+                                        },
+                                        {
+                                            "name": "TableDerived.java",
+                                            "size": 12084
+                                        },
+                                        {
+                                            "name": "Server.java",
+                                            "size": 1681
+                                        },
+                                        {
+                                            "name": "HsqlNameManager.java",
+                                            "size": 17674
+                                        },
+                                        {
+                                            "name": "SessionData.java",
+                                            "size": 21548
+                                        },
+                                        {
+                                            "name": "Token.java",
+                                            "size": 9609
+                                        },
+                                        {
+                                            "name": "ExpressionValue.java",
+                                            "size": 3691
+                                        },
+                                        {
+                                            "name": "FunctionCustom.java",
+                                            "size": 140327
+                                        },
+                                        {
+                                            "name": "FunctionSQLInvoked.java",
+                                            "size": 9762
+                                        },
+                                        {
+                                            "name": "SchemaObjectSet.java",
+                                            "size": 17177
+                                        },
+                                        {
+                                            "name": "Routine.java",
+                                            "size": 41850
+                                        },
+                                        {
+                                            "name": "SessionContext.java",
+                                            "size": 10785
+                                        },
+                                        {
+                                            "name": "StatementExpression.java",
+                                            "size": 5777
+                                        },
+                                        {
+                                            "name": "ParserDDL.java",
+                                            "size": 162243
+                                        },
+                                        {
+                                            "name": "Session.java",
+                                            "size": 68223
+                                        },
+                                        {
+                                            "name": "TableBase.java",
+                                            "size": 17505
+                                        },
+                                        {
+                                            "name": "ExpressionColumnAccessor.java",
+                                            "size": 4868
+                                        },
+                                        {
+                                            "name": "RangeVariableResolver.java",
+                                            "size": 48949
+                                        },
+                                        {
+                                            "name": "error",
+                                            "children": [
+                                                {
+                                                    "name": "ErrorCode.java",
+                                                    "size": 47146
+                                                },
+                                                {
+                                                    "name": "Error.java",
+                                                    "size": 10678
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "persist",
+                                            "children": [
+                                                {
+                                                    "name": "LockFile.java",
+                                                    "size": 97045
+                                                },
+                                                {
+                                                    "name": "RAFileNIO.java",
+                                                    "size": 15570
+                                                },
+                                                {
+                                                    "name": "DataSpaceManager.java",
+                                                    "size": 2477
+                                                },
+                                                {
+                                                    "name": "DataFileDefrag.java",
+                                                    "size": 7823
+                                                },
+                                                {
+                                                    "name": "IntArrayCachedObject.java",
+                                                    "size": 3288
+                                                },
+                                                {
+                                                    "name": "DataSpaceManagerBlocks.java",
+                                                    "size": 27251
+                                                },
+                                                {
+                                                    "name": "TableSpaceManagerSimple.java",
+                                                    "size": 3471
+                                                },
+                                                {
+                                                    "name": "TableSpaceManager.java",
+                                                    "size": 2370
+                                                },
+                                                {
+                                                    "name": "RowStoreAVLMemory.java",
+                                                    "size": 5921
+                                                },
+                                                {
+                                                    "name": "RowStoreAVL.java",
+                                                    "size": 18829
+                                                },
+                                                {
+                                                    "name": "RAFileHybrid.java",
+                                                    "size": 5772
+                                                },
+                                                {
+                                                    "name": "BitMapCachedObject.java",
+                                                    "size": 3444
+                                                },
+                                                {
+                                                    "name": "LobStoreMem.java",
+                                                    "size": 5725
+                                                },
+                                                {
+                                                    "name": "CachedObjectBase.java",
+                                                    "size": 3372
+                                                },
+                                                {
+                                                    "name": "TableSpaceManagerBlocks.java",
+                                                    "size": 8114
+                                                },
+                                                {
+                                                    "name": "PersistentStoreCollection.java",
+                                                    "size": 1794
+                                                },
+                                                {
+                                                    "name": "DataFileCache.java",
+                                                    "size": 47114
+                                                },
+                                                {
+                                                    "name": "DataSpaceManagerSimple.java",
+                                                    "size": 6564
+                                                },
+                                                {
+                                                    "name": "Logger.java",
+                                                    "size": 82726
+                                                },
+                                                {
+                                                    "name": "RowStoreAVLHybridExtended.java",
+                                                    "size": 7504
+                                                },
+                                                {
+                                                    "name": "LobManager.java",
+                                                    "size": 71199
+                                                },
+                                                {
+                                                    "name": "Cache.java",
+                                                    "size": 12317
+                                                },
+                                                {
+                                                    "name": "BlockObjectStore.java",
+                                                    "size": 4335
+                                                },
+                                                {
+                                                    "name": "HsqlProperties.java",
+                                                    "size": 17527
+                                                },
+                                                {
+                                                    "name": "LobStoreInJar.java",
+                                                    "size": 4883
+                                                },
+                                                {
+                                                    "name": "RandomAccessInterface.java",
+                                                    "size": 2446
+                                                },
+                                                {
+                                                    "name": "ScriptRunner.java",
+                                                    "size": 11293
+                                                },
+                                                {
+                                                    "name": "RowStoreAVLDisk.java",
+                                                    "size": 13377
+                                                },
+                                                {
+                                                    "name": "RowStoreAVLDiskData.java",
+                                                    "size": 8005
+                                                },
+                                                {
+                                                    "name": "SimpleStore.java",
+                                                    "size": 6181
+                                                },
+                                                {
+                                                    "name": "RowStoreDataChange.java",
+                                                    "size": 2925
+                                                },
+                                                {
+                                                    "name": "DataFileCacheSession.java",
+                                                    "size": 4974
+                                                },
+                                                {
+                                                    "name": "HsqlDatabaseProperties.java",
+                                                    "size": 38859
+                                                },
+                                                {
+                                                    "name": "LobStoreRAFile.java",
+                                                    "size": 5608
+                                                },
+                                                {
+                                                    "name": "Log.java",
+                                                    "size": 24882
+                                                },
+                                                {
+                                                    "name": "RowStoreAVLHybrid.java",
+                                                    "size": 11013
+                                                },
+                                                {
+                                                    "name": "LobStore.java",
+                                                    "size": 2120
+                                                },
+                                                {
+                                                    "name": "RAShadowFile.java",
+                                                    "size": 10201
+                                                },
+                                                {
+                                                    "name": "TextFileReader.java",
+                                                    "size": 9235
+                                                },
+                                                {
+                                                    "name": "CachedObject.java",
+                                                    "size": 2664
+                                                },
+                                                {
+                                                    "name": "RAFileInJar.java",
+                                                    "size": 7410
+                                                },
+                                                {
+                                                    "name": "PersistentStore.java",
+                                                    "size": 4961
+                                                },
+                                                {
+                                                    "name": "Crypto.java",
+                                                    "size": 7927
+                                                },
+                                                {
+                                                    "name": "RAStorageWrapper.java",
+                                                    "size": 3440
+                                                },
+                                                {
+                                                    "name": "PersistentStoreCollectionSession.java",
+                                                    "size": 12872
+                                                },
+                                                {
+                                                    "name": "PersistentStoreCollectionDatabase.java",
+                                                    "size": 4381
+                                                },
+                                                {
+                                                    "name": "TextCache.java",
+                                                    "size": 14475
+                                                },
+                                                {
+                                                    "name": "TextFileSettings.java",
+                                                    "size": 9729
+                                                },
+                                                {
+                                                    "name": "RAFileSimple.java",
+                                                    "size": 4605
+                                                },
+                                                {
+                                                    "name": "RAFile.java",
+                                                    "size": 15096
+                                                },
+                                                {
+                                                    "name": "DirectoryBlockCachedObject.java",
+                                                    "size": 4418
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "ExpressionArrayAggregate.java",
+                                            "size": 12489
+                                        },
+                                        {
+                                            "name": "StatementManager.java",
+                                            "size": 12367
+                                        },
+                                        {
+                                            "name": "StatementSchema.java",
+                                            "size": 59411
+                                        },
+                                        {
+                                            "name": "TextTable.java",
+                                            "size": 10947
+                                        },
+                                        {
+                                            "name": "StatementHandler.java",
+                                            "size": 6705
+                                        },
+                                        {
+                                            "name": "QueryExpression.java",
+                                            "size": 34019
+                                        },
+                                        {
+                                            "name": "ExpressionArithmetic.java",
+                                            "size": 21934
+                                        },
+                                        {
+                                            "name": "ColumnBase.java",
+                                            "size": 4636
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

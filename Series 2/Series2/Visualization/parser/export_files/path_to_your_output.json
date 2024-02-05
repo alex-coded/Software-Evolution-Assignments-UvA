@@ -1,0 +1,1054 @@
+{
+  "name": "org",
+  "children": [
+    {
+      "name": "hsqldb",
+      "children": [
+        {
+          "name": "SessionManager.java",
+          "size": 6
+        },
+        {
+          "name": "TestBatchBug.java",
+          "size": 10
+        },
+        {
+          "name": "Log.java",
+          "size": 6
+        },
+        {
+          "name": "SqlFile.java",
+          "size": 198
+        },
+        {
+          "name": "ClobDataID.java",
+          "size": 64
+        },
+        {
+          "name": "GranteeManager.java",
+          "size": 6
+        },
+        {
+          "name": "StatementInsert.java",
+          "size": 22
+        },
+        {
+          "name": "JDBCBlobFile.java",
+          "size": 61
+        },
+        {
+          "name": "TestDima.java",
+          "size": 6
+        },
+        {
+          "name": "TestSqlPersistent.java",
+          "size": 91
+        },
+        {
+          "name": "SimpleLog.java",
+          "size": 45
+        },
+        {
+          "name": "JDBCResultSet.java",
+          "size": 150
+        },
+        {
+          "name": "TransferTable.java",
+          "size": 64
+        },
+        {
+          "name": "FileArchiver.java",
+          "size": 8
+        },
+        {
+          "name": "JDBCClobFile.java",
+          "size": 75
+        },
+        {
+          "name": "IntervalType.java",
+          "size": 176
+        },
+        {
+          "name": "TestAllTypes.java",
+          "size": 46
+        },
+        {
+          "name": "ExpressionAggregate.java",
+          "size": 13
+        },
+        {
+          "name": "StatementExpression.java",
+          "size": 45
+        },
+        {
+          "name": "TestUpdatableResultSets.java",
+          "size": 112
+        },
+        {
+          "name": "AbstractTestOdbc.java",
+          "size": 4
+        },
+        {
+          "name": "Cache.java",
+          "size": 12
+        },
+        {
+          "name": "DataOutputStream.java",
+          "size": 12
+        },
+        {
+          "name": "StatementDML.java",
+          "size": 111
+        },
+        {
+          "name": "HsqlProperties.java",
+          "size": 10
+        },
+        {
+          "name": "TestOdbcTypes.java",
+          "size": 277
+        },
+        {
+          "name": "ValuePoolHashMap.java",
+          "size": 66
+        },
+        {
+          "name": "Token.java",
+          "size": 21
+        },
+        {
+          "name": "DbBackup.java",
+          "size": 14
+        },
+        {
+          "name": "TestNullInUnion.java",
+          "size": 30
+        },
+        {
+          "name": "TestCacheSize.java",
+          "size": 123
+        },
+        {
+          "name": "TableWorks.java",
+          "size": 70
+        },
+        {
+          "name": "TransferHelper.java",
+          "size": 6
+        },
+        {
+          "name": "StatementSet.java",
+          "size": 79
+        },
+        {
+          "name": "TestBug808460.java",
+          "size": 5
+        },
+        {
+          "name": "TriggerSample.java",
+          "size": 18
+        },
+        {
+          "name": "LongKeyIntValueHashMap.java",
+          "size": 3
+        },
+        {
+          "name": "IntKeyLongValueHashMap.java",
+          "size": 6
+        },
+        {
+          "name": "StringConverter.java",
+          "size": 16
+        },
+        {
+          "name": "ParserRoutine.java",
+          "size": 242
+        },
+        {
+          "name": "RoutineSchema.java",
+          "size": 3
+        },
+        {
+          "name": "DataSpaceManagerBlocks.java",
+          "size": 6
+        },
+        {
+          "name": "UserTypeModifier.java",
+          "size": 6
+        },
+        {
+          "name": "ParserDML.java",
+          "size": 58
+        },
+        {
+          "name": "JDBCArrayBasic.java",
+          "size": 33
+        },
+        {
+          "name": "OracleTransferHelper.java",
+          "size": 11
+        },
+        {
+          "name": "HashMap.java",
+          "size": 6
+        },
+        {
+          "name": "BinaryType.java",
+          "size": 35
+        },
+        {
+          "name": "User.java",
+          "size": 20
+        },
+        {
+          "name": "StatementSchemaDefinition.java",
+          "size": 24
+        },
+        {
+          "name": "StringComparator.java",
+          "size": 9
+        },
+        {
+          "name": "TransferCommon.java",
+          "size": 8
+        },
+        {
+          "name": "TestLobs.java",
+          "size": 255
+        },
+        {
+          "name": "Types.java",
+          "size": 18
+        },
+        {
+          "name": "IntValueHashMap.java",
+          "size": 34
+        },
+        {
+          "name": "ParserBase.java",
+          "size": 47
+        },
+        {
+          "name": "ResultLob.java",
+          "size": 196
+        },
+        {
+          "name": "TestOdbcService.java",
+          "size": 82
+        },
+        {
+          "name": "HsqlByteArrayOutputStream.java",
+          "size": 11
+        },
+        {
+          "name": "Type.java",
+          "size": 62
+        },
+        {
+          "name": "SchemaObjectSet.java",
+          "size": 104
+        },
+        {
+          "name": "RowSetNavigatorClient.java",
+          "size": 15
+        },
+        {
+          "name": "BlockObjectStore.java",
+          "size": 6
+        },
+        {
+          "name": "RowInputBase.java",
+          "size": 73
+        },
+        {
+          "name": "DataFileCache.java",
+          "size": 90
+        },
+        {
+          "name": "TextTable.java",
+          "size": 6
+        },
+        {
+          "name": "Servlet.java",
+          "size": 12
+        },
+        {
+          "name": "TableDerived.java",
+          "size": 6
+        },
+        {
+          "name": "StatementSimple.java",
+          "size": 32
+        },
+        {
+          "name": "TestTextTables.java",
+          "size": 41
+        },
+        {
+          "name": "ExpressionLike.java",
+          "size": 9
+        },
+        {
+          "name": "RowSetNavigatorData.java",
+          "size": 69
+        },
+        {
+          "name": "Document.java",
+          "size": 20
+        },
+        {
+          "name": "ParserDQL.java",
+          "size": 486
+        },
+        {
+          "name": "QueryExpression.java",
+          "size": 25
+        },
+        {
+          "name": "SessionData.java",
+          "size": 16
+        },
+        {
+          "name": "ExpressionColumn.java",
+          "size": 32
+        },
+        {
+          "name": "RowSetNavigatorDataTable.java",
+          "size": 82
+        },
+        {
+          "name": "TransactionManager2PL.java",
+          "size": 47
+        },
+        {
+          "name": "TestTypeConversion.java",
+          "size": 13
+        },
+        {
+          "name": "PostgresTransferHelper.java",
+          "size": 11
+        },
+        {
+          "name": "TestBug1191815.java",
+          "size": 6
+        },
+        {
+          "name": "RangeVariableResolver.java",
+          "size": 42
+        },
+        {
+          "name": "TestKarl.java",
+          "size": 24
+        },
+        {
+          "name": "TestSubselect.java",
+          "size": 6
+        },
+        {
+          "name": "TransferResultSet.java",
+          "size": 12
+        },
+        {
+          "name": "BlobType.java",
+          "size": 26
+        },
+        {
+          "name": "Calculator.java",
+          "size": 48
+        },
+        {
+          "name": "ClobType.java",
+          "size": 19
+        },
+        {
+          "name": "RowType.java",
+          "size": 110
+        },
+        {
+          "name": "ConnectionDialogCommon.java",
+          "size": 19
+        },
+        {
+          "name": "RowInputText.java",
+          "size": 58
+        },
+        {
+          "name": "Scanner.java",
+          "size": 307
+        },
+        {
+          "name": "TestBug785429.java",
+          "size": 16
+        },
+        {
+          "name": "WebServer.java",
+          "size": 8
+        },
+        {
+          "name": "RowOutputBase.java",
+          "size": 59
+        },
+        {
+          "name": "RowOutputTextLog.java",
+          "size": 6
+        },
+        {
+          "name": "DateTimeType.java",
+          "size": 184
+        },
+        {
+          "name": "Logger.java",
+          "size": 54
+        },
+        {
+          "name": "ArrayType.java",
+          "size": 61
+        },
+        {
+          "name": "DTIType.java",
+          "size": 15
+        },
+        {
+          "name": "TestHashStructures.java",
+          "size": 40
+        },
+        {
+          "name": "PgType.java",
+          "size": 44
+        },
+        {
+          "name": "TestStressInsert.java",
+          "size": 12
+        },
+        {
+          "name": "RowStoreAVLDiskData.java",
+          "size": 24
+        },
+        {
+          "name": "UserManager.java",
+          "size": 3
+        },
+        {
+          "name": "TestDatetimeSimple.java",
+          "size": 30
+        },
+        {
+          "name": "NumberSequence.java",
+          "size": 219
+        },
+        {
+          "name": "JDBCArray.java",
+          "size": 33
+        },
+        {
+          "name": "TestINPredicateParameterizationAndCorrelation.java",
+          "size": 44
+        },
+        {
+          "name": "WebServerConnection.java",
+          "size": 12
+        },
+        {
+          "name": "HsqlByteArrayInputStream.java",
+          "size": 10
+        },
+        {
+          "name": "JDBCParameterMetaData.java",
+          "size": 3
+        },
+        {
+          "name": "LobManager.java",
+          "size": 239
+        },
+        {
+          "name": "FunctionCustom.java",
+          "size": 261
+        },
+        {
+          "name": "TestMerge.java",
+          "size": 25
+        },
+        {
+          "name": "CodeSwitcher.java",
+          "size": 6
+        },
+        {
+          "name": "PersistentStoreCollectionSession.java",
+          "size": 6
+        },
+        {
+          "name": "LongDeque.java",
+          "size": 10
+        },
+        {
+          "name": "JDBCXADataSource.java",
+          "size": 6
+        },
+        {
+          "name": "StatementCompound.java",
+          "size": 75
+        },
+        {
+          "name": "SetFunction.java",
+          "size": 51
+        },
+        {
+          "name": "RefCapablePropertyResourceBundle.java",
+          "size": 19
+        },
+        {
+          "name": "LobStoreRAFile.java",
+          "size": 3
+        },
+        {
+          "name": "JDBCCallableStatement.java",
+          "size": 49
+        },
+        {
+          "name": "TextFileReader.java",
+          "size": 26
+        },
+        {
+          "name": "DatabaseManagerSwing.java",
+          "size": 182
+        },
+        {
+          "name": "TestDataStructures.java",
+          "size": 6
+        },
+        {
+          "name": "TestDatabaseMetaData.java",
+          "size": 8
+        },
+        {
+          "name": "ScriptReaderText.java",
+          "size": 6
+        },
+        {
+          "name": "DatabaseInformationMain.java",
+          "size": 502
+        },
+        {
+          "name": "ExpressionValue.java",
+          "size": 10
+        },
+        {
+          "name": "LobStoreInJar.java",
+          "size": 3
+        },
+        {
+          "name": "RangeVariable.java",
+          "size": 70
+        },
+        {
+          "name": "RowOutputText.java",
+          "size": 27
+        },
+        {
+          "name": "JDBCDatabaseMetaData.java",
+          "size": 49
+        },
+        {
+          "name": "ServerConfiguration.java",
+          "size": 20
+        },
+        {
+          "name": "StatementSession.java",
+          "size": 52
+        },
+        {
+          "name": "ClobInputStream.java",
+          "size": 14
+        },
+        {
+          "name": "TestJDBCGeneratedColumns.java",
+          "size": 30
+        },
+        {
+          "name": "LobStoreMem.java",
+          "size": 18
+        },
+        {
+          "name": "JDBCSQLXML.java",
+          "size": 60
+        },
+        {
+          "name": "RowInputTextLog.java",
+          "size": 42
+        },
+        {
+          "name": "RAFile.java",
+          "size": 6
+        },
+        {
+          "name": "NodeAVLDiskLarge.java",
+          "size": 101
+        },
+        {
+          "name": "Transfer.java",
+          "size": 56
+        },
+        {
+          "name": "View.java",
+          "size": 9
+        },
+        {
+          "name": "JDBCBlobClient.java",
+          "size": 3
+        },
+        {
+          "name": "BlobInputStream.java",
+          "size": 14
+        },
+        {
+          "name": "DatabaseManager.java",
+          "size": 113
+        },
+        {
+          "name": "JDBCResultSetMetaData.java",
+          "size": 3
+        },
+        {
+          "name": "FunctionSQL.java",
+          "size": 238
+        },
+        {
+          "name": "TransferDb.java",
+          "size": 29
+        },
+        {
+          "name": "RowAVLDiskData.java",
+          "size": 3
+        },
+        {
+          "name": "Session.java",
+          "size": 21
+        },
+        {
+          "name": "ExpressionTable.java",
+          "size": 5
+        },
+        {
+          "name": "Grantee.java",
+          "size": 113
+        },
+        {
+          "name": "RowStoreAVLMemory.java",
+          "size": 3
+        },
+        {
+          "name": "Right.java",
+          "size": 22
+        },
+        {
+          "name": "TransactionManagerMV2PL.java",
+          "size": 139
+        },
+        {
+          "name": "StatementProcedure.java",
+          "size": 9
+        },
+        {
+          "name": "JDBCClobClient.java",
+          "size": 37
+        },
+        {
+          "name": "NodeAVLDisk.java",
+          "size": 71
+        },
+        {
+          "name": "StatementResultUpdate.java",
+          "size": 20
+        },
+        {
+          "name": "TestSchemaParse.java",
+          "size": 8
+        },
+        {
+          "name": "TransferSQLText.java",
+          "size": 83
+        },
+        {
+          "name": "JDBCPreparedStatement.java",
+          "size": 171
+        },
+        {
+          "name": "IndexAVLMemory.java",
+          "size": 19
+        },
+        {
+          "name": "RowStoreAVL.java",
+          "size": 3
+        },
+        {
+          "name": "TestLikePredicateOptimizations.java",
+          "size": 30
+        },
+        {
+          "name": "KMPSearchAlgorithm.java",
+          "size": 42
+        },
+        {
+          "name": "LongValueHashMap.java",
+          "size": 34
+        },
+        {
+          "name": "TestMultiInsert.java",
+          "size": 22
+        },
+        {
+          "name": "JDBCDataSource.java",
+          "size": 6
+        },
+        {
+          "name": "ExpressionArithmetic.java",
+          "size": 78
+        },
+        {
+          "name": "IntKeyHashMap.java",
+          "size": 11
+        },
+        {
+          "name": "TarReader.java",
+          "size": 10
+        },
+        {
+          "name": "BitMap.java",
+          "size": 87
+        },
+        {
+          "name": "IndexAVL.java",
+          "size": 152
+        },
+        {
+          "name": "Preprocessor.java",
+          "size": 7
+        },
+        {
+          "name": "TestBench.java",
+          "size": 313
+        },
+        {
+          "name": "Schema.java",
+          "size": 9
+        },
+        {
+          "name": "ConnectionDialog.java",
+          "size": 12
+        },
+        {
+          "name": "Grid.java",
+          "size": 32
+        },
+        {
+          "name": "TestBug778213.java",
+          "size": 8
+        },
+        {
+          "name": "StatementDMQL.java",
+          "size": 28
+        },
+        {
+          "name": "TestStoredProcedure.java",
+          "size": 128
+        },
+        {
+          "name": "BinaryData.java",
+          "size": 5
+        },
+        {
+          "name": "HsqlDateTime.java",
+          "size": 6
+        },
+        {
+          "name": "Collation.java",
+          "size": 10
+        },
+        {
+          "name": "LongKeyLongValueHashMap.java",
+          "size": 3
+        },
+        {
+          "name": "OdbcPacketInputStream.java",
+          "size": 14
+        },
+        {
+          "name": "RowStoreAVLDisk.java",
+          "size": 20
+        },
+        {
+          "name": "ScriptWriterEncode.java",
+          "size": 6
+        },
+        {
+          "name": "IntKeyIntValueHashMap.java",
+          "size": 6
+        },
+        {
+          "name": "TestPreparedSubQueries.java",
+          "size": 20
+        },
+        {
+          "name": "JDBCStatement.java",
+          "size": 30
+        },
+        {
+          "name": "TestUtil.java",
+          "size": 48
+        },
+        {
+          "name": "TestSql.java",
+          "size": 163
+        },
+        {
+          "name": "ExpressionAccessor.java",
+          "size": 5
+        },
+        {
+          "name": "ArrayUtil.java",
+          "size": 26
+        },
+        {
+          "name": "ExpressionLogical.java",
+          "size": 247
+        },
+        {
+          "name": "TestLibSpeed.java",
+          "size": 26
+        },
+        {
+          "name": "RowStoreAVLHybrid.java",
+          "size": 34
+        },
+        {
+          "name": "BitType.java",
+          "size": 66
+        },
+        {
+          "name": "DoubleIntIndex.java",
+          "size": 40
+        },
+        {
+          "name": "RAFileInJar.java",
+          "size": 18
+        },
+        {
+          "name": "HsqlDeque.java",
+          "size": 10
+        },
+        {
+          "name": "StatementSchema.java",
+          "size": 128
+        },
+        {
+          "name": "RowAction.java",
+          "size": 27
+        },
+        {
+          "name": "ExpressionArrayAggregate.java",
+          "size": 13
+        },
+        {
+          "name": "TestPreparedStatements.java",
+          "size": 8
+        },
+        {
+          "name": "SqlFileScanner.java",
+          "size": 54
+        },
+        {
+          "name": "Server.java",
+          "size": 16
+        },
+        {
+          "name": "RowAVL.java",
+          "size": 6
+        },
+        {
+          "name": "Result.java",
+          "size": 164
+        },
+        {
+          "name": "DatabaseInformationFull.java",
+          "size": 1710
+        },
+        {
+          "name": "Statement.java",
+          "size": 6
+        },
+        {
+          "name": "TarFileInputStream.java",
+          "size": 4
+        },
+        {
+          "name": "Constraint.java",
+          "size": 26
+        },
+        {
+          "name": "TestDbBackup.java",
+          "size": 13
+        },
+        {
+          "name": "Table.java",
+          "size": 154
+        },
+        {
+          "name": "TarFileOutputStream.java",
+          "size": 4
+        },
+        {
+          "name": "Crypto.java",
+          "size": 24
+        },
+        {
+          "name": "HsqlSocketFactorySecure.java",
+          "size": 10
+        },
+        {
+          "name": "RowOutputBinary180.java",
+          "size": 7
+        },
+        {
+          "name": "StatementCommand.java",
+          "size": 101
+        },
+        {
+          "name": "RAFileNIO.java",
+          "size": 51
+        },
+        {
+          "name": "ParserDDL.java",
+          "size": 570
+        },
+        {
+          "name": "TestBatchExecution.java",
+          "size": 31
+        },
+        {
+          "name": "CharacterType.java",
+          "size": 73
+        },
+        {
+          "name": "OrderedIntKeyHashMap.java",
+          "size": 11
+        },
+        {
+          "name": "RowOutputBinary.java",
+          "size": 55
+        },
+        {
+          "name": "JDBCConnection.java",
+          "size": 68
+        },
+        {
+          "name": "ArraySort.java",
+          "size": 4
+        },
+        {
+          "name": "QuerySpecification.java",
+          "size": 30
+        },
+        {
+          "name": "Database.java",
+          "size": 11
+        },
+        {
+          "name": "TestAcl.java",
+          "size": 12
+        },
+        {
+          "name": "ServerConnection.java",
+          "size": 128
+        },
+        {
+          "name": "TransactionManagerCommon.java",
+          "size": 32
+        },
+        {
+          "name": "RowAVLDisk.java",
+          "size": 3
+        },
+        {
+          "name": "JDBCPooledDataSource.java",
+          "size": 6
+        },
+        {
+          "name": "BooleanType.java",
+          "size": 16
+        },
+        {
+          "name": "SchemaManager.java",
+          "size": 256
+        },
+        {
+          "name": "ParserCommand.java",
+          "size": 191
+        },
+        {
+          "name": "CharArrayWriter.java",
+          "size": 5
+        },
+        {
+          "name": "SessionContext.java",
+          "size": 10
+        },
+        {
+          "name": "Tree.java",
+          "size": 64
+        },
+        {
+          "name": "ExpressionOp.java",
+          "size": 96
+        },
+        {
+          "name": "SortAndSlice.java",
+          "size": 12
+        },
+        {
+          "name": "NumberType.java",
+          "size": 278
+        },
+        {
+          "name": "JDBCClob.java",
+          "size": 14
+        },
+        {
+          "name": "IntKeyHashMapConcurrent.java",
+          "size": 5
+        },
+        {
+          "name": "BlobDataID.java",
+          "size": 42
+        },
+        {
+          "name": "RowStoreAVLHybridExtended.java",
+          "size": 40
+        },
+        {
+          "name": "BaseHashMap.java",
+          "size": 148
+        },
+        {
+          "name": "TestJDBCSavepoints.java",
+          "size": 112
+        },
+        {
+          "name": "Expression.java",
+          "size": 72
+        },
+        {
+          "name": "JDBCBench.java",
+          "size": 272
+        },
+        {
+          "name": "TransactionManagerMVCC.java",
+          "size": 149
+        },
+        {
+          "name": "TestDateTime.java",
+          "size": 84
+        }
+      ]
+    }
+  ]
+}
